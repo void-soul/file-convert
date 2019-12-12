@@ -1,0 +1,382 @@
+<import>
+	<title res="1100">Microsoft InfoPath File</title>
+	<type res="1101">Microsoft InfoPath</type>
+	<fileSpec>*.xsn</fileSpec>
+	<exe>ConvertIP.exe</exe>
+	<options>
+		<fixed/>
+		<option>
+			<name>viewprompt</name>
+			<caption res="1187">&amp;Prompt to select view during conversion.</caption>
+			<style>check</style>
+			<value>off</value>
+			<on>on</on>
+			<off>off</off>
+		</option>
+		<option>
+			<caption res="1102">Specify views to import or leave blank for default view</caption>
+			<style>static</style>
+			<value></value>
+		</option>
+		<option>
+			<name>view</name>
+			<caption res="1103">&amp;View:</caption>
+			<style>text</style>
+			<value></value>
+		</option>
+
+		<option>
+			<caption res="1104"> </caption>
+			<style>static</style>
+			<value></value>
+		</option>
+
+		<option>
+			<name>printsettings</name>
+			<caption res="1188">&amp;Import print settings.</caption>
+			<style>check</style>
+			<value>off</value>
+			<on>on</on>
+			<off>off</off>
+		</option>
+
+		<option>
+			<name>pagesize</name>
+			<caption res="1105">&amp;Page size:</caption>
+			<style>list</style>
+			<value>letter</value>
+			<list>
+				<item>
+					<display res="1106">Default</display>
+					<emit>default</emit>
+				</item>				
+				<item>
+					<display res="1107">Letter</display>
+					<emit>letter</emit>
+				</item>				
+				<item>
+					<display res="1108">LetterSmall</display>
+					<emit>letterSmall</emit>
+				</item>				
+				<item>
+					<display res="1109">Tabloid</display>
+					<emit>tabloid</emit>
+				</item>				
+				<item>
+					<display res="1110">Ledger</display>
+					<emit>ledger</emit>
+				</item>				
+				<item>
+					<display res="1111">Legal</display>
+					<emit>legal</emit>
+				</item>				
+				<item>
+					<display res="1112">Statement</display>
+					<emit>statement</emit>
+				</item>				
+				<item>
+					<display res="1113">Executive</display>
+					<emit>executive</emit>
+				</item>				
+				<item>
+					<display res="1114">A3</display>
+					<emit>a3</emit>
+				</item>				
+				<item>
+					<display res="1115">A4</display>
+					<emit>a4</emit>
+				</item>				
+				<item>
+					<display res="1116">A4 Small</display>
+					<emit>a4Small</emit>
+				</item>				
+				<item>
+					<display res="1117">A5</display>
+					<emit>a5</emit>
+				</item>				
+				<item>
+					<display res="1118">b4JIS</display>
+					<emit>b4JIS</emit>
+				</item>				
+				<item>
+					<display res="1119">b5JIS</display>
+					<emit>b5JIS</emit>
+				</item>				
+				<item>
+					<display res="1120">folio</display>
+					<emit>folio</emit>
+				</item>				
+				<item>
+					<display res="1121">quarto</display>
+					<emit>quarto</emit>
+				</item>				
+				<item>
+					<display res="1122">10By14Inch</display>
+					<emit>10By14Inch</emit>
+				</item>				
+				<item>
+					<display res="1123">11By17Inch</display>
+					<emit>11By17Inch</emit>
+				</item>				
+				<item>
+					<display res="1124">note</display>
+					<emit>note</emit>
+				</item>				
+				<item>
+					<display res="1125">envelope9</display>
+					<emit>envelope9</emit>
+				</item>				
+				<item>
+					<display res="1126">envelope10</display>
+					<emit>envelope10</emit>
+				</item>				
+				<item>
+					<display res="1127">envelope11</display>
+					<emit>envelope11</emit>
+				</item>				
+				<item>
+					<display res="1128">envelope12</display>
+					<emit>envelope12</emit>
+				</item>				
+				<item>
+					<display res="1129">envelope14</display>
+					<emit>envelope14</emit>
+				</item>				
+				<item>
+					<display res="1130">cSizeSheet</display>
+					<emit>cSizeSheet</emit>
+				</item>				
+				<item>
+					<display res="1131">dSizeSheet</display>
+					<emit>dSizeSheet</emit>
+				</item>				
+				<item>
+					<display res="1132">eSizeSheet</display>
+					<emit>eSizeSheet</emit>
+				</item>				
+				<item>
+					<display res="1133">envelopeDL</display>
+					<emit>envelopeDL</emit>
+				</item>				
+				<item>
+					<display res="1134">envelopeC5</display>
+					<emit>envelopeC5</emit>
+				</item>				
+				<item>
+					<display res="1135">envelopeC3</display>
+					<emit>envelopeC3</emit>
+				</item>				
+				<item>
+					<display res="1136">envelopeC4</display>
+					<emit>envelopeC4</emit>
+				</item>				
+				<item>
+					<display res="1137">envelopeC6</display>
+					<emit>envelopeC6</emit>
+				</item>				
+				<item>
+					<display res="1138">envelopeC65</display>
+					<emit>envelopeC65</emit>
+				</item>				
+				<item>
+					<display res="1139">envelopeB4</display>
+					<emit>envelopeB4</emit>
+				</item>				
+				<item>
+					<display res="1140">envelopeB5</display>
+					<emit>envelopeB5</emit>
+				</item>				
+				<item>
+					<display res="1141">envelopeB6</display>
+					<emit>envelopeB6</emit>
+				</item>				
+				<item>
+					<display res="1142">envelope</display>
+					<emit>envelope</emit>
+				</item>				
+				<item>
+					<display res="1143">envelopeMonarch</display>
+					<emit>envelopeMonarch</emit>
+				</item>				
+				<item>
+					<display res="1144">6And3QuartersEnvelope</display>
+					<emit>6And3QuartersEnvelope</emit>
+				</item>				
+				<item>
+					<display res="1145">usStdFanfold</display>
+					<emit>usStdFanfold</emit>
+				</item>				
+				<item>
+					<display res="1146">germanStdFanfold</display>
+					<emit>germanStdFanfold</emit>
+				</item>				
+				<item>
+					<display res="1147">germanLegalFanfold</display>
+					<emit>germanLegalFanfold</emit>
+				</item>				
+				<item>
+					<display res="1148">b4ISO</display>
+					<emit>b4ISO</emit>
+				</item>				
+				<item>
+					<display res="1149">japanesePostcard</display>
+					<emit>japanesePostcard</emit>
+				</item>				
+				<item>
+					<display res="1150">9By11Inch</display>
+					<emit>9By11Inch</emit>
+				</item>				
+				<item>
+					<display res="1151">10By11Inch</display>
+					<emit>10By11Inch</emit>
+				</item>				
+				<item>
+					<display res="1152">15By11Inch</display>
+					<emit>15By11Inch</emit>
+				</item>				
+				<item>
+					<display res="1153">envelopeInvite</display>
+					<emit>envelopeInvite</emit>
+				</item>				
+				<item>
+					<display res="1154">letterExtra</display>
+					<emit>letterExtra</emit>
+				</item>				
+				<item>
+					<display res="1155">legalExtra</display>
+					<emit>legalExtra</emit>
+				</item>				
+				<item>
+					<display res="1156">tabloidExtra</display>
+					<emit>tabloidExtra</emit>
+				</item>				
+				<item>
+					<display res="1157">a4Extra</display>
+					<emit>a4Extra</emit>
+				</item>				
+				<item>
+					<display res="1158">letterTransverse</display>
+					<emit>letterTransverse</emit>
+				</item>				
+				<item>
+					<display res="1159">a4Transverse</display>
+					<emit>a4Transverse</emit>
+				</item>				
+				<item>
+					<display res="1160">letterExtraTransverse</display>
+					<emit>letterExtraTransverse</emit>
+				</item>				
+				<item>
+					<display res="1161">superASuperAA4</display>
+					<emit>superASuperAA4</emit>
+				</item>				
+				<item>
+					<display res="1162">superBSuperBA3</display>
+					<emit>superBSuperBA3</emit>
+				</item>				
+				<item>
+					<display res="1163">letterPlus</display>
+					<emit>letterPlus</emit>
+				</item>				
+				<item>
+					<display res="1164">a4Plus</display>
+					<emit>a4Plus</emit>
+				</item>				
+				<item>
+					<display res="1165">a5Transverse</display>
+					<emit>a5Transverse</emit>
+				</item>				
+				<item>
+					<display res="1166">b5JISTransverse</display>
+					<emit>b5JISTransverse</emit>
+				</item>				
+				<item>
+					<display res="1167">a3Extra</display>
+					<emit>a3Extra</emit>
+				</item>				
+				<item>
+					<display res="1168">a5Extra</display>
+					<emit>a5Extra</emit>
+				</item>				
+				<item>
+					<display res="1169">b5ISOExtra</display>
+					<emit>b5ISOExtra</emit>
+				</item>				
+				<item>
+					<display res="1170">a2</display>
+					<emit>a2</emit>
+				</item>				
+				<item>
+					<display res="1171">a3Transverse</display>
+					<emit>a3Transverse</emit>
+				</item>				
+				<item>
+					<display res="1172">a3ExtraTransverse</display>
+					<emit>a3ExtraTransverse</emit>
+				</item>				
+			</list>		
+		</option>
+		<option>
+			<name>orientation</name>
+			<caption res="1173">&amp;Orientation:</caption>
+			<style>list</style>
+			<value>portrait</value>
+			<list>
+				<item>
+					<display res="1174">Portrait</display>
+					<emit>portrait</emit>
+				</item>				
+				<item>
+					<display res="1175">Landscape</display>
+					<emit>landscape</emit>
+				</item>
+			</list>
+		</option>
+		<option>
+			<caption res="1176"> </caption>
+			<style>static</style>
+			<value></value>
+		</option>
+		<option>
+			<name>log</name>
+			<caption res="1177">&amp;Generate a log file:</caption>
+			<style>list</style>
+			<value>0</value>
+			<list>
+				<item>
+					<display res="1178">Do not log</display>
+					<emit>0</emit>
+				</item>				
+				<item>
+					<display res="1179">Log to \TEMP\ConvertIP.log</display>	
+					<emit>$temp\ConvertIP</emit>
+				</item>				
+				<item>
+					<display res="1180">Log to \TEMP\inputfile.log</display>
+					<emit>$temp\$form</emit>
+				</item>				
+				<item>
+					<display res="1181">Log to Designer directory\Log\ConvertIP.log</display>
+					<emit>$log\ConvertIP</emit>
+				</item>
+				<item>
+					<display res="1182">Log to Designer directory\Log\inputfile.log</display>
+					<emit>$log\$form</emit>
+				</item>
+			</list>
+		</option>
+		<option>
+			<name>embedimages</name>
+			<caption res="1183">&amp;Embed images in XDP</caption>
+			<style>check</style>
+			<value>off</value>
+			<on>on</on>
+			<off>off</off>
+		</option>
+		<option>
+			<caption res="1184"> </caption>
+			<style>static</style>
+			<value></value>
+		</option>
+	</options>
+</import>

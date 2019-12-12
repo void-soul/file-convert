@@ -1,0 +1,9 @@
+<LocaleMap>
+     <!-- In order to map spell check locales, add an entry for each locale to map:
+
+          <Map locale="en_AU" to="en_CA"/>
+
+          Where "locale" is a locale which does not support spell check and "to" is the locale
+          that will be used to perform spell check on nodes who's locale matches "locale".
+     -->
+</LocaleMap> 

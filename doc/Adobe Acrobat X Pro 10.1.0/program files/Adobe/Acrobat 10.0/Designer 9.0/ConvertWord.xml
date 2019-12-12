@@ -1,0 +1,86 @@
+<import>
+	<title res="1114">Microsoft Word Document</title>
+	<type res="1114">Microsoft Word Document</type>
+	<fileSpec>*.doc; *.docx; *.docm; *.dotx; *.dotm; *.dot; *.rtf</fileSpec>
+	<exe>ConvertWord.exe</exe>
+	<options>
+		<fixed/>
+		<option>
+			<style>static</style>
+			<caption res="1101">Security settings to import the file</caption>
+		</option>
+		<option>
+			<style>static</style>
+			<caption res="1102">   Leave password fields blank if not applicable.</caption>
+		</option>
+		<option>
+			<name>openpassword</name>
+			<caption res="1103">   Password to &amp;open file:</caption>
+			<style>password</style>
+			<value></value>
+		</option>
+		<option>
+			<name>unprotectpassword</name>
+			<caption res="1104">   Password to &amp;unprotect file:</caption>
+			<style>password</style>
+			<value></value>
+		</option>
+		<option>
+			<style>static</style>
+			<caption res="1115"> </caption>
+		</option>
+		<option>
+			<name>ignoremissingfonts</name>
+			<caption res="1105">&amp;Ignore missing Fonts</caption>
+			<style>check</style>
+			<value>off</value>
+			<on>on</on>
+			<off>off</off>
+		</option>
+		<option>
+			<name>embedimages</name>
+			<caption res="1106">&amp;Convert Images</caption>
+			<style>check</style>
+			<value>off</value>
+			<on>on</on>
+			<off>off</off>
+		</option>
+		
+		<option>
+			<name>log</name>
+			<caption res="1107">&amp;Generate log file:</caption>
+			<style>list</style>
+			<value>0</value>
+			<list>
+				<item>
+					<display res="1108">Do not log</display>
+					<emit>0</emit>
+				</item>				
+				<item>
+					<display res="1109">Log to \TEMP\ConvertWord.log</display>	
+					<emit>$temp\ConvertWord</emit>
+				</item>				
+				<item>
+					<display res="1110">Log to \TEMP\inputfile.log</display>
+					<emit>$temp\$form</emit>
+				</item>				
+				<item>
+					<display res="1111">Log to Designer directory\Log\ConvertWord.log</display>
+					<emit>$log\ConvertWord</emit>
+				</item>
+				<item>
+					<display res="1112">Log to Designer directory\Log\inputfile.log</display>
+					<emit>$log\$form</emit>
+				</item>
+			</list>
+		</option>
+		<option>
+			<style>static</style>
+			<caption res="1115"> </caption>
+		</option>
+		<option>
+			<style>static</style>
+			<caption res="1113">The Clipboard will not be available for other processes during the conversion.</caption>
+		</option>
+	</options>
+</import>

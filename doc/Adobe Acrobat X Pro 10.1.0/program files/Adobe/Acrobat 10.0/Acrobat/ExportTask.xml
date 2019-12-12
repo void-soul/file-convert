@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ExportTask Version="1.0.0">
+	<Menu ID="MenubarMenu">
+    <ItemSeparator/>
+		<Menu ID="avSaveAsImage">
+			<MenuItem ID="avExportFormat_JPEG" Filter="com.adobe.acrobat.jpeg"/>
+			<MenuItem ID="avExportFormat_JPEG2K" Filter="com.adobe.acrobat.jp2k"/>
+      <MenuItem ID="avExportFormat_TIFF" Filter="com.adobe.acrobat.tiff"/>
+			<MenuItem ID="avExportFormat_PNG" Filter="com.adobe.acrobat.png"/>
+		</Menu>
+		<Menu ID="avSaveAsWordSubmenu">
+			<MenuItem ID="avExportFormat_MSWORD_07" Filter="com.adobe.acrobat.docx"/>
+			<MenuItem ID="avExportFormat_MSWORD_97" Filter="com.adobe.acrobat.doc"/>
+		</Menu>
+		<Menu ID="avSaveAsSpreadheetSubmenu">
+			<MenuItem ID="avExportFormat_Excel" Filter="com.adobe.acrobat.xlsx"/>
+			<MenuItem ID="avExportFormat_XMLSpreadsheet" Filter="com.adobe.acrobat.spreadsheet"/>
+		</Menu>
+    <Menu ID="avSaveAsMoreSaveOptionsSubmenu">
+		  <MenuItem ID="avExportFormat_PDFA" Filter="com.callas.preflight.pdfa"/>
+		  <MenuItem ID="avExportFormat_PDFX" Filter="com.callas.preflight.pdfx"/>
+		  <MenuItem ID="avExportFormat_PDFE" Filter="com.callas.preflight.pdfe"/>
+      <ItemSeparator/>
+      <MenuItem ID="avExportFormat_RTF" Filter="com.adobe.acrobat.rtf"/>
+      <ItemSeparator/>
+      <MenuItem ID="avExportFormat_EPS" Filter="com.adobe.acrobat.eps"/>
+			<MenuItem ID="avExportFormat_PS" Filter="com.adobe.acrobat.ps"/>
+      <ItemSeparator/>
+      <MenuItem ID="avExportFormat_HTML" Filter="com.adobe.acrobat.html"/>
+		  <MenuItem ID="avExportFormat_XML" Filter="com.adobe.acrobat.xml-1-00"/>
+      <ItemSeparator/>
+			<MenuItem ID="avExportFormat_ACCTEXT" Filter="com.adobe.acrobat.accesstext"/>
+			<MenuItem ID="avExportFormat_TEXT" Filter="com.adobe.acrobat.plain-text"/>
+    </Menu>
+  </Menu>
+<ExportTask/>

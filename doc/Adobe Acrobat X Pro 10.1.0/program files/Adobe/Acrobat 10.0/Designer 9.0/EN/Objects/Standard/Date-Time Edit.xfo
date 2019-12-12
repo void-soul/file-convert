@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Date/Time Field</text>
+               <text name="description">Date/Time Field - Accepts, displays, and validates date and time data.</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="DateTimeField" y="0mm" x="0mm" w="62mm" h="9mm">
+               <ui>
+                  <dateTimeEdit>
+                     <border>
+                        <?templateDesigner StyleID aped3?>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </dateTimeEdit>
+               </ui>
+               <font size="10pt" typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <date/>
+               </value>
+               <caption reserve="25mm">
+                  <font size="10pt" typeface="Myriad Pro"/>
+                  <para vAlign="middle" hAlign="left"/>
+                  <value>
+                     <text>Date/Time Field</text>
+                  </value>
+               </caption>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

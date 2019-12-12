@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateTabSet default=".\Blank\Letter.tds">
+   <tab name="Blank" directory=".\Blank\"/>
+   <tab name="Forms" directory=".\Common Forms\"/>
+   <tab name="Forms - Vanilla" directory=".\Style7\"/>
+   <tab name="Forms - Beige" directory=".\Style1\"/>
+   <tab name="Forms - Blue" directory=".\Style9\"/>
+   <tab name="Other" directory=".\Other\"/>
+</templateTabSet>

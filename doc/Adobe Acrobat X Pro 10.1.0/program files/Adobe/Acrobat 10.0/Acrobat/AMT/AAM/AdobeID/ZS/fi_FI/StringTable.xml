@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="fi_FI" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>fi_FI</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>SEURAAVA</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>EDELLINEN</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>LOPETA</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>LOPETA</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>PYSÄYTÄ</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>JATKA</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>EN HYVÄKSY</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>HYVÄKSYN</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>ASENNA</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>ASENNUKSEN POISTO</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>LUO</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Jatka</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>KYLLÄ</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>EI</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>Peruuta</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>SULJE</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>LÄHETÄ</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>OHITA</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Rekisteröi ohjelmasi</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Tuotteiden ja palveluiden rekisteröinti</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Rekisteröi ohjelmistosi ja luo käyttöoikeus {0}Acrobat.com{1}-online-palveluihin antamalla tai luomalla Adobe-tunnus.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Saat tuotetukea ja muita etuja, kuten uutiskirjeitä, julkaisuja ja kutsuja Adoben tilaisuuksiin ja seminaareihin. Voit rekisteröidä tuotteesi antamalla tai luomalla Adobe-tunnuksen.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Tämän ohjelmiston koekäyttö ja käyttöoikeuden luonti {0}Acrobat.com{1}-online-palveluhin koekäytön aikana edellyttää Adobe-tunnusta. Sinulla on 7 päivää aikaa ensimmäisestä käynnistyksestä antaa Adobe-tunnus.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Rekisteröi ohjelmistosi antamalla tai luomalla Adobe-tunnus.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Sinua pyydetään antamaan Adobe-tunnus tilausta ja {0}Acrobat.com{1}-online-palvelujen käyttöä varten.</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Tämän koneen aktivointi on poistettu. Sinua pyydetään kirjautumaan sisään Adobe-tunnuksellasi, jotta voit aktivoida tilauksesi uudelleen tällä koneella.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_fi</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Tunnuksen luomiseen riittää sähköpostiosoitteen ja salasanan antaminen.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Tarvitsetko Adobe-tunnuksen?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>LUO ADOBE-TUNNUS</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>Onko sinulla jo Adobe-tunnus?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>Sähköpostiosoite (Adobe-tunnus)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Salasana</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>Oletko unohtanut salasanasi?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_fi</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Jos haluat käyttää Acrobat.com-palveluja, sinun on annettava Adobe-tunnus ja hyväksyttävä käyttöehdot. Jos et anna Adobe-tunnusta nyt, mahdollisia maksuttomia tilausjaksoja saatetaan lyhentää.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Jotta tilauksesi voidaan suorittaa loppuun Acrobatille ja käynnistää maksuton Acrobat.com-palvelujen esikatselu, sinun on annettava Adobe-tunnus ja hyväksyttävä käyttöehdot.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>OHITA TÄMÄ VAIHE</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Kirjoita Adobe-tunnustiliisi liittyvä sähköpostiosoite.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Salasana vaaditaan</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>Yhteyden luonti epäonnistui. Yritä uudelleen.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Adobe-tunnus ja salasana eivät täsmää.</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Luo Adobe-tunnus</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Luomalla Adobe-tunnuksen rekisteröit ohjelmistosi ja luot käyttöoikeuden Acrobat.com-online-palveluihin. Kaikki kentät ovat pakollisia.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Luomalla Adobe-tunnuksen rekisteröit ohjelmistosi. Kaikki kentät ovat pakollisia.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Luomalla Adobe-tunnuksen saat käyttöoikeuden Acrobat.com-palveluihin koekäytön ajaksi ja ilmoitat meille kiinnostuksestasi tähän tuotteeseen. Kaikki kentät ovat pakollisia.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Luomalla Adobe-tunnuksen ilmoitat meille kiinnostuksestasi tähän tuotteeseen. Kaikki kentät ovat pakollisia.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Sinun on annettava Adobe-tunnus tilausta ja {0}Acrobat.com{1}-online-palvelujen käyttöä varten.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>Sähköpostiosoite (Adobe-tunnus)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Salasana</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Kirjoita salasana uudelleen</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Etunimi</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Sukunimi</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>Maa/alue</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Haluan saada tietoa Adobesta ja sen tuotteista ja palveluista, kuten tuotejulkaisuista, tuotepäivityksistä, tapahtumista, tutkimuksista ja tarjouksista. Adobe ja sen edustajat käyttävät tietojani {0}Adoben verkkopalvelujen tietosuojakäytäntöjen mukaisesti{1}.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_fi</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_fi</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_fi</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Kyllä</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>Ei</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Valitse</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Salasana vaaditaan (6–12 merkkiä)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>Sähköpostiosoite ei ole kelvollinen.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Salasanat eivät ole samat.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>Etunimi vaaditaan.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Sukunimi vaaditaan.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>Maan/alueen valinta vaaditaan.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Tähän Adobe-tunnukseen liittyy jo toinen tilaus. Luo uusi Adobe-tunnus tai kirjaudu sisään käyttämällä eri Adobe-tunnusta.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>Ymmärrän, että {0}online-palvelujensa tietosuojakäytäntöjen{1} mukaisesti Adobe, sen tytäryhtiöt ja edustajat (”Adobe”) käyttävät antamiani tietoja asiakkaiden ja käyttäjien asetuksia koskevien tietokantojen päivittämiseen ja hallintaan. Suostun siihen, että Adobe siirtää tietojani EU:n ulkopuolisiin maihin, joissa Adobella on toimintaa, mukaan lukien Yhdysvaltoihin, näitä tarkoituksia varten sekä muita sellaisia tarkoituksia varten, jotka on merkitty seuraavassa. 
+Ymmärrän, että voin milloin tahansa muuttaa asetuksiani, jotka koskevat Adoben tapaa käsitellä tietojani, käymällä {2}omalla tilisivullani{3} tai ottamalla yhteyden Adoben tietosuojahenkilöön {4}Adoben online-palvelujen tietosuojakäytännön mukaisesti{5}. Ymmärrän, että minun on ehkä otettava yhteys erikseen ulkopuolisiin tahoihin, jotka ovat saaneet henkilötietojani Adobelta ennen kuin olen ilmoittanut asetusmuutoksistani. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Tämä merkkijono on sallittua pidempi. Merkkijonon on oltava 6–12 merkkiä pitkä.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Tämä merkkijono on sallittua lyhyempi. Merkkijonon on oltava 6–12 merkkiä pitkä.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Tämä merkkijono on sallittua pidempi. Merkkijonon on oltava 6–12 merkkiä pitkä.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Tämä merkkijono on sallittua lyhyempi. Merkkijonon on oltava 6–12 merkkiä pitkä.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Tämä merkkijono on sallittua pidempi. Merkkijonon on oltava 1–300 merkkiä pitkä.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Tämä merkkijono on sallittua lyhyempi. Merkkijonon on oltava 1–300 merkkiä pitkä.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>Sähköpostiosoitteessasi on kelpaamattomia merkkejä.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>Sähköpostiosoitteesi toimialueen muoto on virheellinen.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>Sähköpostiosoitteesi IP-toimialueen muoto on virheellinen.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>Sähköpostiosoitteesi toimialueessa on peräkkäisiä pisteitä.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>Sähköpostiosoitteestasi puuttuu at-merkki (@).</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>Sähköpostiosoitteesi toimialueesta puuttuu piste.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>Sähköpostiosoitteesi käyttäjätunnus puuttuu.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>Sähköpostiosoite on pakollinen.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>Sähköpostiosoitteessasi on liian monta @-merkkiä.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Salasanat eivät ole samat.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Hyväksy ehdot.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Salasanassa on oltava 6–12 merkkiä, eikä siinä saa olla peräkkäisiä välejä tai kaksoispisteitä.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Sähköpostiosoite ei kelpaa.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Sähköpostiosoite ei kelpaa.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>Sähköpostiosoitteessasi on kelpaamattomia merkkejä.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>Sähköpostiosoite ei ole kelvollinen.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>Etunimi vaaditaan.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Sukunimi vaaditaan.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Hyväksy ehdot.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Anna Adobe-tunnuksesi.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>Sähköpostiosoite ei ole kelvollinen.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Salasanassa on oltava 6–12 merkkiä, eikä siinä saa olla peräkkäisiä välejä tai kaksoispisteitä.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Tuotteiden ja palveluiden rekisteröinti</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Adobe-tunnus ja salasana eivät täsmää.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>On tapahtunut virhe. Yritä uudelleen hetken kuluttua.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Tämä sähköpostiosoite on jo käytössä.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Verkkovirhe. Yritä myöhemmin uudelleen.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>Sähköpostiosoite ei ole kelvollinen.</val>
+		</str>		
+	</set>
+	
+</asf>

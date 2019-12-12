@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localeslist>
+
+<language name="Arabic">
+    <countryOrRegion name="Algeria" lcid="ar_DZ"/>
+    <countryOrRegion name="Bahrain" lcid="ar_BH"/>
+    <countryOrRegion name="Egypt" lcid="ar_EG"/>
+    <countryOrRegion name="Iraq" lcid="ar_IQ"/>
+    <countryOrRegion name="Jordan" lcid="ar_JO"/>
+    <countryOrRegion name="Kuwait" lcid="ar_KW"/>
+    <countryOrRegion name="Lebanon" lcid="ar_LB"/>
+    <countryOrRegion name="Libya" lcid="ar_LY"/>
+    <countryOrRegion name="Morocco" lcid="ar_MA"/>
+    <countryOrRegion name="Oman" lcid="ar_OM"/>
+    <countryOrRegion name="Qatar" lcid="ar_QA"/>
+    <countryOrRegion name="Saudi Arabia" lcid="ar_SA"/>
+    <countryOrRegion name="Sudan" lcid="ar_SD"/>
+    <countryOrRegion name="Syria" lcid="ar_SY"/>
+    <countryOrRegion name="Tunisia" lcid="ar_TN"/>
+    <countryOrRegion name="United Arab Emirates" lcid="ar_AE"/>
+    <countryOrRegion name="Yemen" lcid="ar_YE"/>
+</language>
+
+<language name="Armenian">
+    <countryOrRegion name="Armenia" lcid="hy_AM"/>
+</language>
+
+<language name="Azerbaijani-Cyrillic">
+    <countryOrRegion name="Azerbaijan" lcid="az_Cyrl_AZ"/>
+</language>
+
+<language name="Azerbaijani-Latin">
+    <countryOrRegion name="Azerbaijan" lcid="az_Latn_AZ"/>
+</language>
+ 
+<language name="Basque">
+    <countryOrRegion name="Spain" lcid="eu_ES"/>
+</language>
+        
+<language name="Bosnian">
+    <countryOrRegion name="Bosnia and Herzegovina" lcid="bs_BA"/>
+</language>
+ 
+<language name="Bulgarian">
+    <countryOrRegion name="Bulgaria" lcid="bg_BG"/>
+</language>
+
+<language name="Catalan">
+     <countryOrRegion name="Spain" lcid="ca_ES"/>
+</language>
+
+<language name="Chinese">
+    <countryOrRegion name="China" lcid="zh_CN"/>
+    <countryOrRegion name="Hong Kong S.A.R., China" lcid="zh_HK"/>
+    <countryOrRegion name="Taiwan" lcid="zh_TW"/>
+</language>
+
+<language name="Croatian">
+    <countryOrRegion name="Croatia" lcid="hr_HR"/>
+</language>
+
+<language name="Czech">
+    <countryOrRegion name="Czech Republic" lcid="cs_CZ"/>
+</language>
+
+<language name="Danish">
+    <countryOrRegion name="Denmark" lcid="da_DK"/>
+</language>
+
+<language name="Dutch">
+    <countryOrRegion name="Belgium" lcid="nl_BE"/>
+    <countryOrRegion name="Netherlands" lcid="nl_NL"/>
+</language>
+
+<language name="English">
+    <countryOrRegion name="Australia" lcid="en_AU"/>
+    <countryOrRegion name="Belgium" lcid="en_BE"/>
+    <countryOrRegion name="Canada" lcid="en_CA">
+        <patterns>
+            <custom type="text" desc="Postal Code" pattern="A9A 9A9"/>
+            <custom type="text" desc="Phone Number" pattern="text{'('999')' 999-9999}"/>
+            <custom type="text" desc="Social Insurance Number" pattern="999 999 999"/>
+        </patterns>
+    </countryOrRegion>
+    <countryOrRegion name="Hong Kong S.A.R., China" lcid="en_HK"/>    
+    <countryOrRegion name="India" lcid="en_IN"/>
+    <countryOrRegion name="Ireland" lcid="en_IE"/>
+    <countryOrRegion name="New Zealand" lcid="en_NZ"/>
+    <countryOrRegion name="Philippines" lcid="en_PH"/>
+    <countryOrRegion name="Singapore" lcid="en_SG"/>
+    <countryOrRegion name="South Africa" lcid="en_ZA"/>
+    <countryOrRegion name="United Kingdom" lcid="en_GB">
+        <patterns>
+            <custom type="text" desc="Postal Code" pattern="A9A 9A9|AA9A 9A9"/>
+            <custom type="text" desc="Phone Number" pattern="9999 999 999"/>
+        </patterns>
+    </countryOrRegion>
+    <countryOrRegion name="United Kingdom Euro" lcid="en_GB_EURO"/>
+    <countryOrRegion name="USA" lcid="en_US">
+        <patterns>
+            <custom type="text" desc="Zip Code" pattern="99999"/>
+            <custom type="text" desc="Zip Code + 4" pattern="99999-9999"/>
+            <custom type="text" desc="Phone Number" pattern="text{'('999')' 999-9999}"/>
+            <custom type="text" desc="Social Security Number" pattern="999-99-9999"/>
+        </patterns>
+    </countryOrRegion>
+    <countryOrRegion name="U.S. Virgin Islands" lcid="en_VI"/>
+</language>
+
+<language name="Estonian">
+    <countryOrRegion name="Estonia" lcid="et_EE"/>
+</language>
+
+<language name="Finnish">
+    <countryOrRegion name="Finland" lcid="fi_FI"/>
+</language>
+
+<language name="French">
+    <countryOrRegion name="Belgium" lcid="fr_BE"/>
+    <countryOrRegion name="Canada" lcid="fr_CA"/>
+    <countryOrRegion name="France" lcid="fr_FR"/>
+    <countryOrRegion name="Luxembourg" lcid="fr_LU"/>
+    <countryOrRegion name="Switzerland" lcid="fr_CH"/>
+</language>
+
+<language name="German">
+    <countryOrRegion name="Austria" lcid="de_AT"/>
+    <countryOrRegion name="Germany" lcid="de_DE"/>
+    <countryOrRegion name="Luxembourg" lcid="de_LU"/>
+    <countryOrRegion name="Switzerland" lcid="de_CH"/>
+</language>
+
+<language name="Greek">
+    <countryOrRegion name="Greece" lcid="el_GR"/>
+</language>
+
+<language name="Hebrew">
+    <countryOrRegion name="Israel" lcid="he_IL"/>
+</language>
+
+<language name="Hungarian">
+    <countryOrRegion name="Hungary" lcid="hu_HU"/>
+</language>
+
+<language name="Indonesian">
+    <countryOrRegion name="Indonesia" lcid="id_ID"/>
+</language>
+
+<language name="Italian">
+    <countryOrRegion name="Italy" lcid="it_IT"/>
+    <countryOrRegion name="Switzerland" lcid="it_CH"/>
+</language>
+
+<language name="Japanese">
+    <countryOrRegion name="Japan" lcid="ja_JP"/>
+</language>
+
+<language name="Kazakh">
+    <countryOrRegion name="Kazakhstan" lcid="kk_KZ"/>
+</language>
+
+<language name="Khmer">
+    <countryOrRegion name="Cambodia" lcid="km_KH"/>
+</language>
+
+<language name="Korean">
+    <countryOrRegion name="Korea" lcid="ko_KR"/>
+    <countryOrRegion name="Korea Hanja" lcid="ko_KR_HANI"/>
+</language>
+
+<language name="Lao">
+    <countryOrRegion name="Laos" lcid="lo_LA"/>
+</language>
+
+<language name="Latvian">
+    <countryOrRegion name="Latvia" lcid="lv_LV"/>
+</language>
+
+<language name="Lithuanian">
+    <countryOrRegion name="Lithuania" lcid="lt_LT"/>
+</language>
+
+<language name="Malay">
+    <countryOrRegion name="Malaysia" lcid="ms_MY"/>
+</language>
+
+<language name="Norwegian-Bokmal">
+    <countryOrRegion name="Norway" lcid="nb_NO"/>
+</language>
+
+<language name="Norwegian-Nynorsk">
+    <countryOrRegion name="Norway" lcid="nn_NO"/>
+</language>
+
+<language name="Persian">
+    <countryOrRegion name="Iran" lcid="fa_IR"/>
+</language>
+
+<language name="Polish">
+    <countryOrRegion name="Poland" lcid="pl_PL"/>
+</language>
+
+<language name="Portuguese">
+    <countryOrRegion name="Brazil" lcid="pt_BR"/>
+    <countryOrRegion name="Portugal" lcid="pt_PT"/>
+</language>
+
+<language name="Romanian">
+    <countryOrRegion name="Romania" lcid="ro_RO"/>
+</language>
+
+<language name="Russian">
+    <countryOrRegion name="Russia" lcid="ru_RU"/>
+</language>
+<!--
+<language name="Serbo-Croatian">
+    <countryOrRegion name="Bosnia and Herzegovina" lcid="sh_BA"/>
+    <countryOrRegion name="Croatia" lcid="sh_HR"/>
+    <countryOrRegion name="Serbia and Montenegro" lcid="sh_CS"/>
+</language>
+-->
+
+<language name="Serbian-Cyrillic">
+    <countryOrRegion name="Serbia and Montenegro" lcid="sr_Cyrl_CS"/>
+</language>
+
+<language name="Serbian-Latin">
+    <countryOrRegion name="Serbia and Montenegro" lcid="sr_Latn_CS"/>
+</language>
+
+<language name="Slovak">
+    <countryOrRegion name="Slovakia" lcid="sk_SK"/>
+</language>
+
+<language name="Slovenian">
+    <countryOrRegion name="Slovenia" lcid="sl_SI"/>
+</language>
+
+<language name="Spanish">
+    <countryOrRegion name="Argentina" lcid="es_AR"/>
+    <countryOrRegion name="Bolivia" lcid="es_BO"/>
+   <countryOrRegion name="Chile" lcid="es_CL"/>
+    <countryOrRegion name="Colombia" lcid="es_CO"/>
+    <countryOrRegion name="Costa Rica" lcid="es_CR"/>
+    <countryOrRegion name="Dominican Republic" lcid="es_DO"/>
+    <countryOrRegion name="Ecuador" lcid="es_EC"/>
+    <countryOrRegion name="El Salvador" lcid="es_SV"/>
+    <countryOrRegion name="Guatemala" lcid="es_GT"/>
+    <countryOrRegion name="Honduras" lcid="es_HN"/>
+    <countryOrRegion name="Mexico" lcid="es_MX"/>
+    <countryOrRegion name="Nicaragua" lcid="es_NI"/>   
+    <countryOrRegion name="Panama" lcid="es_PA"/>
+    <countryOrRegion name="Paraguay" lcid="es_PY"/>
+    <countryOrRegion name="Peru" lcid="es_PE"/>
+    <countryOrRegion name="Puerto Rico" lcid="es_PR"/>
+    <countryOrRegion name="Spain" lcid="es_ES"/>
+    <countryOrRegion name="USA" lcid="es_US"/>
+    <countryOrRegion name="Uruguay" lcid="es_UY"/>
+    <countryOrRegion name="Venezuela" lcid="es_VE"/>
+</language>
+
+<language name="Swedish">
+    <countryOrRegion name="Sweden" lcid="sv_SE"/>
+</language>
+
+<language name="Tagalog">
+    <countryOrRegion name="Philippines" lcid="tl_PH"/>
+</language>
+ 
+<language name="Thai">
+    <countryOrRegion name="Thailand" lcid="th_TH"/>
+    <countryOrRegion name="Thailand Traditional" lcid="th_TH_TH"/>
+</language>
+
+<language name="Turkish">
+    <countryOrRegion name="Turkey" lcid="tr_TR"/>
+</language>
+
+<language name="Ukrainian">
+    <countryOrRegion name="Ukraine" lcid="uk_UA"/>
+</language>
+
+<language name="Vietnamese">
+    <countryOrRegion name="Vietnam" lcid="vi_VN"/>
+</language>
+
+<patterns>
+    <custom type="text" desc="Postal Code (Canada)" pattern="A9A 9A9"/>
+    <custom type="text" desc="Postal Code (United Kingdom)" pattern="A9A 9A9|AA9A 9A9"/>
+    <custom type="text" desc="Zip Code (USA)" pattern="text{99999-9999}|text{99999}"/>
+    <custom type="text" desc="Telephone (USA - Canada)" pattern="text{'('999')' 999-9999}"/>
+    <custom type="text" desc="Email - alphanumeric" pattern="text{OOOOOOOO'@example.com'}"/>
+    <custom type="text" desc="EIN" pattern="text{99-9999999}"/>
+    <custom type="num" pattern="$z,zz9.99"/>
+    <custom type="num" pattern="$z,zz9.99CR"/>
+    <custom type="num" pattern="$z,zz9.99DB"/>
+    <custom type="num" pattern="($z,zz9.99)"/>
+   <custom type="pwd" desc="Password 8-character" pattern="XXXXXXXX"/>
+    <custom type="pwd" desc="Password 8-alphanumeric" pattern="OOOOOOOO"/>
+</patterns>
+
+</localeslist>

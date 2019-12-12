@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 rel. 2 (http://www.altova.com) by David Rees (Adobe Systems Incorporated) -->
+<!--Manually derived schema definition by David Rees of the XML Portfolio format-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:complexType name="aCustomAttributes">
+		<xs:sequence>
+			<xs:element name="CustomAttribute" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="name" type="xs:string" use="required"/>
+					<xs:attribute name="value" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="aFileType">
+		<xs:sequence>
+			<xs:element name="CustomAttributes" type="aCustomAttributes" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="path" type="xs:string" use="required"/>
+		<xs:attribute name="orig" type="xs:string" use="required"/>
+		<xs:attribute name="numpages" type="xs:int" use="required"/>
+		<xs:attribute name="thumbs" type="xs:int" default="1"/>
+		<xs:attribute name="thumbtype" type="xs:string" default=".png"/>
+		<xs:attribute name="filetype" type="xs:string" default=".png"/>
+		<xs:attribute name="algorithm" type="xs:string" default="default"/>
+		<xs:attribute name="Size" type="xs:int" use="required"/>
+		<xs:attribute name="CompressedSize" type="xs:int" use="required"/>
+		<xs:attribute name="CreationDate" type="xs:integer" use="required"/>
+		<xs:attribute name="ModDate" type="xs:integer" use="required"/>
+		<xs:attribute name="Editable" type="xs:boolean" default="false"/>
+		<xs:attribute name="Visible" type="xs:boolean" default="true"/>
+		<xs:attribute name="Description" type="xs:string" default=""/>
+	</xs:complexType>
+	<xs:complexType name="aFolderType">
+		<xs:sequence>
+			<xs:element name="CustomAttributes" type="aCustomAttributes" minOccurs="0"/>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:choice>
+					<xs:element name="Folder" type="aFolderType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="File" type="aFileType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:choice>
+			</xs:sequence>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="CreationDate" type="xs:integer" use="required"/>
+		<xs:attribute name="ModDate" type="xs:integer" use="required"/>
+		<xs:attribute name="thumbs" type="xs:boolean" default="false"/>
+		<xs:attribute name="thumbtype" type="xs:string" default=".png"/>
+		<xs:attribute name="filetype" type="xs:string" default=".png"/>
+		<xs:attribute name="algorithm" type="xs:string" default="default"/>
+		<xs:attribute name="Description" type="xs:string" default=""/>
+	</xs:complexType>
+	<xs:complexType name="aColorType">
+		<xs:attribute name="red" type="xs:float" use="required"/>
+		<xs:attribute name="green" type="xs:float" use="required"/>
+		<xs:attribute name="blue" type="xs:float" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="aTextLayoutMarkupFormatType">
+		<!--TextLayout is an XML node compliant with the Text Layout Markup Format - part of Flash 10, and AIR 1.5. See http://labs.adobe.com/technologies/textlayout/ -->
+	</xs:complexType>
+	<xs:complexType name="aNavigatorFieldType">
+		<xs:attribute name="sID" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="aStringType">
+		<xs:sequence>
+			<xs:element name="TextLayout" type="aTextLayoutMarkupFormatType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="UID" type="xs:string" use="required"/>
+		<xs:attribute name="Value" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:simpleType name="fieldType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="text"/>
+			<xs:enumeration value="date"/>
+			<xs:enumeration value="number"/>
+			<xs:enumeration value="filename"/>
+			<xs:enumeration value="desc"/>
+			<xs:enumeration value="modDate"/>
+			<xs:enumeration value="creationDate"/>
+			<xs:enumeration value="compressedSize"/>
+			<xs:enumeration value="size"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="fieldAggregateType">
+		<xs:sequence>
+			<xs:element name="field" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="displayName" type="aNavigatorFieldType"/>
+					</xs:sequence>
+					<xs:attribute name="name" type="xs:string" use="required"/>
+					<xs:attribute name="type" type="fieldType" use="required"/>
+					<xs:attribute name="order" type="xs:integer" use="optional"/>
+					<xs:attribute name="visible" type="xs:boolean" use="required"/>
+					<xs:attribute name="editable" type="xs:boolean" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Portfolio">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Properties">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OriginalFolder">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="PreviewFolder">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ThumbFolder">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Collection">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Color">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Background" type="aColorType"/>
+										<xs:element name="CardBackground" type="aColorType"/>
+										<xs:element name="CardBorder" type="aColorType"/>
+										<xs:element name="PrimaryText" type="aColorType"/>
+										<xs:element name="SecondaryText" type="aColorType"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="View">
+								<xs:complexType>
+									<xs:attribute name="kind" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Split" minOccurs="0">
+								<xs:complexType>
+									<xs:attribute name="Direction" type="xs:string" use="required"/>
+									<xs:attribute name="PercentagePosition" type="xs:int" default="50"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Sort" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Sort" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" use="required"/>
+												<xs:attribute name="ascending" type="xs:boolean" default="true"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Schema" type="fieldAggregateType" minOccurs="0"/>
+							<xs:element name="Navigators">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Navigator" maxOccurs="2">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Strings" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="String" type="aStringType" maxOccurs="unbounded"/>
+															</xs:sequence>
+															<xs:attribute name="locale" type="xs:string" default="en_US"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Resources">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Resource" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:attribute name="Key" type="xs:string" use="required"/>
+																		<xs:attribute name="src" type="xs:string" use="required"/>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="name" type="aNavigatorFieldType"/>
+													<xs:element name="description" type="aNavigatorFieldType"/>
+													<xs:element name="category" type="aNavigatorFieldType"/>
+													<xs:element name="icon" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:attribute name="src" type="xs:string" use="optional"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="initialFields" type="fieldAggregateType" minOccurs="0"/>
+												</xs:sequence>
+												<xs:attribute name="locale" type="xs:string" use="optional" default="en_US"/>
+												<xs:attribute name="src" type="xs:string" use="required"/>
+												<xs:attribute name="version" type="xs:string" use="optional" default="10.0.0.0"/>
+												<xs:attribute name="apiVersion" type="xs:string" use="required"/>
+												<xs:attribute name="type" type="xs:string" use="required"/>
+												<xs:attribute name="id" type="xs:string" use="optional"/>
+												<xs:attribute name="loadAs" type="xs:string" use="optional" default="default"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Resources" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Resource" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="Key" type="xs:string" use="required"/>
+												<xs:attribute name="src" type="xs:string" use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Fonts" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="InitialTextForm" type="aTextLayoutMarkupFormatType" minOccurs="0"/>
+										<xs:element name="Font" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" use="required"/>
+												<xs:attribute name="resourceKey" type="xs:string" use="required"/>
+												<!-- It is expected that fonts will be stored as collection resources. The following maps the font name to the collection resource key -->
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Content">
+					<xs:complexType>
+						<xs:sequence maxOccurs="unbounded">
+							<xs:choice>
+								<xs:element name="File" type="aFileType" minOccurs="0" maxOccurs="unbounded"/>
+								<xs:element name="Folder" type="aFolderType" minOccurs="0" maxOccurs="unbounded"/>
+							</xs:choice>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

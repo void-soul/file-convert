@@ -1,0 +1,5 @@
+<#if SetToFirstIndex>${InstanceManager}.removeInstance(0);</#if><#if SetToCurrentIndex>${InstanceManager}.removeInstance(this.parent.index);</#if><#if SetToLastIndex>${InstanceManager}.removeInstance(${InstanceManager}.count - 1);</#if><#if SetToIndex>${InstanceManager}.removeInstance(${Index});</#if>
+
+if (xfa.host.version < 8) {
+	xfa.form.recalculate(1);
+}

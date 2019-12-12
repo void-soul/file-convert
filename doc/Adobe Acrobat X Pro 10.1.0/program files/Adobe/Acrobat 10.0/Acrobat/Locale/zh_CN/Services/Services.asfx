@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><asf locale="zh_CN" version="1.0" xmlns="http://ns.adobe.com/asf">
+
+  <!-- pane strings -->
+  <str name="ShareLabel" translate="yes"><val>共享</val></str>
+
+  <!-- update strings -->
+  <str name="UpdateTitle" translate="yes"><val>更新可用</val></str>
+  <str name="UpdateCancel" translate="yes"><val>取消</val></str>
+  <str name="UpdateUpdate" translate="yes"><val>立即使用</val></str>
+  <str name="UpdateDefault" translate="yes"><val>&lt;p&gt;“%PANE_NAME%”窗格具有可用的新增强功能lt;/p&gt;</val></str>
+
+</asf>

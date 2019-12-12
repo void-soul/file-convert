@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V8.2.0.3024.1.444333" APIVersion="2.8.8024.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2008-01-26T14:21:05Z" uuid="4dac5359-1e54-49d0-80c7-338e486515c7">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
+   <?formServer defaultPDFRenderFormat acrobat9.0dynamic?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform layout="tb" locale="en_US" name="form1" restoreState="auto">
+      <pageSet relation="simplexPaginated">
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="260.35mm" w="196.85mm" x="9.525mm" y="9.525mm"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <?templateDesigner expand 0?></pageArea>
+         <?templateDesigner expand 0?></pageSet>
+      <subform h="260.35mm" w="7.75in">
+         <draw name="Text" h="0.317139in" w="96.2628mm">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text>Change the Fill Color of a Field</text>
+            </value>
+            <font size="20pt" typeface="Myriad Pro" weight="bold" baselineShift="0pt"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+            <?renderCache.bounds 270037 20000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 32 Change the Fill Color of a Field 0 1417 16417 0 0 0 "Myriad Pro" 1 0 20000 ISO-8859-1?></draw>
+         <draw name="Image" y="1.9699mm" x="129.9104mm" w="66.9396mm" h="6.0854mm">
+            <value>
+               <image contentType="image/gif" aspect="actual">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
+JjfJyU6OIAQAOw==</image>
+            </value>
+            <ui>
+               <imageEdit>
+                  <margin/>
+               </imageEdit>
+            </ui>
+            <desc>
+               <text name="embeddedHref">.\Snippet_Hdr.gif</text>
+            </desc>
+         </draw>
+         <draw name="Text" y="9.525mm" w="196.85mm" h="12.7mm">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text>This example demonstrates how to change the fill color of a field at run time.</text>
+            </value>
+            <font size="12pt" typeface="Myriad Pro Light"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <?renderCache.bounds 555166 33166 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 78 This example demonstrates how to change the fill color of a field at run time. 0 1417 10417 0 0 0 "Myriad Pro Light" 0 0 12000 ISO-8859-1?></draw>
+         <draw name="Rectangle" y="31.75mm" w="196.85mm" h="50.8mm">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="245,245,245"/>
+                  </fill>
+                  <corner radius="5.08mm" join="round" presence="hidden"/>
+               </rectangle>
+            </value>
+            <ui>
+               <defaultUi/>
+            </ui>
+         </draw>
+         <draw name="Rectangle" y="38.1mm" x="130.175mm" w="60.325mm" h="31.75mm">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill/>
+                  <corner radius="5.08mm" presence="hidden" join="round"/>
+               </rectangle>
+            </value>
+            <ui>
+               <defaultUi/>
+            </ui>
+         </draw>
+         <draw name="Text" y="38.1mm" x="6.35mm" h="0.206028in" w="63.691mm">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text>To change the fill color of a field:</text>
+            </value>
+            <font size="12pt" typeface="Myriad Pro" weight="bold" baselineShift="0pt">
+               <fill>
+                  <color value="128,128,128"/>
+               </fill>
+            </font>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+            <?renderCache.bounds 177707 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 36 To change the fill color of a field: 0 1417 10417 128 128 128 "Myriad Pro" 1 0 12000 ISO-8859-1?></draw>
+         <draw name="Circle" y="49.254mm" x="6.35mm" w="1.27mm" h="1.27mm">
+            <value>
+               <arc hand="right">
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+                  <edge/>
+               </arc>
+            </value>
+            <para vAlign="middle" hAlign="center"/>
+            <ui>
+               <defaultUi/>
+            </ui>
+         </draw>
+         <draw name="Text" y="47.625mm" x="9.525mm" h="0.17825in" w="1.247819in">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text>Click Apply Fill Color.</text>
+            </value>
+            <font typeface="Myriad Pro" baselineShift="0pt"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" vAlign="middle"/>
+            <?renderCache.bounds 87009 10000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 23 Click Apply Fill Color. 0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
+         <draw name="Text" y="60.325mm" x="9.525mm" h="0.17825in" w="0.372972in">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <value>
+               <text>Script</text>
+            </value>
+            <font typeface="Myriad Pro" baselineShift="0pt"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+            <?renderCache.bounds 24020 10000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 6 Script 0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
+         <field name="Script" y="66.675mm" x="15.875mm" w="107.95mm" access="readOnly" minH="9.525mm">
+            <ui>
+               <textEdit multiLine="1">
+                  <border presence="hidden">
+                     <?templateDesigner StyleID aped0?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Courier New" size="9pt"/>
+            <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+            <event activity="ready" ref="$form">
+               <script contentType="application/x-javascript">// Show the button's script.&#xD;this.rawValue = Button1.resolveNode("#event.#script").value;</script>
+            </event>
+            <calculate override="error"/>
+         </field>
+         <field h="9.0001mm" name="TextField1" w="47.625mm" x="136.525mm" y="44.45mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="18.2988mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text>TextField1</text>
+               </value>
+            </caption>
+         </field>
+         <field h="6mm" name="Button1" w="47.4292mm" x="136.7208mm" y="57.1502mm">
+            <ui>
+               <button/>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <caption>
+               <value>
+                  <text>Apply Fill Color</text>
+               </value>
+               <para hAlign="center" vAlign="middle"/>
+               <font typeface="Myriad Pro"/>
+            </caption>
+            <border hand="right">
+               <edge stroke="raised"/>
+               <fill>
+                  <color value="212,208,200"/>
+               </fill>
+               <corner/>
+            </border>
+            <bind match="none"/>
+            <event activity="click">
+               <script contentType="application/x-javascript">// Change the fill color of a field.
+TextField1.fillColor = "200,200,200";
+</script>
+            </event>
+         </field>
+         <?templateDesigner expand 0?></subform>
+      <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 80 20 0001000F001200220024002700340035004400450046004A004C004D00500051005300550059005A .1ACFSTcdeikloprtxy?>
+      <?renderCache.subset "Myriad Pro" 1 0 ISO-8859-1 4 72 18 0001001B0024002700350042004400450046004700480049004A004D004F005000530055 :CFTacdefghilnort?>
+      <?renderCache.subset "Myriad Pro Light" 0 0 ISO-8859-1 4 88 22 0001000F00350042004400450046004700480049004A004D004E004F00500051005300540055005600580059 .Tacdefghilmnoprstuwx?>
+   </subform>
+   <?templateDesigner Grid show:0, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?templateDesigner DefaultRunAt client?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 20?>
+   <?templateDesigner FormTargetVersion 28?>
+   <?templateDesigner Zoom 112?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.8/">
+   <agent name="designer">
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <version>1.7</version>
+         <adobeExtensionLevel>3</adobeExtensionLevel>
+      </pdf>
+      <cache>
+         <macroCache/>
+      </cache>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+   </locale>
+</localeSet>
+<form xmlns="http://www.xfa.org/schema/xfa-form/2.6/"/>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2-c026 1.124630, 2007/11/29-19:13:19        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xap="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xap:ModifyDate>2006-10-12T15:51:52-04:00</xap:ModifyDate>
+         <xap:CreateDate>2006-01-23T10:26:03-05:00</xap:CreateDate>
+         <xap:MetadataDate>2008-01-26T14:21:05Z</xap:MetadataDate>
+         <xap:CreatorTool>Adobe LiveCycle Designer ES 8.2</xap:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xapMM:DocumentID>uuid:4dac5359-1e54-49d0-80c7-338e486515c7</xapMM:DocumentID>
+         <xapMM:InstanceID>uuid:27655b40-3186-43b9-a9ea-67de4022d90c</xapMM:InstanceID>
+      </rdf:Description>
+      <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+         <dc:format>application/pdf</dc:format>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 8.2</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+   <annots/>
+</xfdf></xdp:xdp>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+    <subform>
+        <pageSet>
+            <pageArea name="snippet">
+                <desc>
+                    <text name="name">Paper Forms Barcode</text>
+                    <text name="description">Paper Forms Barcode - Adds a scriptable 2-D  barcode that captures data from form fields.</text>
+                    <text name="standard">1</text>
+                    <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+                </desc>
+                <field name="PaperFormsBarcode" y="0mm" x="0mm" w="82.55mm" h="44.45mm" access="readOnly">
+                    <ui>
+                        <barcode type="pdf417" moduleWidth="0.338mm" moduleHeight="0.676mm" errorCorrectionLevel="5">
+                            <?templateDesigner decodeMethod 2?>
+                            <?templateDesigner delimiter '\t'?>
+                        </barcode>
+                    </ui>
+                    <calculate override="error">
+			<script contentType="application/x-javascript">
+//{{Start Generated Content//
+/*{{&lt;name&gt;delimCollection&lt;/name&gt;}}*/
+var includeFieldNames = true;
+var includeLabel = true;
+var labelID = "Label";
+var is705ViewerRequired = false;
+var collection = null;
+var delimiter = '\t';
+//End Generated Content}}//
+
+// Initialize the barcode content
+this.rawValue = " ";
+
+// Encoding data into the barcode
+
+var fieldNames = new Array();
+var fieldValues = new Array();
+
+function encode(node)
+{
+    var barcodeLabel = this.caption.value.text.value;
+    if (includeLabel == true &amp;&amp; barcodeLabel.length &gt; 0)
+    {
+        fieldNames.push(labelID);
+        fieldValues.push(barcodeLabel);
+    }
+
+    if(collection != null)
+    {
+        // Create an array of all child nodes in the form
+        var entireFormNodes = new Array();
+        collectChildNodes(xfa.datasets.data, entireFormNodes);
+
+        // Create an array of all nodes in the collection
+        var collectionNodes = new Array();
+        var nodes = collection.evaluate();
+
+        for(var i = 0; i &lt; nodes.length; ++i)
+        {
+            collectChildNodes(nodes.item(i), collectionNodes);
+        }
+
+        // If the form has two or more fields sharing the same name, the names of the 
+        // parents of these fields, as well as the subscript numbers of the fields and
+        // their parents, will be used to differentiate them. However, since we want 
+        // to take as little space in the barcode as possible, we only use such extra
+        // data in the object names only when necessary.
+        resolveDuplicates(collectionNodes, entireFormNodes, fieldNames);
+
+        for(var j = 0; j &lt; nodes.length; ++j)
+        {
+            // Go through the collection and accumulate the value of each form object
+            accumulateFieldValues(nodes.item(j));
+        }
+
+        // Forcing dependency (only if the viewer version is 8.00 or older)
+        if(xfa.host.version &lt;= 8.00)
+        {
+            // Create a collection of the selected form objects, but in the form model context
+            var formModelNodeList = new Array();
+
+            var dataNodes = collection.evaluate();
+            for(var i = 0; i &lt; dataNodes.length; ++i)
+            {
+                formModelNodeList.push(xfa.form.formNodes(dataNodes.item(i)));
+            }
+
+            // Now, force a dependency between the barcode and its form model nodes in its
+            // collection
+            while(formModelNodeList.length &gt; 0)
+            {
+                var nodeList = formModelNodeList.pop();
+                for(var i = 0; i &lt; nodeList.length; ++i)
+                {
+                    depends(nodeList.item(i));
+                }
+            }
+        }
+    }
+
+    var encodedContent = new String();
+
+    var values = fieldValues.join(delimiter);
+    values += delimiter;
+
+    if(includeFieldNames == true)
+    {
+        var fields = fieldNames.join(delimiter);
+        fields += delimiter;
+
+        encodedContent = fields + "\n" + values;
+    }
+    else
+    {
+        encodedContent = values;
+    }
+
+    return encodedContent;
+}
+
+// If there are two or more nodes sharing the same name, differentiate those
+// nodes by using subscripts and/or parent name(s).
+function resolveDuplicates(encodingNodes, entireFormNodes, fieldNameArray)
+{
+    for(var i = 0; i &lt; encodingNodes.length; ++i)
+    {
+        var dataModelNode = encodingNodes[i];
+        var nodeName = dataModelNode.name;
+        
+        nodeName = makeUniqueName(dataModelNode, entireFormNodes, nodeName);
+
+        if(isNodeMultiChoiceList(dataModelNode) &amp;&amp; dataModelNode.parent != null &amp;&amp; 
+            nodeName.indexOf(".") == -1)
+        {
+            var parentName = makeUniqueName(dataModelNode.parent, entireFormNodes, 
+                dataModelNode.parent.name);
+                
+            nodeName = parentName + "." + nodeName;
+        }
+        
+        fieldNameArray.push(nodeName);
+    }
+
+    // Remove subscript 0's, if there's no other field sharing the same name at the
+    // same level
+    compact(fieldNameArray);
+}
+
+// Detect if a form object is a multi-choice list box
+function isNodeMultiChoiceList(dataNode)
+{
+    var isMultiChoice = false;
+    
+    if(dataNode != null &amp;&amp; dataNode.name == "value" &amp;&amp; dataNode.className == "dataValue")
+    {
+        var parent = dataNode.parent;
+        if(parent != null &amp;&amp; parent.className == "dataGroup")
+        {
+            isMultiChoice = true;
+        }
+    }
+    
+    return isMultiChoice;
+}
+
+// Given a node, look for duplicates (in the whole form), and come up with a 
+// name that differentiates the current node from the rest, using a combination
+// of subscript numbers and parent name(s).
+function makeUniqueName(node, formNodeArray, nodeName)
+{
+    for(var i = 0; i &lt; formNodeArray.length; ++i)
+    {
+        var compNode = formNodeArray[i];
+
+        var nodeSOM = node.somExpression;
+        var compNodeSOM = compNode.somExpression;
+
+        if((nodeSOM != compNodeSOM) &amp;&amp; (nodeName == compNode.name))
+        {
+            if(nodeSOM.substring(0, nodeSOM.lastIndexOf(".")) == 
+                compNodeSOM.substring(0, compNodeSOM.lastIndexOf(".")))
+            {
+                var diffLevelNodeFound = false;
+                for(var ii = i; !diffLevelNodeFound  &amp;&amp; ii &lt; formNodeArray.length; ++ii)
+                {
+                    compNode = formNodeArray[ii];
+                    compNodeSOM = compNode.somExpression;
+
+                    if((nodeSOM != compNodeSOM) &amp;&amp; (nodeName == compNode.name) &amp;&amp;
+                        (nodeSOM.substring(0, nodeSOM.lastIndexOf(".")) != 
+                        compNodeSOM.substring(0, compNodeSOM.lastIndexOf("."))))
+                    {
+                        diffLevelNodeFound = true;
+                    }
+                }
+
+                if(!diffLevelNodeFound )
+                {
+                    // The two nodes are at the same level. There is no need to append the 
+                    // current node's parent names to differentiate. Instead, just use
+                    // the suffix
+                    nodeName += "[" + node.index + "]";
+                }
+            }
+            else
+            {
+                if(node.parent != null)
+                {
+                    var parentArray = new Array();
+                    for(var j = 0; j &lt; formNodeArray.length; ++j)
+                    {
+                        var parentNode = formNodeArray[j].parent;
+                        if(parentNode != null)
+                        {
+                            parentArray.push(parentNode);
+                        }
+                    }
+
+                    nodeName = makeUniqueName(node.parent, parentArray, node.parent.name).concat(
+                        ".", nodeName, "[", node.index, "]");
+                }
+            }
+        }
+    }
+
+    return nodeName;
+}
+
+// Remove subscript 0's, if there's no other field sharing the same name at the
+// same level
+function compact(nameArray)
+{
+    for(var i = 0; i &lt; nameArray.length; ++i)
+    {
+        var fieldName = nameArray[i];
+        if(fieldName.substring(fieldName.lastIndexOf("[") + 1, fieldName.lastIndexOf("]")) == "0")
+        {
+            var fieldNameNoSubscript = fieldName.substring(0, fieldName.lastIndexOf("["));
+            var isFound = false;
+
+            for(var j = 0; !isFound &amp;&amp; j &lt; nameArray.length; ++j)
+            {
+                if(nameArray[j] != nameArray[i])
+                {
+                    var comparedFieldName = nameArray[j];
+
+                    if(fieldNameNoSubscript ==
+                        comparedFieldName.substring(0, comparedFieldName.lastIndexOf("[")))
+                    {
+                        isFound = true;
+                    }
+                }
+            }
+
+            if(!isFound)
+            {
+                nameArray.splice(i, 1, fieldNameNoSubscript);
+            }
+        }
+    }
+}
+
+// Add object values into a local container
+function accumulateFieldValues(node)
+{
+    if (node.className == "dataGroup")
+    {
+        var itemCount = node.nodes.length;
+        for (var i = 0; i &lt; itemCount; ++i)
+        {
+            accumulateFieldValues(node.nodes.item(i));
+        }
+    }
+    else
+    {
+        if(node.value != null)
+        {
+            fieldValues.push(node.value);
+        }
+        else
+        {
+            fieldValues.push("");
+        }
+    }
+}
+
+// Convert an XFA node list into a JavaScript node array
+function collectChildNodes(node, childNodeArray)
+{
+    if(node.className == "dataGroup")
+    {
+        var itemCount = node.nodes.length;
+        for (var i = 0; i &lt; itemCount; ++i)
+        {
+            collectChildNodes(node.nodes.item(i), childNodeArray);
+        }
+    }
+    else
+    {
+        childNodeArray.push(node);
+    }
+}
+
+// Encode the collection data as barcode content
+this.rawValue = encode(collection);
+
+// Final sanity check, located here not for efficiency but for consistency and correctness
+if (is705ViewerRequired &amp;&amp; xfa.host.version &lt; 7.05)
+{
+    this.rawValue = " ";
+}
+
+// Forcing dependency only if the viewer version is 9.00 or older
+function depends(node)
+{
+    if(xfa.host.version &lt; 9.00)
+    {
+        if(node.className != "variables")
+        {
+            var stack = new Array();
+
+            var currentNode = node;
+            stack.push(currentNode);
+
+            while (stack.length &gt; 0)
+            {
+                currentNode = stack.pop();
+                if(currentNode == null) continue;
+
+                for(var i = 0; i &lt; currentNode.nodes.length; ++i)
+                {
+                    stack.push(currentNode.nodes.item(i));
+                }
+            }
+        }
+    }
+}
+			</script>
+                    </calculate>
+                    <bind match="none"/>
+                    <caption placement="bottom" reserve="0mm">
+                        <font typeface="Myriad Pro" size="6pt"/>
+                        <para vAlign="middle" hAlign="center"/>
+                        <value>
+                            <text>00000000-0000-0000-0000-000000000000</text>
+                        </value>
+                    </caption>
+                </field>
+            </pageArea>
+        </pageSet>
+    </subform>
+</template>
+</xdp:xdp>

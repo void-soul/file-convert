@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectLibraryTabSet>
+   <tab name="Standard" directory=".\Standard" permission="adm"/>
+   <tab name="Custom" directory=".\Custom" permission="adm"/>
+   <tab name="Barcodes" directory=".\Barcodes" permission="adm"/>
+</objectLibraryTabSet>

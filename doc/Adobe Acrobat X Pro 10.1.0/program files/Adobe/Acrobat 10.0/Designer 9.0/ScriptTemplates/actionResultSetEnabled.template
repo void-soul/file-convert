@@ -1,0 +1,2 @@
+oTargetField = this.resolveNode("${SOM}");
+<#if Enable>	oTargetField.access = "open";</#if><#if Disable>	oTargetField.access = "readOnly";</#if>

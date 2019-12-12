@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+<set name="Entry1">
+<str name="displayName" translate="yes">
+<val>Numéros de téléphone</val>
+</str>
+<str name="regEx" translate="yes">
+<val>(\b\s?)(((((00\s)|\+)?\d{2}\s)|(\(\d{2}\)\s))?(0|\(0\))?\d((-|\s|\.|_)\d{2}){4})(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>Ce modèle recherche des numéros de téléphone composés de 10 chiffres séparés par des signes de ponctuation de même qu'avec l'indicatif national français standard.
+
+Exemples :
+03 01 02 03 04
+03.01.02.03.04
+(33) 03 01 02 03 04</val>
+</str>
+</set>
+<set name="Entry2">
+<str name="displayName" translate="yes">
+<val>Cartes de crédit</val>
+</str>
+<str name="regEx" translate="yes">
+<val>(\b)((\d{4}(-|\s|\.|_)?){3}(\d{4}))(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>Ce modèle recherche des numéros de carte de crédit composés de 16 chiffres consécutifs ou séparés par des signes de ponctuation.
+
+Exemple :
+1234-5678-9012-3456
+1234567890123456
+1234 5678 9012 3456</val>
+</str>
+</set>
+<set name="Entry3">
+<str name="displayName" translate="yes">
+<val>Numéros d'identification nationale</val>
+</str>
+<str name="regEx" translate="yes">
+<val>(\b)((\d{3}\s\d{3}\s\d{3}(\s\d{5})?)|(\d(\s\d{2}){3}(\s\d{3}){2}\s\d{2})|(\d{12}))(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>Ce modèle recherche des numéros d'identification nationale (sécurité sociale, SIREN, SIRET, carte d'identité nationale).
+
+Exemple :
+732 829 320
+444 444 444
+444 444 444 00021
+2 78 10 16 028 019 88</val>
+</str>
+</set>
+<set name="Entry4">
+<str name="displayName" translate="yes">
+<val>Adresses électroniques</val>
+</str>
+<str name="regEx" translate="yes">
+<val>([a-zA-Z0-9_])([a-zA-Z0-9_\-\.])*@([a-zA-Z\-])+\.([a-zA-Z\.]+)</val>
+</str>
+<str name="examples" translate="yes">
+<val>Ce modèle recherche les e-mails.
+
+Jean-dupont@marketing-bpp.fr
+Emile_Dufour_1352@bpp.gouv.fr
+Camille.rochas@hrcc.net</val>
+</str>
+</set>
+<set name="Entry5">
+<str name="displayName" translate="yes">
+<val>Dates</val>
+</str>
+<str name="regEx" translate="yes">
+<val>(\b)(((\d{1,2}(\||\-|\.|\s|\\|/|_)){2}\d{2}(\d{2})?)|(\d{1,2}(er)?(\||\-|\.|\s|\\|/|_)(janv|fevr|mars|avr|mai|juin|juil|aout|sept|oct|nov|dec|janvier|fevrier|mars|avril|juillet|septembre|octobre|novembre|decembre)((\||\-|\.|\s|\\|/|_|,)(\||\-|\.|\s|\\|/|_)?\d{2}(\d{2})?)?)|((janv|fevr|mars|avr|mai|juin|juil|aout|sept|oct|nov|dec|janvier|fevrier|mars|avril|juillet|septembre|octobre|novembre|decembre)(\||\-|\.|\s|\\|/|_)\d{1,2}(er)?((\||\-|\.|\s|\\|/|_|,)(\||\-|\.|\s|\\|/|_)?\d{2}(\d{2})?)?)|(\d{2}(\d{2})?((\||\-|\.|\s|\\|/|_)\d{1,2}){2}))(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>Ce modèle recherche les dates.
+
+Jour/mois/année
+
+28/10/1978               
+10/09/2007
+29/01/08
+29-01-08
+
+Mois en toutes lettres
+
+1er  févr. 2008
+1er février 2008
+1 février 2008
+3 mars 1986
+18 juil. 08</val>
+</str>
+</set>
+</asf>

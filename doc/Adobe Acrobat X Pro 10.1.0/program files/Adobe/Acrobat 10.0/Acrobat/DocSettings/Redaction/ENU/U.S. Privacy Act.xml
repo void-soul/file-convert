@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RedactionSet Name="U.S. Privacy Act" >
+<RedactionCode Name="(b)" />
+<RedactionCode Name="(d)(5)" />
+<RedactionCode Name="(j)(1)" />
+<RedactionCode Name="(j)(2)" />
+<RedactionCode Name="(k)(1)" />
+<RedactionCode Name="(k)(2)" />
+<RedactionCode Name="(k)(3)" />
+<RedactionCode Name="(k)(4)" />
+<RedactionCode Name="(k)(5)" />
+<RedactionCode Name="(k)(6)" />
+<RedactionCode Name="(k)(7)" />
+</RedactionSet>

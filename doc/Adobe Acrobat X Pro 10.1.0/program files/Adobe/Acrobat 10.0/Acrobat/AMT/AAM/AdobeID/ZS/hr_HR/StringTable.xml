@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="hr_HR" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>hr_HR</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>DALJE</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>NATRAG</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>IZLAZ</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>IZAĐI</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>ZAUSTAVI</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>NASTAVI</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>ODBIJ</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>PRIHVATI</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>INSTALIRAJ</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>DEINSTALIRAJ</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>STVORI</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Nastavi</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>U redu</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>DA</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>NE</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>Odustani</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>ZATVORI</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>PREDAJ</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>PRESKOČI</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Registracija softvera</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Registracija za proizvode i usluge</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Za registraciju svog softvera i postavljanje pristupa mrežnim uslugama na {0}Acrobat.com{1}, unesite ili napravite Adobe ID.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Dobijte pristup podršci za softver i ekskluzivnim prednostima poput novosti, publikacija i pozivnica za Adobe događaje i seminare. Softver možete registrirati unosom ili stvaranjem Adobe ID-a.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Adobe ID je potreban za korištenje probne verzije ovog softvera i postavljanje pristupa mrežnim uslugama na {0}Acrobat.com{1} tijekom probnog razdoblja. Za unos Adobe ID-a imat ćete 7 dana od prvog pokretanja probne verzije softvera.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Za registraciju softvera unesite ili napravite Adobe ID.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Za korištenje predbilježbe i pristup mrežnim uslugama na stranici {0}Acrobat.com{1} morate unijeti Adobe ID.</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Ovo je računalo deaktivirano. Morate se prijaviti pomoću svog Adobe ID-a kako biste ponovno aktivirali predbilježbu na ovom računalu.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_hr</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Za stvaranje ID-a jednostavno navedite adresu e-pošte i lozinku.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Treba vam Adobe ID?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>NAPRAVI ADOBE ID</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>Već imate Adobe ID?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>E-pošta (Adobe ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Lozinka</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>Zaboravili ste lozinku?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_hr</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Kako biste iskoristili usluge na Acrobat.com, morate navesti Adobe ID i prihvatiti odgovarajuće Uvjete korištenja. Ako sada ne navedete Adobe ID, odgovarajuće razdoblje besplatne predbilježbe može se skratiti.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Kako biste dovršili predbilježbu na Acrobat i pokrenuli svoj besplatan pregled usluga sa stranice Acrobat.com, morate navesti Adobe ID i prihvatiti odgovarajuće uvjete upotrebe.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>PRESKOČI OVAJ KORAK</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Unesite adresu e-pošte koja je povezana s vašim Adobe ID računom.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Potrebna lozinka</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>Povezivanje nije uspjelo. Pokušajte ponovno.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Adobe ID i lozinka nisu usklađeni</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Stvori Adobe ID</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Stvaranjem Adobe ID-a registrirat ćete svoj softver i postaviti pristup mrežnim uslugama na Acrobat.com. Sva su polja obavezna.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Stvaranjem Adobe ID-a registrirat ćete svoj softver. Sva su polja obavezna.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Stvaranjem Adobe ID-a postavljate pristup uslugama na Acrobat.com tijekom probnog razdoblja i informirate nas da vas zanima određeni proizvod. Sva su polja obavezna.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Stvaranjem Adobe ID-a informirat ćete na da vas zanima određeni proizvod. Sva su polja obavezna.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Za korištenje Acrobat predbilježbe i pristup mrežnim uslugama na stranici {0}Acrobat.com{1} morate unijeti Adobe ID.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>Adresa e-pošte (Adobe ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Lozinka</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Ponovno unesite lozinku</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Ime</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Prezime</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>Država/regija</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Želim primati novosti o tvrtki Adobe i njenim proizvodima i uslugama, što uključuje izdanja i nadogradnje proizvoda, događaje, ankete i ponude. Tvrtka Adobe i njeni zastupnici moje će podatke koristiti u skladu s {0}Mrežnim pravilima tvrtke Adobe za zaštitu privatnosti{1}.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_hr</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_hr</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_hr</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Da</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>Ne</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Odaberi</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Lozinka obavezna (6 do 12 znakova)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>To nije valjana adresa e-pošte.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Lozinke se ne podudaraju.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>Ime je obavezno.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Prezime je obavezno.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>Obavezan odabir države/regije.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Ovaj Adobe ID već je povezan s drugom predbilježbom. Napravite novi Adobe ID ili se prijavite s drugim Adobe ID-om.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>Razumijem da će, u skladu s {0}Mrežnim pravilima zaštite privatnosti{1}, tvrtka Adobe, njeni partneri i zastupnici ("Adobe") pojedinosti koje navedem koristiti u svrhu ažuriranja i upravljanja svojih baza podataka o korisnicima i korisničkim preferencama. Pristajem da u te svrhe i dodatne svrhe definirane niže Adobe prenese moje podatke u zemlje izvan EU u kojima Adobe djeluje, što uključuje Sjedinjene Države. 
+Razumijem da svoje preference vezano uz obradu mojih osobnih podataka od strane tvrtke Adobe u bilo kojem trenutku mogu promijeniti na {2}stranici svog računa{3} ili kontaktiranjem službenika tvrtke Adobe zaduženog za privatnost u skladu s {4}Mrežnim pravilima tvrtke Adobe za zaštitu privatnosti{5}. Razumijem da ću možda zasebno morati kontaktirati treće strane koje su moje osobne podatke primile od tvrtke Adobe prije promjene mojih preferenci. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Ovaj niz prekoračuje maksimalno ograničenje. Niz mora sadržati 6 do 12 znakova.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Ovaj niz prekoračuje minimalno ograničenje. Niz mora sadržati 6 do 12 znakova.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Ovaj niz prekoračuje maksimalno ograničenje. Niz mora sadržati 6 do 12 znakova.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Ovaj niz prekoračuje minimalno ograničenje. Niz mora sadržati 6 do 12 znakova.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Ovaj niz prekoračuje maksimalno ograničenje. Niz mora sadržati 1 do 300 znakova.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Ovaj niz prekoračuje minimalno ograničenje. Niz mora sadržati 1 do 300 znakova.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>Vaša adresa e-pošte sadrži znakove koji nisu valjani.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>Domena u vašoj adresi e-pošte nije ispravno formatirana.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>IP domena u vašoj adresi e-pošte nije ispravno formatirana.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>Domena u vašoj adresi e-pošte sadrži više uzastopnih točaka.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>U vašoj adresi e-pošte nedostaje znak "at" (@).</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>Domeni u vašoj adresi e-pošte nedostaje točka.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>U vašoj adresi e-pošte nedostaje korisničko ime.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>Adresa e-pošte je obavezna.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>Vaša adresa e-pošte sadrži previše znakova @.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Lozinke se ne podudaraju.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Prihvatite uvjete i odredbe.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Vaša lozinka mora sadržavati 6 do 12 znakova i ne smije sadržavati uzastopne razmake ili dvotočke.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Adresa e-pošte nije valjana.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Adresa e-pošte nije valjana.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>Vaša adresa e-pošte sadrži znakove koji nisu valjani.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>To nije valjana adresa e-pošte.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>Ime je obavezno.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Prezime je obavezno.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Prihvatite uvjete i odredbe.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Navedite svoj Adobe ID.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>To nije valjana adresa e-pošte.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Vaša lozinka mora sadržavati 6 do 12 znakova i ne smije sadržavati uzastopne razmake ili dvotočke.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Registracija za proizvode i usluge</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Adobe ID i lozinka nisu usklađeni.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>Došlo je do pogreške. Pokušajte ponovno kasnije.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Ova adresa e-pošte već se koristi.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Mrežna pogreška. Pokušajte ponovno kasnije.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>To nije valjana adresa e-pošte.</val>
+		</str>		
+	</set>
+	
+</asf>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+<set name="Entry1">
+<str name="displayName" translate="yes">
+<val>电话号码</val>
+</str>
+<str name="regEx" translate="no">
+<val>(\b\s?)((\+?\d{1}(-|\s|\.|_))((\(\d{3}\)|\d{3})(-|\s|\.|_)?)|((\(\d{3}\)|\d{3})(-|\s|\.|_)?))?(\d{3}(-|\s|\.|_)\d{4})(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>本模式将搜索用标点符号以及前导区号分隔的 7 位电话号码。
+
+例如：
+555-1212
+212.555.1212
+1 (212) 555-1212</val>
+</str>
+</set>
+<set name="Entry2">
+<str name="displayName" translate="yes">
+<val>信用卡</val>
+</str>
+<str name="regEx" translate="no">
+<val>(\b)(((\d{4}(-|\s|\.|_)?){3}(\d{3,4}))|(\d{4}(-|\s|\.|_)?\d{6}(-|\s|\.|_)?\d{5}))(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>本模式将搜索连续的或由标点符号分隔的 16 位信用卡号码。
+
+例如：
+1234-5678-9012-3456
+1234567890123456
+1234 5678 9012 3456</val>
+</str>
+</set>
+<set name="Entry3">
+<str name="displayName" translate="yes">
+<val>身份证号码</val>
+</str>
+<str name="regEx" translate="no">
+<val>(\b)((\d{3}(-|\s|\.|_)\d{2}(-|\s|\.|_)\d{4})|(\d{9}))(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>本模式将搜索连续的或 3 位加 2 位再加 4 位（由标点符号分隔）的 9 位身份证号码。
+
+例如：
+123-45-6789
+123456789</val>
+</str>
+</set>
+<set name="Entry4">
+<str name="displayName" translate="yes">
+<val>电子邮件地址</val>
+</str>
+<str name="regEx" translate="no">
+<val>([a-zA-Z0-9_])([a-zA-Z0-9_\-\.])*@([a-zA-Z\-])+\.([a-zA-Z\.]+)</val>
+</str>
+<str name="examples" translate="yes">
+<val>本模式将搜索电子邮件地址。
+
+例如：
+John.Doe@acme.com
+John_Doe_1234@acme.gov
+j-doe@marketing.acme.net</val>
+</str>
+</set>
+<set name="Entry5">
+<str name="displayName" translate="yes">
+<val>日期</val>
+</str>
+<str name="regEx" translate="no">
+<val>(\b)(((\d{1,2}(\||\-|\.|\s|\\|/|_)){2}\d{2}(\d{2})?)|(\d{1,2}(st|nd|rd|th)?(\||\-|\.|\s|\\|/|_)(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)((\||\-|\.|\s|\\|/|_|,)(\||\-|\.|\s|\\|/|_)?\d{2}(\d{2})?)?)|((jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)(\||\-|\.|\s|\\|/|_)\d{1,2}(st|nd|rd|th)?((\||\-|\.|\s|\\|/|_|,)(\||\-|\.|\s|\\|/|_)?\d{2}(\d{2})?)?)|(\d{2}(\d{2})?((\||\-|\.|\s|\\|/|_)\d{1,2}){2}))(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>数字表示的日/月或月/日，后跟年份：
+01-01-08 12/31/08 31.12.2008
+
+数字表示的年份，后跟日/月或月/日：
+08-01-01 08/12/31 2008-12-31
+
+单词表示的月份：
+1st January 2008 1 Jan 08 January 1st 2008 Jan 1 08</val>
+</str>
+</set>
+</asf>

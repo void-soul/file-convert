@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Name</text>
+               <text name="description">Name - Creates a group of labeled text field objects that accept and display name information.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field h="8.9916mm" name="LastName" w="76.2mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="17.78mm">
+                  <font typeface="Myriad Pro"/>
+                  <para marginLeft="0pt" marginRight="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text>Last Name</text>
+                  </value>
+               </caption>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.0762mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+               </border>
+            </field>
+            <field h="8.9916mm" name="FirstName" w="76.2mm" y="8.9916mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="17.78mm">
+                  <font typeface="Myriad Pro"/>
+                  <para marginLeft="0pt" marginRight="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text>First Name</text>
+                  </value>
+               </caption>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.0762mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+               </border>
+            </field>
+            <field h="8.9916mm" name="Initial" w="76.2mm" y="17.9832mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="17.78mm">
+                  <font typeface="Myriad Pro"/>
+                  <para marginLeft="0pt" marginRight="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text>Initial</text>
+                  </value>
+               </caption>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.0762mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+               </border>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

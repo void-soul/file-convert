@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <desc name="xfometadata">
+     <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+   </desc>
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Subform Instance Controls: Add</text>
+               <text name="description">Subform Instance Controls: Add - Creates a button with script to add one instance of a repeating subform or table row.</text>
+            </desc>
+            <subform w="28.575mm" h="6mm">
+            <field xmlns="http://www.xfa.org/schema/xfa-template/2.4/" h="6mm" name="AddSubformButton1" w="28.575mm">
+               <ui>
+                  <button/>
+               </ui>
+               <font typeface="Arial"/>
+               <caption>
+                  <value>
+                     <text>Add Item</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Arial"/>
+               </caption>
+               <border hand="right">
+                  <?templateDesigner StyleID apbx2?>
+                  <edge stroke="raised">
+                     <color/>
+                  </edge>
+                  <fill>
+                     <color value="212,208,200"/>
+                     <solid/>
+                  </fill>
+                  <edge stroke="raised">
+                     <color/>
+                  </edge>
+                  <edge stroke="raised">
+                     <color/>
+                  </edge>
+                  <edge stroke="raised">
+                     <color/>
+                  </edge>
+                  <corner>
+                     <color/>
+                  </corner>
+                  <corner>
+                     <color/>
+                  </corner>
+                  <corner>
+                     <color/>
+                  </corner>
+                  <corner>
+                     <color/>
+                  </corner>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript">/* This button will Add one instance of the repeating subform or table row.
+
+   sSubformSOM: SOM expression of the repeating subform or table row.
+   bCalc:       Flag - true if the new instance might be referenced by other calculations, otherwise false.
+   message: 	The error message displayed.	
+	
+   These variables must be assigned for this script to run correctly.
+   Replace &lt;value&gt; with the correct value.
+*/	
+var sSubformSOM = "&lt;value&gt;"; 	// Example: var sSubformSOM = "xfa.form.form1.Subform1";
+var bCalc = true;		 		// Example: var bCalc = false;
+var message = "You have reached the maximum number of items allowed.";
+
+
+// DO NOT MODIFY THE CODE BEYOND THIS POINT - 9.0.0.2.20101008.1.734229.723806 - Subform_Instance_Controls_Add.xfo
+
+// Build the SOM expression of the Instance Manager using the 'underscore' syntax.
+var oSubform = xfa.resolveNode(sSubformSOM);	     // Evaluate the SOM expression.
+var sParentSOM = oSubform.parent.somExpression;      // Get the parent SOM expression.
+var sManagerSOM = sParentSOM + "._" + oSubform.name; // Build the SOM expression of the Instance Manager.
+var oManager = xfa.resolveNode(sManagerSOM);	     // Evaluate the SOM expression.
+
+var nMaxCount = oManager.occur.max; 	// Get the maximum number of subform occurrences allowed.
+var nSubCount = oManager.count;			// Get the current number of instances.
+
+// Proceed if the maximum number of subform occurrences has not been reached.
+if ((nMaxCount == "-1") || (nSubCount &lt; nMaxCount)) {
+	
+	// Invoke the Instance Manager.
+	var oNewInstance = oManager.addInstance(1);
+
+	// Fire the form calculations.
+	if (bCalc == true) {
+		
+		// Execute all the form calculations.
+		xfa.form.recalculate(1);
+	}
+
+} else {
+
+	xfa.host.messageBox(message,"Add Item", 3);
+}
+
+// END OF DO NOT MODIFY</script>
+               </event>
+               <assist>
+                  <toolTip>Add an item</toolTip>
+               </assist>
+            </field>
+            </subform>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

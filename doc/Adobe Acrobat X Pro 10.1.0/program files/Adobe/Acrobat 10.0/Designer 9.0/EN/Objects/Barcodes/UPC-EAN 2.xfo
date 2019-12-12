@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">UPC EAN2</text>
+               <text name="description">UPC EAN 2 Barcode</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="UPCEAN2BarCode" y="0mm" x="0mm" w="39.37mm" h="10.16mm">
+               <ui>
+                  <barcode type="upcean2" wideNarrowRatio="fixed" textLocation="below" dataLength="2"/>
+               </ui>
+               <font size="10pt" typeface="Courier New"/>
+               <value>
+                  <text>12</text>
+               </value>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template>
+</xdp:xdp>

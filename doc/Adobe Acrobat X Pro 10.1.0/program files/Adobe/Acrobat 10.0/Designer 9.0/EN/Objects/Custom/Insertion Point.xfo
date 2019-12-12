@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V9.0.0.0.20090224.1.531123" APIVersion="3.1.9055.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Insertion Point</text>
+               <text name="description">Insertion Point - Used to identify a place where a fragment will be placed during dynamic assembly.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <subform name="InsertionPoint" w="98.425mm" layout="tb">
+	    <subform>
+	       <extras>
+		  <text name="insertionPoint"/>
+	       </extras>
+	       <draw w="98.425mm" h="22.225mm">
+		  <ui>
+		     <textEdit/>
+		  </ui>
+		  <value>
+		     <text>This is temporary placeholder content</text>
+		  </value>
+		  <extras>
+		     <text name="insertionPointPlaceholder"/>
+		  </extras>
+		  <font typeface="Myriad Pro"/>
+		  <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+		  <para hAlign="center" vAlign="middle"/>
+	       </draw>
+	       <bind match="none"/>
+	    </subform>
+	    <bind match="none"/>
+	  </subform>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

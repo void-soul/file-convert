@@ -1,0 +1,103 @@
+AH_ION	search.html?AH_ION=true	Ion Search Page
+Dlg_Add3DContent	WS58a04a822e3e50102bd615109794195ff-7c08.w.html	Add 3D models to a PDF page	acr_3d_3d.xml	Changed link to point to Pro content, will work for 3D too..
+Dlg_InsertMM	WS65B80E79-F165-44f0-BBCA-0F142A758696.html	Add multimedia to PDFs	acr_3d_3d.xml	Insert Sounds, Video & Flash
+Dlg_CreateLinks	WS58a04a822e3e50102bd615109794195ff-7cb8.w.html	Links and attachments	acr_edit_ed.xml	
+Dlg_CreateStamp	WS58a04a822e3e50102bd615109794195ff-7e67.w.html	Create a custom stamp	acr_comment_mm.xml	
+Dlg_DocAssembly	WS58a04a822e3e50102bd615109794195ff-7edb.w.html	Create merged PDFs	acr_combine_ca.xml	Pro Extended, Pro, and Std only
+Dlg_CompareDocuments	WS09D04D24-A9FA-416b-9FBC-6188AC2160FF.w.html	Compare a revised PDF to an earlier version	acr_workarea_wa.xml	Comparing two Adobe PDF documents. Pro + Pro Extended only
+Dlg_StdSecurity	WS58a04a822e3e50102bd615109794195ff-7d9c.w.html	Security	acr_security_se.xml	About security
+Dlg_ConfigureDirectory	WS58a04a822e3e50102bd615109794195ff-7d7a.w.html	Use directory servers to store user certificates	acr_security_se.xml	Configuring identity search directories
+Dlg_SelfSignCertCreator	WS58a04a822e3e50102bd615109794195ff-7d97.w.html	Creating or obtaining digital IDs	acr_security_se.xml	Creating a digital ID
+Dlg_PPKMSCertCreator	WS58a04a822e3e50102bd615109794195ff-7d8b.w.html	Sharing and managing certificates	acr_security_se.xml	Managing digital ID certificates
+Dlg_SummarizeComments	WS75E00763-F15A-43a1-85B7-51B920B1181A.w.html	Print a comment summary	acr_comment_mm.xml	Printing a summary of comments
+Dlg_HeaderFooter	WS58a04a822e3e50102bd615109794195ff-7ed4.w.html	Add and edit headers and footers	acr_combine_ca.xml	Adding headers and footers
+Dlg_PDFOptimize	WS58a04a822e3e50102bd615109794195ff-7c87.w.html	PDF Optimizer	acr_edit_ed.xml	Using Help
+Dlg_Watermark	WS58a04a822e3e50102bd615109794195ff-7ed0.w.html	Add and edit watermarks	acr_combine_ca.xml	Adding watermarks and backgrounds
+Dlg_Background	WS24F8FCD1-9473-4adf-8FB2-349A1E62795F.w.html	Add and edit backgrounds	acr_combine_ca.xml	Adding watermarks and backgrounds
+Dlg_ChooseContacts	WS58a04a822e3e50102bd615109794195ff-7d88.w.html	Get certificates from other users	acr_security_se.xml	Getting digital ID information from other users
+Dlg_TrustedIdentities	WS58a04a822e3e50102bd615109794195ff-7d8b.w.html	Sharing and managing certificates	acr_security_se.xml	Managing digital ID certificates
+Dlg_SigningID	WS11dd809af63f0e1e-43e0464b12b4384d3b6-8000.html	About digital IDs	acr_sign_gn.xml	PPKLite
+Dlg_SigningAppearance	WS58a04a822e3e50102bd615109794195ff-7d43.w.html	Create the signature appearance	acr_sign_gn.xml	PPKLite
+Dlg_SigningReason	WS58a04a822e3e50102bd615109794195ff-7d43.w.html	Create the signature appearance	acr_sign_gn.xml	PPKLite
+Dlg_SigningOtherInfo	WS5C947F20-64DD-4f08-B1C0-D97F1E650DD5.w.html	Before you sign a PDF	acr_sign_gn.xml	PPKLite
+Dlg_SigningMDP	WS58a04a822e3e50102bd615109794195ff-7d48.w.html	Sign a PDF	acr_sign_gn.xml	PPKLite
+Dlg_DigSigAdvPrefsVerify	WS58a04a822e3e50102bd615109794195ff-7d34.w.html	Set signature verification preferences	acr_sign_gn.xml	DigSig
+Dlg_DigSigAdvPrefsCreation	WS58a04a822e3e50102bd615109794195ff-7d43.w.html	Create the signature appearance	acr_sign_gn.xml	DigSig
+Dlg_DigSigAdvPrefsWindows	WS58a04a822e3e50102bd615109794195ff-7d34.w.html	Set signature verification preferences	acr_sign_gn.xml	DigSig
+Dlg_MergeLayers	WS58a04a822e3e50102bd615109794195ff-7c58.w.html	Merge or flatten layers	acr_edit_ed.xml	Editing PDFs
+Dlg_SecurityAlerts	WS981E9B4B-F8E4-4511-ADE4-2D7380472979.html	Security alerts	acr_security_se.xml	Opening secured documents
+Dlg_SecuritySettingsDownload	WS8b24479264ec42287c28768612b0afcd4b7-8000.html	Setting up Adobe Approved Trust List	acr_sign_gn.xml	Adobe Approved Trust List (AATL)
+kAVHelp_Dlg_SecurityAlerts	WS981E9B4B-F8E4-4511-ADE4-2D7380472979.html	Security alerts	acr_security_se.xml	Yellow message bar resolution.
+Dlg_DirectoryMgr	WS58a04a822e3e50102bd615109794195ff-7d7a.w.html	About directory servers	acr_security_se.xml	Configuring identity search directories
+Dlg_MyDigitalIDs	WS58a04a822e3e50102bd615109794195ff-7d8b.w.html	Sharing and managing certificates	acr_security_se.xml	Managing digital ID certificates
+Dlg_TrustManagerPrompt	WS8084ADD0-83CB-43fe-B3CC-0D9AF9224C8C.w.html	Restrict URLs and attachments in PDFs	acr_security_se.xml	Setting Trust Manager preferences
+Dlg_ChooseRecipients	WS58a04a822e3e50102bd615109794195ff-7d6c.w.html	Encrypt a PDF and create a recipient list	acr_security_se.xml	Encrypting Adobe PDF files using certificates
+Dlg_ChooseCredential	WS11dd809af63f0e1e-43e0464b12b4384d3b6-8000.html	About digital IDs	acr_sign_gn.xml	Using digital IDs and certification methods
+Dlg_ImportSingleContact	WS58a04a822e3e50102bd615109794195ff-7d88.w.html	Get certificates from other users	acr_security_se.xml	Getting digital ID information from other users
+Dlg_ImportMultContacts	WS58a04a822e3e50102bd615109794195ff-7d88.w.html	Get certificates from other users	acr_security_se.xml	Getting digital ID information from other users
+Dlg_ShowCertDocWarningToAuthor	WS58a04a822e3e50102bd615109794195ff-7d3d.w.html	Certify a PDF	acr_sign_gn.xml	Certifying documents
+Dlg_ShowCertDocWarningToRecipient	WS02D75AD2-669B-4b79-9838-3C2493733423.w.html	Sign in Preview Document mode	acr_sign_gn.xml	Certifying documents
+Dlg_SaveAsCertifiedDocument	WS58a04a822e3e50102bd615109794195ff-7d3d.w.html	Certify a PDF	acr_sign_gn.xml	Certifying documents
+Dlg_SignDocument	WSAC8084C2-14F7-4841-9EF8-92106D22C3DB.w.html	Signing PDFs	acr_sign_gn.xml	Signing Adobe PDF documents
+Dlg_SignData	WSAC8084C2-14F7-4841-9EF8-92106D22C3DB.w.html	Signing PDFs	acr_sign_gn.xml	Signing Adobe PDF documents
+Dlg_Callas_Preflight	WS58a04a822e3e50102bd615109794195ff-7b82.w.html	Preflight	acr_preflight_jd.xml	Preflight and JDF instructions
+Dlg_ManagePolicies	WS58a04a822e3e50102bd615109794195ff-7d68.w.html	Setting up security policies	acr_security_se.xml	Setting up security policies
+WS58a04a822e3e50102bd615109794195ff-7d62.w	WS58a04a822e3e50102bd615109794195ff-7d68.w.html	Setting up security policies	acr_security_se.xml	Fix for bug #1837749
+DocProp_MetaInfo	WS58a04a822e3e50102bd615109794195ff-7c64.w.html	Create document properties	acr_edit_ed.xml	Creating document properties
+DocProp_GeneralInfo	WS58a04a822e3e50102bd615109794195ff-7c67.w.html	Document properties and metadata	acr_edit_ed.xml	(No topic assigned)
+DocProp_FontsInfo	WS58a04a822e3e50102bd615109794195ff-7f02.w.html	Accessing and embedding fonts using Distiller	acr_pdf_cr.xml	Accessing and embedding fonts
+DocProp_OpenInfo	WS58a04a822e3e50102bd615109794195ff-7c6c.w.html	Define an initial view	acr_edit_ed.xml	Initial View options for document properties
+DocProp_PDFInfo	WS58a04a822e3e50102bd615109794195ff-7c67.w.html	Document properties and metadata	acr_edit_ed.xml	(No topic assigned)
+DocProp_DocSecurity	WS58a04a822e3e50102bd615109794195ff-7d77.w.html	Securing PDFs	acr_security_se.xml	About document security
+Spelling_Edit	WS58a04a822e3e50102bd615109794195ff-7e36.w.html	Spell-check all text in comments	acr_comment_mm.xml	Using Help
+WebCapture_CreateWebPage	WS58a04a822e3e50102bd615109794195ff-7f67.w.html	Convert web pages to PDF in Acrobat	acr_pdf_cr.xml	Using Help
+Checkers_FullCheck	WS58a04a822e3e50102bd615109794195ff-7d28.w.html	Check accessibility with Full Check	acr_access_at.xml	Properties Inspector
+PI_MM_General	WSAAE7F6D1-75F3-42d7-B03D-0DB85AC36F8F.html	Play multimedia	acr_3d_3d.xml	Properties Inspector
+PI_MM_Player	WSAAE7F6D1-75F3-42d7-B03D-0DB85AC36F8F.html	Play multimedia	acr_3d_3d.xml	Properties Inspector
+PI_MM_Appearance	WS65B80E79-F165-44f0-BBCA-0F142A758696.html	Add multimedia to PDFs	acr_3d_3d.xml	Properties Inspector
+PI_MM_Settings	WS65B80E79-F165-44f0-BBCA-0F142A758696.html	Add multimedia to PDFs	acr_3d_3d.xml	Properties Inspector
+Dist_Application	WS58a04a822e3e50102bd615109794195ff-7f20.w.html	Creating PDFs with Acrobat Distiller	acr_pdf_cr.xml	Creating PDFs with Acrobat Distiller
+Dist_Application_Settings	WS58a04a822e3e50102bd615109794195ff-7f0f.w.html	Adobe PDF settings	acr_pdf_cr.xml	Using default Adobe PDF settings files
+Dist_Preference	WS58a04a822e3e50102bd615109794195ff-7f18.w.html	Distiller preferences	acr_pdf_cr.xml	Distiller preferences
+Dist_Security	WS58a04a822e3e50102bd615109794195ff-7d9c.w.html	Security	acr_security_se.xml	Password security options
+Dist_Watched_Folder	WS58a04a822e3e50102bd615109794195ff-7f16.w.html	About watched folders	acr_pdf_cr.xml	About watched folders
+Dist_Font_Location	WS58a04a822e3e50102bd615109794195ff-7f02.w.html	Accessing and embedding fonts using Distiller	acr_pdf_cr.xml	Adding and removing fonts
+PDFMaker_Settings	WS58a04a822e3e50102bd615109794195ff-7f4c.w.html	View PDFMaker conversion settings	acr_pdf_cr.xml	Editing PDFMaker conversion settings (Windows)
+PDFMaker_Embed_Video	WS4472373E-444B-480f-9D12-A9AAEEA0BE12.html	Insert video into Word, Excel, and PowerPoint files	acr_3d_3d.xml	Used for Insert Video button on PDFMaker in Office
+Elements_StartScreen	WS76F8368A-2F01-421d-9437-06EEB1C68BA4.html	Home Page	home.xml	Using Help
+Elements_Application	WS76F8368A-2F01-421d-9437-06EEB1C68BA4.html	Home Page	home.xml	Using Help
+Checkers_FullCheck	WS58a04a822e3e50102bd615109794195ff-7d28.w.html	Check accessibility with Full Check	acr_access_at.xml	Creating accessible PDFsPro and Std
+TouchUpReadingOrderDialog	WS58a04a822e3e50102bd615109794195ff-7d05.w.html	TouchUp Reading Order tool overview	acr_access_at.xml	Using the TouchUp Reading Order tool Pro
+Prefs_TrustManager	WS8084ADD0-83CB-43fe-B3CC-0D9AF9224C8C.w.html	Restrict URLs and attachments in PDFs	acr_security_se.xml	This should point to the start of the trust manager Help section
+Prefs_Multimedia_Trust	WS8C4E9FD1-01A7-4b36-B7A7-402EC9F5B83D.html	Multimedia Trust (Legacy)	acr_3d_3d.xml	For Preferences >Multimedia Trust (legacy)
+InternetAccess_TrustManager	WS8084ADD0-83CB-43fe-B3CC-0D9AF9224C8C.w.html	Restrict URLs and attachments in PDFs	acr_security_se.xml	This should point to the subsection for Internet Access fo the trust manager Help section
+FileAttachment_TrustManager	WS8084ADD0-83CB-43fe-B3CC-0D9AF9224C8C.w.html	Restrict URLs and attachments in PDFs	acr_security_se.xml	This should point to the subsection for FileAttachments of the trust manager help section.
+ExamineDocumentHelpMain	WS7E9FA147-10E3-4391-9CB6-6E44FBDA8856.w.html	Examine a PDF for hidden content	acr_security_se.xml	Examine Document
+PI_Forms_About_completing_Adobe_PDF_forms	WS58a04a822e3e50102bd615109794195ff-7dd2.w.html	Completing and submitting PDF forms	acr_forms_fo.xml	
+ConvertScannedPageToPDF	WS58a04a822e3e50102bd615109794195ff-7f71.w.html	Scan a paper document to PDF	acr_pdf_cr.xml	kAVHelp_PI_ScanToPDF
+DIg_CombineFiles	WS58a04a822e3e50102bd615109794195ff-7edb.w.html	Create merged PDFs	acr_combine_ca.xml	Std, Pro, 3D
+PI_Editor_GenHelp	WSdd9016941e183011-341ccc1712aae51c403-8000.html	Create a PDF from a blank page	acr_pdf_cr.xml	
+PI_Forms_Adhoc_CreateForm	WSDE7EF943-412C-4838-8F79-C104EB4BC8D3.html	Create form fields	acr_forms_fo.xml	
+PI_Forms_Adhoc_DataCollection	WSE8580964-0716-4452-BA8D-EA9AAD3F6091.html	Collecting and managing form data	acr_forms_fo.xml	
+PDFMaker_MailMerge	WSA2131EF1-0620-46e0-9A0C-74F28724D97E.w.html	Create PDFs from Word mail merges	acr_pdf_cr.xml	Hermant Dabral
+Layers_Import	WS26911E4D-D64D-434a-8811-9CB5C577BAB2.html	Import layers	acr_edit_ed.xml	
+Portfolios_About	WSA2872EA8-9756-4a8c-9F20-8E93D59D91CE.html	About PDF Portfolios	acr_combine_ca.xml	
+PDFMaker_Embed_Video	WS40411658-73C0-4669-88E8-D410F5993FAC.html	Convert Microsoft Word, PowerPoint, and Excel files to PDF	acr_pdf_cr.xml	
+PDFMaker_Outlook	WS9C160D36-D4E6-4ac5-B27E-48E2FF6CDE52.w.html	Convert email messages to PDFs	acr_pdf_cr.xml	
+Tracker_Overview	WSB56E4516-7B03-4089-B2FA-2FC453F4F21C.w.html	Tracker overview	acr_comment_mm.xml	
+Tracker_Corrupted_Workflow_State	http://www.adobe.com/go/kb403162	http://www.adobe.com/go/kb403162		Troubleshooting info
+Review_Start	WSA2EAE8A6-C9F1-4ad8-B644-9DEBDCA005A5.w.html	Start a shared review	acr_comment_mm.xml	
+RTC_Share	WSFF3DC42C-5715-46e4-BDA6-591681CAA6DE.html	File sharing and real-time collaboration	acr_comment_mm.xml	
+RTC_Collaborate	WS82A77713-15D7-48f4-9B19-3605F3A0AF5F.html	Collaborate with others in a PDF	acr_comment_mm.xml	
+Forms_Tools	WSF1C981EE-0C4E-4504-A020-9C874644A7DC.html	About form elements	acr_forms_fo.xml	
+Portfolios_Commands	http://help.adobe.com/en_US/acrobat/pro/using/WSD0B3523D-7041-42f5-88CE-40ABE1BA7FB0.html	Commands enabled in portfolios	/XML/en-us/Products/acrobat/pro/using/acr_combine_ca.xml	
+Forms_Reviews_Distribution	WSB7237F9D-E90A-4c6b-8C0D-58C7B2063B1D.w.html	Choosing a distribution option	acr_comment_mm.xml	
+Internal_Server	WSFD26FA71-D0C3-4797-AB9A-5D3AD4358EC8.w.html	Specify a server	acr_comment_mm.xml	
+EnhancedSecurity_WhatIsIt	WS0A9F02BE-0B04-4e37-B971-16EEB6FD318E.html	About Enhanced Security	acr_security_se.xml	Preferences > Security (Enhanced)
+WS168BBB9A-9A64-4ee7-B858-37A3259233A2	WS0A9F02BE-0B04-4e37-B971-16EEB6FD318E.html	About Enhanced Security	acr_security_se.xml	Bug fix, to adjust for a topic that was deleted after the Reader helpmap.txt was generated.
+Forms_Distribute	WSB53E4545-865B-4e2e-9C87-C98847DE53AC.html	Distribute forms	acr_forms_fo.xml	
+Dlg_BatesNumbering	WS6DE1E376-6A82-406c-A711-6C5E5207A1F2.w.html	Add a Bates numbering header or footer	acr_combine_ca.xml	
+Dist_Parm_Guide	http://www.adobe.com/go/learn_acr_distiller_parameters_en	http://www.adobe.com/go/learn_acr_distiller_parameters_en		Distiller Help menu
+PDFMark_Guide	http://www.adobe.com/go/learn_acr_pdfmark_en	http://www.adobe.com/go/learn_acr_pdfmark_en		Distiller Help menu
+Dlg_CombineFiles	WS58a04a822e3e50102bd615109794195ff-7edb.w.html	Create merged PDFs	acr_combine_ca.xml	
+AH_HOME	WS76F8368A-2F01-421d-9437-06EEB1C68BA4.html	Home	home.xml	Home Page for Pro

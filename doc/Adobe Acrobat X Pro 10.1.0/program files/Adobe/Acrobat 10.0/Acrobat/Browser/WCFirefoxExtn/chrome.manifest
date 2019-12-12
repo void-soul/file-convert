@@ -1,0 +1,38 @@
+binary-component components/WCFirefox4Extn.dll ABI=WINNT_x86-msvc
+binary-component components/WCFirefox4Extn.dylib ABI=Darwin_x86-gcc3
+binary-component components/WCFirefox4_x86_64Extn.dylib ABI=Darwin_x86_64-gcc3
+interfaces components/IWeb2PDFComponent.xpt
+content     web2pdfextension    jar:chrome/WCFirefoxExtn.jar!/chrome/content/
+overlay chrome://browser/content/browser.xul chrome://web2pdfextension/content/overlay_next.xul ABI=WINNT_x86-msvc appversion>=4.0
+overlay chrome://browser/content/browser.xul chrome://web2pdfextension/content/overlay_next.xul ABI=Darwin_x86-gcc3 appversion>=4.0
+overlay chrome://browser/content/browser.xul chrome://web2pdfextension/content/overlay_next.xul ABI=Darwin_x86_64-gcc3 appversion>=4.0
+overlay chrome://browser/content/browser.xul chrome://web2pdfextension/content/overlay.xul appversion<4.0
+skin web2pdfextension classic/1.0 jar:chrome/WCFirefoxExtn.jar!/chrome/skin/
+locale	web2pdfextension en-US jar:chrome/WCFirefoxExtn.jar!/chrome/locale/en_US/
+locale	web2pdfextension ar-AE jar:chrome/WCFirefoxExtn.jar!/chrome/locale/ar_AE/
+locale	web2pdfextension cs-CZ jar:chrome/WCFirefoxExtn.jar!/chrome/locale/cs_CZ/
+locale	web2pdfextension da-DK jar:chrome/WCFirefoxExtn.jar!/chrome/locale/da_DK/
+locale	web2pdfextension de-DE jar:chrome/WCFirefoxExtn.jar!/chrome/locale/de_DE/
+locale	web2pdfextension el-GR jar:chrome/WCFirefoxExtn.jar!/chrome/locale/el_GR/
+locale	web2pdfextension es-ES jar:chrome/WCFirefoxExtn.jar!/chrome/locale/es_ES/
+locale	web2pdfextension fi-FI jar:chrome/WCFirefoxExtn.jar!/chrome/locale/fi_FI/
+locale	web2pdfextension fr-FR jar:chrome/WCFirefoxExtn.jar!/chrome/locale/fr_FR/
+locale	web2pdfextension he-IL jar:chrome/WCFirefoxExtn.jar!/chrome/locale/he_IL/
+locale	web2pdfextension hr-HR jar:chrome/WCFirefoxExtn.jar!/chrome/locale/hr_HR/
+locale	web2pdfextension hu-HU jar:chrome/WCFirefoxExtn.jar!/chrome/locale/hu_HU/
+locale	web2pdfextension it-IT jar:chrome/WCFirefoxExtn.jar!/chrome/locale/it_IT/
+locale	web2pdfextension ja-JP jar:chrome/WCFirefoxExtn.jar!/chrome/locale/ja_JP/
+locale	web2pdfextension ko-KR jar:chrome/WCFirefoxExtn.jar!/chrome/locale/ko_KR/
+locale	web2pdfextension nb-NO jar:chrome/WCFirefoxExtn.jar!/chrome/locale/nb_NO/
+locale	web2pdfextension nl-NL jar:chrome/WCFirefoxExtn.jar!/chrome/locale/nl_NL/
+locale	web2pdfextension pl-PL jar:chrome/WCFirefoxExtn.jar!/chrome/locale/pl_PL/
+locale	web2pdfextension pt-BR jar:chrome/WCFirefoxExtn.jar!/chrome/locale/pt_BR/
+locale	web2pdfextension ro-RO jar:chrome/WCFirefoxExtn.jar!/chrome/locale/ro_RO/
+locale	web2pdfextension ru-RU jar:chrome/WCFirefoxExtn.jar!/chrome/locale/ru_RU/
+locale	web2pdfextension sk-SK jar:chrome/WCFirefoxExtn.jar!/chrome/locale/sk_SK/
+locale	web2pdfextension sl-SI jar:chrome/WCFirefoxExtn.jar!/chrome/locale/sl_SI/
+locale	web2pdfextension sv-SE jar:chrome/WCFirefoxExtn.jar!/chrome/locale/sv_SE/
+locale	web2pdfextension tr-TR jar:chrome/WCFirefoxExtn.jar!/chrome/locale/tr_TR/
+locale	web2pdfextension uk-UA jar:chrome/WCFirefoxExtn.jar!/chrome/locale/uk_UA/
+locale	web2pdfextension zh-CN jar:chrome/WCFirefoxExtn.jar!/chrome/locale/zh_CN/
+locale	web2pdfextension zh-TW jar:chrome/WCFirefoxExtn.jar!/chrome/locale/zh_TW/

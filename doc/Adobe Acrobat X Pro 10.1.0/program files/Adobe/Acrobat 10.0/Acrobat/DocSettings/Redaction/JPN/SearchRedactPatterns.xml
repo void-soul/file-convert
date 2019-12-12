@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+<set name="Entry1">
+<str name="displayName" translate="yes">
+<val>電話番号</val>
+</str>
+<str name="regEx" translate="yes">
+<val>(\b\s?)((\+)?[1-9]\d?[-\s\.](\([1-9]{2}\d{2}\)[-\s\.]?\d|\([1-9]{2}\d\)[-\s\.]?\d{2}|\([1-9]{2}\)[-\s\.]?\d{3}|\([1-9]\)[-\s\.]?[1-9]\d{3}|[1-9]{2}\d{2}[-\s\.]\d|[1-9]{2}\d[-\s\.]\d{2}|[1-9]{2}[-\s\.]\d{3}|[1-9][-\s\.][1-9]\d{3})[-\s\.]\d{4})|((\(0[1-9]{2}\d{2}\)[-\s\.]?\d|\(0[1-9]{2}\d\)[-\s\.]?\d{2}|\(0[1-9]{2}\)[-\s\.]?\d{3}|\(0[1-9]\)[-\s\.]?[1-9]\d{3}|0[1-9]{2}\d{2}[-\s\.]\d|0[1-9]{2}\d[-\s\.]\d{2}|0[1-9]{2}[-\s\.]\d{3}|0[1-9][-\s\.][1-9]\d{3})[-\s\.]\d{4})|((\(0[1-9]\d\)|0[1-9]\d)[-\s\.]?(\d{4}[-\s\.]\d{4}|\d{3}[-\s\.]\d{5}))|((\(0[1-9]\d0\)|0[1-9]\d0)[-\s\.]?\d{3}[-\s\.]\d{3})|(\d{1,4}[-\.]\d{4})(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>このパターンでは、記号で区切られた 5 ～ 8 桁の電話番号が、先頭の市外局番も含めて検索されます。
+
+例 :
+1234-5678
+03.1234.5678
+81 (3) 1234-5678</val>
+</str>
+</set>
+<set name="Entry2">
+<str name="displayName" translate="yes">
+<val>クレジットカード</val>
+</str>
+<str name="regEx" translate="yes">
+<val>(\b)(((\d{4}(-|\s|\.|_)?){3}(\d{3,4}))|(\d{4}(-|\s|\.|_)?\d{6}(-|\s|\.|_)?\d{5}))(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>このパターンでは、連続するか、または記号で区切られた 16 桁のクレジットカード番号が検索されます。
+
+例 :
+1234-5678-9012-3456
+1234567890123456
+1234 5678 9012 3456</val>
+</str>
+</set>
+<set name="Entry3">
+<str name="displayName" translate="yes">
+<val>社会保障番号 (米国)</val>
+</str>
+<str name="regEx" translate="yes">
+<val>(\b)((\d{3}(-|\s|\.|_)\d{2}(-|\s|\.|_)\d{4})|(\d{9}))(\b)</val>
+</str>
+<str name="examples" translate="yes">
+<val>このパターンでは、連続するか、または 3 桁、2 桁、4 桁に記号で区切られた 9 桁の社会保障番号が検索されます。
+
+例 :
+123-45-6789
+123456789</val>
+</str>
+</set>
+<set name="Entry4">
+<str name="displayName" translate="yes">
+<val>電子メールアドレス</val>
+</str>
+<str name="regEx" translate="yes">
+<val>([a-zA-Z0-9_])([a-zA-Z0-9_\-\.])*@([a-zA-Z\-])+\.([a-zA-Z\.]+)</val>
+</str>
+<str name="examples" translate="yes">
+<val>このパターンでは、電子メールアドレスが検索されます。
+
+例 :
+John.Doe@acme.com
+John_Doe_1234@acme.gov
+j-doe@marketing.acme.net</val>
+</str>
+</set>
+<set name="Entry5">
+<str name="displayName" translate="yes">
+<val>日付</val>
+</str>
+<str name="regEx" translate="yes">
+<val>((\b)(0?[1-9]|1[0-2])[-\./](0?[1-9]|[12]\d|3[01])([-\./]\d{2}(\d{2})?)?(\b))|((\b)(0?[1-9]|[12]\d|3[01])[-\./](0?[1-9]|1[0-2])([-\./]\d{2}(\d{2})?)?(\b))|((\b)([MTSH]\d{1,2}|\d{2}(\d{2})?)[-\./](0?[1-9]|1[0-2])[-\./](0?[1-9]|[12]\d|3[01])(\b))|((\b)(\d{2}(\d{2})?)[-\./](0?[1-9]|[12]\d|3[01])[-\./](0?[1-9]|1[0-2])(\b))|((明治|大正|昭和|平成)((\x20)?\d{1,2}(\x20)?|元)年(\x20)?(0?[1-9]|1[0-2])(\x20)?月(\x20)?(0?[1-9]|[12]\d|3[01])(\x20)?日)|((\d{1,2}(\d{2})?(\x20)?年(\x20)?)?(0?[1-9]|1[0-2])(\x20)?月(\x20)?(0?[1-9]|[12]\d|3[01])(\x20)?日)|((((明治|大正|昭和|平成)(元|一|二|三|四|五|六|七|八|九|十){1,3}|(一|二|三|四|五|六|七|八|九|〇|○){2,4})年)?(一|二|三|四|五|六|七|八|九|十|十一|十二)月(一|二|三|四|五|六|七|八|九|(二)?十(一|二|三|四|五|六|七|八|九)?|三十(一)?)日)|((\b)((0?[1-9]|[12]\d|3[01])(st|nd|rd|th)?[-\.\s/](jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)([-\.\s/,][-\.\s/]?\d{2}(\d{2})?)?)(\b))|((\b)(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)[-\.\s/](0?[1-9]|[12]\d|3[01])(st|nd|rd|th)?([-\.\s/,][-\.\s/]?\d{2}(\d{2})?)?(\b))</val>
+</str>
+<str name="examples" translate="yes">
+<val>数字の日 / 月 または月 / 日、および年 :
+01-01-08 12/31/08 31.12.2008
+
+数字の年、および日 / 月または月 / 日 :
+08-01-01 08/12/31 2008-12-31
+
+単語の月 :
+1st January 2008 1 Jan 08 January 1st 2008 Jan 1 08
+
+日本語の年 / 月 / 日 :
+2008年1月1日 平成20年12月31日 H20.12.31</val>
+</str>
+</set>
+</asf>

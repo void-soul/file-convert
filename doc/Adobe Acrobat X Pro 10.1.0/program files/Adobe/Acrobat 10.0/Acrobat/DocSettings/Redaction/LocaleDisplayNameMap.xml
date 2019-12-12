@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd">
+<asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+<locale name="ENU">English (US)</locale>
+<locale name="UK">English (UK)</locale>
+<locale name="CAN">English (CAN)</locale>
+<locale name="BGR">Bulgarian</locale>
+<locale name="PTB">Português Brasileiro</locale>
+<locale name="CHS">简体中文</locale>
+<locale name="CHT">繁體中文</locale>
+<locale name="CZE">Čeština</locale>
+<locale name="DAN">Dansk</locale>
+<locale name="NLD">Nederlands</locale>
+<locale name="ETI">Estonian</locale>
+<locale name="SUO">Suomi</locale>
+<locale name="FRA">Français</locale>
+<locale name="DEU">Deutsch</locale>
+<locale name="HRV">Hrvatski</locale>
+<locale name="HUN">Magyar</locale>
+<locale name="ITA">Italiano</locale>
+<locale name="JPN">日本語</locale>
+<locale name="KOR">韩文</locale>
+<locale name="LTH">Lithuanian</locale>
+<locale name="LVI">Latvian</locale>
+<locale name="NOR">Norsk</locale>
+<locale name="POL">Polski</locale>
+<locale name="RUM">Română</locale>
+<locale name="RUS">Русский</locale>
+<locale name="SKY">Slovenský</locale>
+<locale name="SLV">Slovenščina</locale>
+<locale name="ESP">Español</locale>
+<locale name="SVE">Svenska</locale>
+<locale name="TUR">Türkçe</locale>
+<locale name="UKR">Українська</locale>
+</asf>

@@ -1,0 +1,5 @@
+${InstanceManager}.addInstance(1);
+
+if (xfa.host.version < 8) {
+	xfa.form.recalculate(1);
+}

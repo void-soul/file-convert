@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V8.2.0.3024.1.444333" APIVersion="2.8.8024.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2008-01-26T16:24:56Z" uuid="2d075fab-55bc-4bff-9881-3b05398c512f">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
+   <?formServer defaultPDFRenderFormat acrobat9.0static?>
+   <subform>
+      <pageSet>
+         <pageArea>
+            <contentArea h="10.5in" w="8in" x="0.25in" y="0.25in"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <?templateDesigner expand 0?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform>
+         <variables>
+            <script contentType="application/x-javascript" name="countryScript">// This script object controls the interaction between the country and state/province Drop-down lists.
+
+// The array contains the country and the corresponding states/provinces.
+
+var myCountries = new Array(new Array(2), new Array(14), new Array(52)); // Create a two-dimensional array.
+														   				 // For each country, add a 'new Array(number of state/province +1)'.
+
+// Define the country and the corresponding states/provinces.
+// The array syntax is arrayName[index][index].
+// The first index number represents the country,
+// the second index number is the actual data value.
+
+myCountries[0][0] = " ";		// The first items in the Drop-dowm Lists should be blank.
+myCountries[0][1] = " ";
+myCountries[1][0] = "Canada";	// The first data value is the country name,
+myCountries[1][1] = "Alberta";	// the rest are states/provinces.
+myCountries[1][2] = "British Columbia";
+myCountries[1][3] = "Manitoba";
+myCountries[1][4] = "New Brunswick";
+myCountries[1][5] = "Newfoundland and Labrador";
+myCountries[1][6] = "Northwest Territories";
+myCountries[1][7] = "Nova Scotia";
+myCountries[1][8] = "Nunavut";
+myCountries[1][9] = "Ontario";
+myCountries[1][10] = "Prince Edward Island";
+myCountries[1][11] = "Quebec";
+myCountries[1][12] = "Saskatchewan";
+myCountries[1][13] = "Yukon";
+myCountries[2][0] = "United States";	// This is a new country, see how the first number is now [1].
+myCountries[2][1] = "Alabama";
+myCountries[2][2] = "Alaska";
+myCountries[2][3] = "Arizona";
+myCountries[2][4] = "Arkansas";
+myCountries[2][5] = "California";
+myCountries[2][6] = "Colorado";
+myCountries[2][7] = "Connecticut";
+myCountries[2][8] = "Delaware";
+myCountries[2][9] = "District of Columbia";
+myCountries[2][10] = "Florida";
+myCountries[2][11] = "Georgia";
+myCountries[2][12] = "Hawaii";
+myCountries[2][13] = "Idaho";
+myCountries[2][14] = "Illinois";
+myCountries[2][15] = "Indiana";
+myCountries[2][16] = "Iowa";
+myCountries[2][17] = "Kansas";
+myCountries[2][18] = "Kentucky";
+myCountries[2][19] = "Louisiana";
+myCountries[2][20] = "Maine";
+myCountries[2][21] = "Maryland";
+myCountries[2][22] = "Massachusetts";
+myCountries[2][23] = "Michigan";
+myCountries[2][24] = "Minnesota";
+myCountries[2][25] = "Mississippi";
+myCountries[2][26] = "Missouri";
+myCountries[2][27] = "Montana";
+myCountries[2][28] = "Nebraska";
+myCountries[2][29] = "Nevada";
+myCountries[2][30] = "New Hampshire";
+myCountries[2][31] = "New Jersey";
+myCountries[2][32] = "New Mexico";
+myCountries[2][33] = "New York";
+myCountries[2][34] = "North Carolina";
+myCountries[2][35] = "North Dakota";
+myCountries[2][36] = "Ohio";
+myCountries[2][37] = "Oklahoma";
+myCountries[2][38] = "Oregon";
+myCountries[2][39] = "Pennsylvania";
+myCountries[2][40] = "Rhode Island";
+myCountries[2][41] = "South Carolina";
+myCountries[2][42] = "South Dakota";
+myCountries[2][43] = "Tennessee";
+myCountries[2][44] = "Texas";
+myCountries[2][45] = "Utah";
+myCountries[2][46] = "Vermont";
+myCountries[2][47] = "Virginia";
+myCountries[2][48] = "Washington";
+myCountries[2][49] = "West Virginia";
+myCountries[2][50] = "Wisconsin";
+myCountries[2][51] = "Wyoming";
+
+
+// This function will populate the country Drop-down List.
+// This function is called from the initialize event of the country Drop-down List.
+
+function getCountries(dropdownField)
+{
+   dropdownField.clearItems();
+   for (var i=0; i &lt; myCountries.length; i++)
+      dropdownField.addItem(myCountries[i][0]);
+}
+
+// This function will populate the state/province Drop-down List for any event EXCEPT the change event. 
+// This function is called by the initialize event of the state/province Drop-down List.
+
+function getStates(countryField, dropdownField)
+{                                              
+   dropdownField.clearItems(); 							// Clear the items of the Drop-down List.
+   for (var i=0; i &lt; myCountries.length; i++) 			// Look through all the countries until we find the one that matches the country selected.
+      if(myCountries[i][0] == countryField.rawValue) 	// Check to see if they match.
+      {
+	     for (var j=1; j &lt; myCountries[i].length; j++) 	// When they match, add the states/provinces to the Drop-down List.
+		 {
+		    dropdownField.addItem(myCountries[i][j]);
+	  	 }
+	  }
+}
+
+// This function will populate the state/province Drop-down List for the change event. 
+// This function is called by the change event of the country Drop-down List.
+// The first parameter is simply a pointer to the xfa object model.
+
+function getStatesOther(myXfa, dropdownField) 
+{                                              
+   dropdownField.clearItems();							// Clear the items of the Drop-down list.
+   for (var i=0; i &lt; myCountries.length; i++)			// Look through all the countries until we find the one that matches the country selected.
+      if(myCountries[i][0] == myXfa.event.newText)		// Check to see if they match. Note: we have to use the event.newText in this case because
+	  {                                            		// the change hasn't been committed yet.
+	     for (var j=1; j &lt; myCountries[i].length; j++) 	// When they match, add the states/provinces to the Drop-down List.
+		 {
+		    dropdownField.addItem(myCountries[i][j]);
+ 		 }
+	  }
+}
+               
+               
+               
+               
+               <?templateDesigner isFragment yes?>
+               <?templateDesigner fragmentTitle countryScript?></script>
+            <?templateDesigner expand 1?></variables>
+         <?templateDesigner expand 1?></subform>
+      <?templateDesigner expand 1?>
+   </subform>
+   <?templateDesigner FormTargetVersion 28?>
+   <?templateDesigner Zoom 81?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.8/">
+   <agent name="designer">
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <version>1.7</version>
+         <adobeExtensionLevel>3</adobeExtensionLevel>
+      </pdf>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2-c026 1.124630, 2007/11/29-19:13:19        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xap="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xap:MetadataDate>2008-01-26T16:24:56Z</xap:MetadataDate>
+         <xap:CreatorTool>Adobe LiveCycle Designer ES 8.2</xap:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 8.2</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xapMM:DocumentID>uuid:2d075fab-55bc-4bff-9881-3b05398c512f</xapMM:DocumentID>
+      </rdf:Description>
+      <rdf:Description xmlns:lcd="http://ns.adobe.com/livecycle/designer/" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+         <lcd:fragmentCatalog>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <dc:title>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">countryScript</rdf:li>
+                     </rdf:Alt>
+                  </dc:title>
+                  <dc:description>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default"/>
+                     </rdf:Alt>
+                  </dc:description>
+                  <dc:identifier>$template.#subform.#subform[1].#variables.countryScript</dc:identifier>
+                  <lcd:fragmentRole>ScriptObject</lcd:fragmentRole>
+               </rdf:li>
+            </rdf:Seq>
+         </lcd:fragmentCatalog>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/"/></xdp:xdp>

@@ -1,0 +1,13 @@
+function DoSetFocusOnFirstFailedField(oRootSubform) {
+
+	if (xfa.host.name == "Acrobat") {
+	
+		var oInvalidNodes = oRootSubform.getInvalidObjects();
+		var nCount = oInvalidNodes.length;
+	
+		if (nCount > 0) {
+		
+			xfa.host.setFocus(oInvalidNodes.item(0));
+		}
+	}
+}

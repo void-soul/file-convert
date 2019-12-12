@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="pt_BR" version="1.0" xmlns="http://ns.adobe.com/asf">
+	
+	<set name="common">
+		<str name="adobeProduct" translate="yes">
+			<val>Produto Adobe</val>
+		</str>
+		<str name="adobeTrial" translate="yes">
+			<val>Avaliação de produto Adobe</val>
+		</str>
+		<str name="actPolicy" translate="yes">
+			<val>Política de ativação Adobe</val>
+		</str>
+	</set>
+
+	<set name="provision">
+		<str name="buy" translate="yes">
+			<val>COMPRAR AGORA</val>
+		</str>			
+		<str name="remain" translate="yes">
+			<val>DIAS RESTANTES</val>
+		</str>
+		<str name="authAdobeID" translate="yes">
+			<val>Autenticando ID Adobe...</val>
+		</str>
+	</set>
+
+	<set name="eula">
+		<str name="eula" translate="yes">
+			<val>Contrato de licença de software Adobe</val>
+		</str>
+		<str name="view" translate="yes">
+			<val>Exibir em:</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>ACEITAR</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>RECUSAR</val>
+		</str>		
+		<str name="quit" translate="yes">
+			<val>ENCERRAR</val>
+		</str>		
+	</set>
+
+	<set name="activate">
+		<str name="title" translate="yes">
+			<val>Ativação</val>
+		</str>
+		<str name="progress" translate="yes">
+			<val>Ativando...</val>
+		</str>			
+		<str name="fail" translate="yes">
+			<val>Falha na ativação</val>
+		</str>			
+		<str name="contact" translate="yes">
+			<val>Estamos contatando a Adobe para ativar esta cópia de {0} usando o número de série que você forneceu.</val>
+		</str>
+		<str name="contact_forced" translate="yes">
+			<val>Estamos contatando a Adobe para ativar esta cópia de {0}</val>
+		</str>
+		<str name="limit" translate="yes">
+			<val>Limite de ativação atingido para {0}.</val>
+		</str>	
+		<str name="already" translate="yes">
+			<val>Este número de série já foi ativado em 2 computadores.</val>
+		</str>
+		<str name="alreadyError" translate="yes">
+			<val>Este número de série já foi ativado em 2 computadores. Corrija este problema para continuar.</val>
+		</str>
+		<str name="retryOption" translate="yes">
+			<val>Tentar novamente a ativação. Já desativei um dos outros computadores.</val>
+		</str>	
+		<str name="provide" translate="yes">
+			<val>Forneça outro número de série para este produto.</val>
+		</str>	
+		<str name="buyWarning1" translate="yes">
+			<val>Se você escolher Lembrar-me depois, terá {0} dias para corrigir o problema ou o funcionamento do software será interrompido.</val>
+		</str>	
+		<str name="buyWarning2" translate="yes">
+			<val>Este será o último uso deste produto, a menos que o problema seja corrigido.</val>
+		</str>	
+		<str name="buyWarning3" translate="yes">
+			<val>Você deve corrigir este problema para continuar usando o produto.</val>
+		</str>	
+		<str name="buyWarningRefuse" translate="yes">
+			<val>Se você escolher Lembrar-me depois, será necessário corrigir este problema na próxima inicialização do produto.</val>
+		</str>	
+		<str name="buyWarningRefuse2" translate="yes">
+			<val>É necessário corrigir este problema para usar este produto.</val>
+		</str>
+		<str name="learn" translate="yes">
+			<val>Para saber mais sobre a ativação, consulte a {0}política de ativação da Adobe{1}.</val>
+		</str>	
+		<str name="invalid" translate="yes">
+			<val>Número de série inválido</val>
+		</str>	
+		<str name="sninvalid" translate="yes">
+			<val>Este número de série parece ser inválido.</val>
+		</str>	
+		<str name="hasfailure" translate="yes">
+			<val>Não foi possível ativar seu produto. Pressione Tentar novamente para repetir. Para obter mais informações, consulte a {0}política de ativação da Adobe{1}.</val>
+		</str>
+		<str name="hasfailure1" translate="yes">
+			<val>Não foi possível ativar seu produto. Pressione Tentar novamente. Para obter mais informações, consulte a {0}política de ativação da Adobe{1}.</val>
+		</str>
+		<str name="mustDeactivate" translate="yes">
+			<val>Para corrigir e ativar com êxito este produto, é necessário desativar uma das outras cópias ativadas.</val>
+		</str>	
+		<str name="howTo" translate="yes">
+			<val>Como desativar:</val>
+		</str>	
+		<str name="deactivateInstruct" translate="yes">
+			<val>Inicie uma das outras cópias de {0}, clique no menu Ajuda e selecione Desativar; em seguida, inicie esta cópia novamente. Se você já tiver desativado, tente novamente.</val>
+		</str>	
+		<str name="errorCode" translate="yes">
+			<val>Código de erro: {0}</val>
+		</str>
+		<str name="errorCode1" translate="yes">
+			<val>Código de erro: nº {0}</val>
+		</str>
+		<str name="success" translate="yes">
+			<val>Esta cópia de {0} foi ativada com êxito e já está pronta para uso.</val>
+		</str>
+		<str name="error" translate="yes">
+			<val>Conecte-se à Internet e pressione Continuar</val>
+		</str>			
+		<str name="assist" translate="yes">
+			<val>Suporte à conexão</val>
+		</str>			
+		<str name="try" translate="yes">
+			<val>TENTAR NOVAMENTE</val>
+		</str>			
+		<str name="later" translate="yes">
+			<val>ATIVAR MAIS TARDE</val>
+		</str>			
+		<str name="close" translate="yes">
+			<val>FECHAR</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>ENCERRAR</val>
+		</str>
+		<str name="done" translate="yes">
+			<val>CONCLUÍDO</val>
+		</str>
+		<str name="remind" translate="yes">
+			<val>LEMBRAR-ME DEPOIS</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>CONTINUAR</val>
+		</str>
+		<str name="retry" translate="yes">
+			<val>TENTAR NOVAMENTE</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>VOLTAR</val>
+		</str>			
+		<str name="errCode" translate="yes">
+			<val>Código de erro: </val>
+		</str>
+		<str name="unknownErr" translate="yes">
+			<val>Desconhecido</val>
+		</str>
+		<str name="serialError" translate="yes">
+			<val>Este número de série não é válido para este produto.</val>
+		</str>
+	</set>
+
+	<set name="trial">
+		<str name="title" translate="yes">
+			<val>Versão de avaliação de {0}</val>
+		</str>
+		<str name="serial" translate="yes">
+			<val>Forneça um número de série</val>
+		</str>
+		<str name="lang" translate="yes">
+			<val>Idioma:</val>
+		</str>	
+		<str name="trial" translate="yes">
+			<val>Continuar usando como versão de avaliação</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>CONTINUAR AVALIAÇÃO</val>
+		</str>
+		<str name="continueSerial" translate="yes">
+			<val>CONTINUAR</val>
+		</str>
+		<str name="start" translate="yes">
+			<val>INICIAR AVALIAÇÃO</val>
+		</str>
+		<str name="cancel" translate="yes">
+			<val>CANCELAR</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>ENCERRAR</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>IGNORAR</val>
+		</str>
+		<str name="serialError" translate="yes">
+			<val>Este número de série não é válido para este produto.</val>
+		</str>
+		<str name="instruct" translate="yes">
+			<val>É necessária uma ID Adobe para usar este software como versão de avaliação. Você terá 7 dias a partir do primeiro uso da avaliação para inserir uma ID Adobe.</val>
+		</str>			
+		<str name="locateTT" translate="yes">
+			<val>O número de série está localizado na parte posterior do estojo do DVD, no certificado de Licenciamento por Volume da Adobe ou no recibo enviado por email pela Adobe Store (apenas para compras por download).</val>
+		</str>
+		<str name="one" translate="yes">
+			<val>É permitido mais de um uso deste produto. Depois desse uso, você precisará inserir um número de série para continuar.</val>
+		</str>
+		<str name="nomore" translate="yes">
+			<val>Para converter esta versão de avaliação, compre o produto e insira o número de série.</val>
+		</str>
+		<str name="license" translate="yes">
+			<val>Contrato de licença de software Adobe</val>
+		</str>			
+		<str name="expire" translate="yes">
+			<val>Sua versão de avaliação expirou.</val>
+		</str>			
+		<str name="used" translate="yes">
+			<val>Este número de série será usado para: {0}</val>
+		</str>			
+		<str name="agree" translate="yes">
+			<val>De acordo com o Contrato de licença de software, o software tentará realizar a ativação automaticamente pela Internet. Para obter detalhes, consulte {0}www.adobe.com/go/activation_br{1}.</val>
+		</str>			
+	</set>
+
+	<set name="trialerror">
+		<str name="warning" translate="yes">
+			<val>Problema com a versão de avaliação.</val>
+		</str>
+		<str name="instruct" translate="yes">
+			<val>Houve um problema ao iniciar a versão de avaliação de {0}. Para continuar usando este produto, volte e insira o número de série.</val>
+		</str>
+	</set>
+
+	<set name="deactivate">
+		<str name="title" translate="yes">
+			<val>Desativação</val>
+		</str>
+		<str name="instruct" translate="yes">
+			<val>A desativação permite ativar seu produto Adobe em outro computador, desde que você esteja agindo de acordo com o {0}Contrato de licença de software{1}. Antes de desativar, certifique-se de que esteja conectado à Internet.</val>
+		</str>
+		<str name="button1" translate="yes">
+			<val>SUSPENDER ATIVAÇÃO</val>
+		</str>
+		<str name="button2" translate="yes">
+			<val>DESATIVAR DEFINITIVAMENTE</val>
+		</str>
+		<str name="tooltip1" translate="yes">
+			<val>Desativa seu produto sem remover o número de série.</val>
+		</str>
+		<str name="tooltip2" translate="yes">
+			<val>Desativa seu produto e remove o número de série.</val>
+		</str>	
+		<str name="progress" translate="yes">
+			<val>Desativando</val>
+		</str>
+		<str name="success" translate="yes">
+			<val>Desativação bem-sucedida.</val>
+		</str>
+		<str name="failure" translate="yes">
+			<val>A desativação não foi bem-sucedida. Tente novamente.</val>
+		</str>
+		<str name="retry" translate="yes">
+			<val>TENTAR NOVAMENTE</val>
+		</str>	
+		<str name="errorCode" translate="yes">
+			<val>Código de erro: nº {0}</val>
+		</str>
+		<str name="done" translate="yes">
+			<val>CONCLUÍDO</val>
+		</str>		
+		<str name="continue" translate="yes">
+			<val>CONTINUAR</val>
+		</str>		
+		<str name="cancel" translate="yes">
+			<val>CANCELAR</val>
+		</str>	
+	</set>
+
+	<set name="upgrade">
+		<str name="title" translate="yes">
+			<val>Inserir número de série para atualização</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>O número de série inserido é válido, mas não foi possível localizar um produto qualificado neste computador.</val>
+		</str>
+		<str name="instruct2" translate="yes">
+			<val>Para usar o número de série inserido para atualização, é necessário ter um destes produtos qualificados. Escolha o produto que você possui e insira seu número de série:</val>
+		</str>
+		<str name="serial" translate="yes">
+			<val>Número de série deste produto:</val>
+		</str>
+		<str name="selproduct" translate="yes">
+			<val>Selecionar um produto</val>
+		</str>		
+		<str name="trial" translate="yes">
+			<val>INSTALAR COMO VERSÃO DE AVALIAÇÃO</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Este número de série confirma {0}.</val>
+		</str>
+		<str name="second" translate="yes">
+			<val>Esta atualização requer um segundo produto qualificado. Selecione o segundo produto que você possui e insira seu número de série:</val>
+		</str>
+		<str name="nogood" translate="yes">
+			<val>Este número de série não é de um produto qualificado. Tente outro número.</val>
+		</str>
+		<str name="account" translate="yes">
+			<val>Se você já tiver registrado produtos, poderá acessar a {0}página de sua conta{1} para encontrar os números de série existentes.</val>
+		</str>
+		<str name="support" translate="yes">
+			<val>Para obter mais ajuda, contate o {0}suporte ao cliente{1}.</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>VOLTAR</val>
+		</str>
+		<str name="next" translate="yes">
+			<val>AVANÇAR</val>
+		</str>
+		<str name="selproduct" translate="yes">
+			<val>Selecionar um produto</val>
+		</str>
+	</set>
+	
+	<set name="upcode">
+		<str name="header" translate="yes">
+			<val>Insira seu código de atualização.</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Mediante solicitação, informe o código a seguir para o representante de atendimento:</val>
+		</str>
+		<str name="challenge" translate="yes">
+			<val>Código de desafio</val>
+		</str>
+		<str name="instruct2" translate="yes">
+			<val>Insira o código fornecido por seu representante de atendimento:</val>
+		</str>
+		<str name="support" translate="yes">
+			<val>Código de suporte</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>ENCERRAR</val>
+		</str>
+		<str name="next" translate="yes">
+			<val>AVANÇAR</val>
+		</str>
+		<str name="supportError" translate="yes">
+			<val>Código de suporte inválido</val>
+		</str>
+	</set>
+	
+	<set name="error">
+		<str name="title" translate="yes">
+			<val>O licenciamento deste produto parou de funcionar</val>
+		</str>
+		<str name="message" translate="yes">
+			<val>No momento, não é possível usar este produto. Você deve corrigir o problema desinstalando e instalando novamente este produto ou contatando o administrador de TI ou o suporte ao cliente da Adobe para obter ajuda.</val>
+		</str>
+		<str name="error" translate="yes">
+			<val>Código de erro: </val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>ENCERRAR</val>
+		</str>
+	</set>
+	
+	<set name="confirm">
+		<str name="sure" translate="yes">
+			<val>Tem certeza de que deseja fechar esta caixa de diálogo?</val>
+		</str>
+		<str name="eula" translate="yes">
+			<val>Tem certeza? Recusar o Contrato de licenciamento de usuário final (EULA) encerrará o aplicativo.</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>SIM</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>NÃO</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>Encerrar</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>Continuar</val>
+		</str>
+	</set>
+	
+	<set name="thanks">
+		<str name="title" translate="yes">
+			<val>Obrigado</val>
+		</str>
+		<str name="noservices" translate="yes">
+			<val>Introdução: produtos e serviços Adobe</val>
+		</str>
+		<str name="services" translate="yes">
+			<val>Introdução: produtos e serviços Adobe</val>
+		</str>
+		<str name="subscription_1_2" translate="no">
+			<val>Getting Started with your Acrobat X Subscription</val>
+		</str>
+		<str name="trialRegWithoutServices" translate="yes">
+			<val>Obrigado por fornecer sua ID Adobe e registrar seu software.</val>
+		</str>
+		<str name="trialRegWithServices" translate="yes">
+			<val>Fornecendo uma ID Adobe, você configurou o acesso aos serviços em Acrobat.com durante seu período de avaliação.</val>
+		</str>
+		<str name="regRegWithoutServices" translate="yes">
+			<val>Fornecendo uma ID Adobe, você registrou seu produto e agora tem acesso aos serviços online em Acrobat.com.</val>
+		</str>
+		<str name="regRegFailWithoutServices" translate="yes">
+			<val>Não foi possível registrar seu produto neste momento. Tente novamente mais tarde.</val>
+		</str>
+		<str name="regRegFailWithServices" translate="yes">
+			<val>Não foi possível iniciar sua assinatura Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="regRegIDCreate" translate="yes">
+			<val>Usamos sua ID Adobe para registrar seu software e configurar o acesso aos serviços em Acrobat.com.</val>
+		</str>
+		<str name="regRegIDUsed" translate="yes">
+			<val>Fornecendo uma ID Adobe, você registrou seu produto e agora tem acesso aos serviços online em Acrobat.com.</val>
+		</str>
+		<str name="regRegSubscription_1_2" translate="no">
+			<val>We've used your Adobe ID to set up your subscription and establish Acrobat.com services.</val>
+		</str>
+		<str name="userID" translate="yes">
+			<val>Sua ID Adobe é: {0}</val>
+		</str>
+		<str name="emailVerify" translate="yes">
+			<val>A confirmação de email é necessária para começar a usar os serviços em Acrobat.com. Verifique a sua caixa de entrada de email.</val>
+		</str>
+		<str name="profile" translate="yes">
+			<val>O perfil de sua ID Adobe está quase completo. Responda a {0}algumas perguntas simples{1} e ganhe um brinde gratuito da Adobe.</val>
+		</str>
+		<str name="video1" translate="yes">
+			<val>Exibir tutoriais de vídeo</val>
+		</str>
+		<str name="video2" translate="yes">
+			<val>Explorar serviços em Acrobat.com</val>
+		</str>
+		<str name="done" translate="yes">
+			<val>CONCLUÍDO</val>
+		</str>
+	</set>
+	
+	<set name="claimResponse">
+		<str name="code_" translate="yes">
+			<val/>
+		</str>
+		<str name="code_EXCEPTION_TRIAL_EXISTS_FOR_TRIALID" translate="yes">
+			<val>Você já se cadastrou em Acrobat.com. Faça logon para usar os serviços.</val>
+		</str>
+		<str name="code_EXCEPTION_TRIAL_SKU_LOOKUP_FAILED" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+
+		<str name="code_EXCEPTION_DECODE_FAILED" translate="yes">
+			<val>Número de série inválido. Não foi possível iniciar sua assinatura em Acrobat.com.</val>
+		</str>
+		<str name="code_EXCEPTION_NO_SUCH_USER" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_INVALID_DATA" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_WCD_TIMEOUT" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_SNSERVER_TIMEOUT" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_WCD_SESSION_TIMEOUT" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_INTERNAL_TIMEOUT" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_INTERNAL_SERVER_ERROR" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_SUBSCRIPTION_ALREADY_CLAIMED" translate="yes">
+			<val>Você já se inscreveu em Acrobat.com. Entre para usar os serviços.</val>
+		</str>
+		<str name="code_EXCEPTION_CLAIM_ALREADY_PROCESSED" translate="yes">
+			<val>Este número de série já tem uma assinatura associada em Acrobat.com. Faça logon para usar os serviços.</val>
+		</str>
+		<str name="code_ESS_TIMEOUT" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_ESS_FAILURE" translate="yes">
+			<val>Não foi possível iniciar sua assinatura em Acrobat.com. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_SYSTEM_UNAVAILABLE_noService_time" translate="yes">
+			<val>No momento, o servidor de registro da Adobe está em manutenção e deve estar disponível às {0}. Pedimos desculpas pelo inconveniente. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_SYSTEM_UNAVAILABLE_noService_noTime" translate="yes">
+			<val>No momento, o servidor de registro da Adobe está em manutenção. Pedimos desculpas pelo inconveniente. Tente novamente mais tarde.</val>
+		</str>
+		<str name="code_EXCEPTION_SYSTEM_UNAVAILABLE_Service_Time" translate="yes">
+			<val>No momento, o Acrobat.com está em manutenção e deve estar disponível em {0}. Pedimos desculpas por este inconveniente. Tente então novamente neste período.</val>
+		</str>
+		<str name="code_EXCEPTION_SYSTEM_UNAVAILABLE_Service_noTime" translate="yes">
+			<val>No momento, o Acrobat.com está em manutenção. Pedimos desculpas por este inconveniente. Tente novamente mais tarde.</val>
+		</str>
+	</set>
+	
+	<set name="bonus">
+		<str name="instruct" translate="yes">
+			<val>O número de série que você usou para ativar este produto expirou. Esta é a última oportunidade para iniciar o produto antes de ele ser automaticamente desativado. Para reativá-lo, será necessário fornecer um novo número de série ou iniciar uma avaliação na próxima inicialização.</val>
+		</str>
+		<str name="serial" translate="yes">
+			<val>Número de série de {0}</val>
+		</str>
+		<str name="purchase" translate="yes">
+			<val>Você pode comprar um novo número de série em Adobe.com.</val>
+		</str>
+		<str name="agree" translate="yes">
+			<val>De acordo com o Contrato de licença de software, o software tentará realizar a ativação automaticamente pela Internet. Para obter detalhes, consulte {0}www.adobe.com/go/activation_br{1}.</val>
+		</str>
+	</set>	
+
+	<set name="forced">
+		<str name="warning" translate="yes">
+			<val>Não é possível ativar {0}</val>
+		</str>
+		<str name="instruct" translate="yes">
+			<val>A ativação de produto é necessária para executar este produto. Para ativar seu produto, certifique-se de que você esteja conectado à Internet ou siga as etapas simples abaixo.</val>
+		</str>
+		<str name="rb1" translate="yes">
+			<val>Tente ativar novamente. Conecte-se à Internet para realizar a ativação.</val>
+		</str>
+		<str name="rb2" translate="yes">
+			<val>Contate o suporte ao cliente. Ative seu produto por telefone.</val>
+		</str>
+		<str name="rb3" translate="yes">
+			<val>Lembrar-me depois. Você terá {0} dias para concluir a ativação antes de o produto ser desabilitado.</val>
+		</str>
+		<str name="rb3B" translate="yes">
+			<val>É necessário ativar este produto antes de seu próximo uso.</val>
+		</str>
+	</set>	
+
+	<set name="phone">
+		<str name="header" translate="yes">
+			<val>Ativação por telefone</val>
+		</str>
+		<str name="instruct" translate="yes">
+			<val>Se não for possível acessar a Internet neste computador, contate o Suporte ao cliente para ativar o produto. Clique aqui para localizar o contato de {0}suporte ao cliente{1} mais próximo.</val>
+		</str>
+		<str name="require" translate="yes">
+			<val>Você precisará do seguinte para ativar:</val>
+		</str>
+		<str name="userSerial" translate="yes">
+			<val>O número de série inserido para este produto é:</val>
+		</str>
+		<str name="providedSerial" translate="yes">
+			<val>Insira um número de série ativado do suporte ao cliente:</val>
+		</str>
+	</set>
+	
+	<set name="subWelcome_1_2">
+		<str name="info" translate="no">
+			<val>To launch your product you will need a subscription serial number. Click SUBSCRIBE NOW if you are new to Creative Suite Subscriptions.</val>
+		</str>
+		<str name="current" translate="no">
+			<val>Current Subscribers</val>
+		</str>
+		<str name="currentInfo" translate="no">
+			<val>If you already have a Acrobat X Subscription Edition serial number, please click NEXT to enter it and begin. All current subscribers of Acrobat 9 Subscription Edition should have received an upgrade serial number via email.</val>
+		</str>
+		<str name="setUp" translate="no">
+			<val>Set up your new subscription account</val>
+		</str>
+		<str name="billing" translate="no">
+			<val>Subscription billing and management is handled through eSellerate, a third party provider.</val>
+		</str>
+		<str name="subscribeNow" translate="no">
+			<val>SUBSCRIBE NOW</val>
+		</str>
+		<str name="newPurchase" translate="no">
+			<val>All newly purchased subscriptions include a coupon code (located on the back of your disk) that you will be able to redeem to receive your first month of subscription for free.</val>
+		</str>
+		<str name="next" translate="no">
+			<val>NEXT</val>
+		</str>
+		<str name="quit" translate="no">
+			<val>QUIT</val>
+		</str>
+	</set>
+
+	<set name="subMain_1_2">
+		<str name="subscribeNow" translate="no">
+			<val>SUBSCRIBE NOW</val>
+		</str>
+		<str name="subscriptionInfo" translate="no">
+			<val>Subscription billing and management is handled through eSellerate, a third party provider.</val>
+		</str>
+		<str name="expiredInfo" translate="no">
+			<val>To use the product you will need to purchase a subscription through eSellerate.</val>
+		</str>
+	</set>
+	
+	<set name="claimResponse_1_2">
+		<str name="code_" translate="no">
+			<val/>
+		</str>
+		<str name="code_EXCEPTION_DECODE_FAILED" translate="no">
+			<val>Invalid serial number. Could not start your Acrobat X subscription.</val>
+		</str>
+		<str name="code_EXCEPTION_NO_SUCH_USER" translate="no">
+			<val>Could not start your Acrobat X subscription. Try again later.</val>
+		</str>
+		<str name="code_EXCEPTION_INVALID_DATA" translate="no">
+			<val>Could not start your Acrobat X subscription. Try again later.</val>
+		</str>
+		<str name="code_EXCEPTION_WCD_TIMEOUT" translate="no">
+			<val>Could not start your Acrobat X subscription. Try again later.</val>
+		</str>
+		<str name="code_EXCEPTION_SNSERVER_TIMEOUT" translate="no">
+			<val>Could not start your Acrobat X subscription. Try again later.</val>
+		</str>
+		<str name="code_EXCEPTION_WCD_SESSION_TIMEOUT" translate="no">
+			<val>Could not start your Acrobat X subscription. Try again later.</val>
+		</str>
+		<str name="code_EXCEPTION_INTERNAL_TIMEOUT" translate="no">
+			<val>Could not start your Acrobat X subscription. Try again later.</val>
+		</str>
+		<str name="code_EXCEPTION_INTERNAL_SERVER_ERROR" translate="no">
+			<val>Could not start your Acrobat X subscription. Try again later.</val>
+		</str>
+		<str name="code_ESS_TIMEOUT" translate="no">
+			<val>Could not start your Acrobat X subscription. Try again later.</val>
+		</str>
+		<str name="code_ESS_FAILURE" translate="no">
+			<val>Could not start your Acrobat X subscription. Try again later.</val>
+		</str>
+		<str name="code_EXCEPTION_SYSTEM_UNAVAILABLE" translate="no">
+			<val>We are currently undergoing maintenance. We apologize for this inconvenience. Please try again later to start your subscription.</val>
+		</str>
+	</set>
+
+	<set name="subError_1_2">
+		<str name="associateFailed" translate="no">
+			<val>We are unable to activate your product at this time. You can hit the Back button to try to activate the product again, or to attempt to launch the product in trial mode.</val>
+		</str>
+		<str name="associateFailed_ID" translate="no">
+			<val>We are unable to activate your product at this time. You can hit the Back button to try to activate the product again.</val>
+		</str>
+		<str name="assocUserNotAuthErr" translate="no">
+			<val>The Adobe ID you entered is different than the Adobe ID used to originally activate this subscription. You can hit the Back button to try to activate the product again using a different Adobe ID, or to activate the product using a new subscription serial number.</val>
+		</str>
+		<str name="assocUserNotAuthErr_ID" translate="no">
+			<val>The Adobe ID you entered is different than the Adobe ID used to originally activate this subscription. You can hit the Back button to try to activate the product again using a different Adobe ID.</val>
+		</str>
+		<str name="checkEntitlementFailed" translate="no">
+			<val>We are unable to activate your product at this time. Please try again later.</val>
+		</str>
+		<str name="disAllIntervalErr" translate="no">
+			<val>You have exceeded the maximum number of deactivation attempts allowed in this time period. Please try again later.</val>
+		</str>
+	</set>
+
+	<set name="subExpired_1_2">
+		<str name="instruct_exp" translate="no">
+			<val>The serial number you used to purchase this product has expired. If you did not intend to let your Design Premium subscription expire, please call Adobe Customer Care at 
+1800-614-863 to resolve the issue.</val>
+		</str>
+		<str name="instruct_bonus" translate="no">
+			<val>The serial number you used to purchase this product has expired. This is your last opportunity to launch the product before it is automatically deactivated. To reactivate, you must provide a new serial number now. If not, your next launch will start  in trial mode and you can provide a new serial number at that time. If you did not intend to let your Design Premium subscription expire, please call Adobe Customer Care at 1800-614-863 to resolve the issue.</val>
+		</str>
+		<str name="serial" translate="no">
+			<val>Serial number for {0}</val>
+		</str>
+		<str name="purchase" translate="no">
+			<val>You can purchase a new subscription serial number through eSellerate, a third party provider.</val>
+		</str>
+		<str name="back" translate="no">
+			<val>BACK</val>
+		</str>
+		<str name="continue" translate="no">
+			<val>CONTINUE</val>
+		</str>
+		<str name="subscribeNow" translate="no">
+			<val>SUBSCRIBE NOW</val>
+		</str>
+	</set>
+	
+	<set name="subOverAct_1_2">
+		<str name="disassociate" translate="no">
+			<val>Deactivate all computers and retry activation. You will be able to reactivate on one of your other computers by logging in with your AdobeID at product launch.</val>
+		</str>
+		<str name="provide" translate="no">
+			<val>Provide another serial number for this product.</val>
+		</str>
+		<str name="subscribeNow" translate="no">
+			<val>SUBSCRIBE NOW</val>
+		</str>
+		<str name="back" translate="no">
+			<val>BACK</val>
+		</str>
+		<str name="continue" translate="no">
+			<val>CONTINUE</val>
+		</str>
+	</set>
+	
+	<set name="subConErr_1_2">
+		<str name="title" translate="no">
+			<val>Verifying Subscription Status</val>
+		</str>
+		<str name="progress" translate="no">
+			<val>Verifying Subscription Status...</val>
+		</str>
+		<str name="contact" translate="no">
+			<val>We need to contact Adobe Servers every thirty days to validate the status of your Design Premium subscription. In order to conduct this validation you must be connected to the internet. After we have verified your status, you can disconnect from the internet.</val>
+		</str>
+		<str name="contactExp" translate="no">
+			<val>We need to contact Adobe Servers every thirty days to validate the status of your Design Premium subscription. In order to conduct this validation you must be connected to the internet. After we have verified your status, you can disconnect from the internet. If you do not successfully connect to the internet, this will be the last time you will be able to launch your product offline.</val>
+		</str>
+		<str name="error" translate="no">
+			<val>Please connect to the Internet, then press Continue</val>
+		</str>			
+		<str name="assist" translate="no">
+			<val>Connection Support</val>
+		</str>			
+		<str name="continue" translate="no">
+			<val>CONTINUE</val>
+		</str>
+	</set>
+
+	<set name="isoToLanguage">
+								<str name="ar_AE" translate="no"><val>العربية</val></str>
+		<str name="en_GB" translate="no"><val>English (International)</val></str> 
+		<str name="fr_CA" translate="no"><val>Français canadien</val></str>
+		<str name="es_QM" translate="no"><val>Español (Middle East)</val></str>
+		<str name="es_LA" translate="no"><val>Español de América Latina</val></str>
+		<str name="es_NA" translate="no"><val>Español Norteamericano</val></str>
+		<str name="bg_BG" translate="no"><val>Български</val></str>
+		<str name="lv_LV" translate="no"><val>Latviešu</val></str>
+		<str name="et_EE" translate="no"><val>Eesti</val></str>
+		<str name="hr_HR" translate="no"><val>hrvatski</val></str>
+		<str name="sl_SI" translate="no"><val>slovenčina</val></str>
+		<str name="sk_SK" translate="no"><val>slovenčina</val></str>
+		<str name="th_TH" translate="no"><val>ภาษาไทย</val></str> 
+		<str name="vi_VN" translate="no"><val>Việt</val></str>
+		<str name="en_XC" translate="no"><val>English (Central Europe)</val></str> 
+		<str name="en_XM" translate="no"><val>English (Middle East)</val></str>
+		<str name="fr_XM" translate="no"><val>Français Oriental Moyen</val></str>
+		<str name="sq_AL" translate="no"><val>Shqip</val></str> 
+								<str name="ar_SA" translate="no"><val>العربية</val></str>
+		<str name="be_BY" translate="no"><val>Беларуская</val></str> 
+		<str name="ca_ES" translate="no"><val>Català</val></str> 
+								<str name="hi_IN" translate="no"><val>हिन्दी</val></str>
+		<str name="is_IS" translate="no"><val>Íslenska</val></str> 
+		<str name="lt_LT" translate="no"><val>Lietuvių</val></str>
+		<str name="mk_MK" translate="no"><val>македонски</val></str>
+		<str name="nn_NO" translate="no"><val>Norsk (Nynorsk)</val></str>
+		<str name="pt_PT" translate="no"><val>Português de Portugal</val></str> 
+		<str name="sh_YU" translate="no"><val>Srpsko-Hrvatski</val></str> 
+		<str name="sr_YU" translate="no"><val>Cрпски</val></str> 
+		<str name="kk_KZ" translate="no"><val>Қазақ</val></str>
+		<str name="az_AZ" translate="no"><val>Azərbaycan dili</val></str> 
+		<str name="es_MX" translate="no"><val>Español (América Latina)</val></str>
+		<str name="no_NO" translate="no"><val>Norwegian</val></str> 
+		<str name="cs_CZ" translate="no"><val>Česky</val></str>
+		<str name="de_DE" translate="no"><val>Deutsch</val></str>
+		<str name="el_GR" translate="no"><val>Ελληνικά</val></str>
+		<str name="en_US" translate="no"><val>English (North America)</val></str> 
+		<str name="es_ES" translate="no"><val>Español</val></str> 
+		<str name="fr_FR" translate="no"><val>Français</val></str>
+								<str name="he_IL" translate="no"><val>עברית</val></str> 
+		<str name="hu_HU" translate="no"><val>Magyar</val></str> 
+		<str name="it_IT" translate="no"><val>Italiano</val></str>
+		<str name="ja_JP" translate="no"><val>日本語</val></str>
+		<str name="ko_KR" translate="no"><val>한국어</val></str>
+		<str name="nl_NL" translate="no"><val>Nederlands</val></str>
+		<str name="pl_PL" translate="no"><val>Polski</val></str>
+		<str name="ro_RO" translate="no"><val>Română</val></str>
+		<str name="ru_RU" translate="no"><val>Pусский</val></str>
+		<str name="sv_SE" translate="no"><val>Svenska</val></str>
+		<str name="tr_TR" translate="no"><val>Türkçe</val></str>
+		<str name="uk_UA" translate="no"><val>Українська</val></str>
+		<str name="zh_CN" translate="no"><val>简体中文</val></str>
+		<str name="zh_TW" translate="no"><val>繁體中文</val></str>
+		<str name="da_DK" translate="no"><val>Dansk</val></str>
+		<str name="fi_FI" translate="no"><val>Suomi</val></str>
+		<str name="nb_NO" translate="no"><val>Norsk (Bokmål)</val></str> 
+		<str name="pt_BR" translate="no"><val>Português do Brasil</val></str>
+	</set>
+		
+</asf>

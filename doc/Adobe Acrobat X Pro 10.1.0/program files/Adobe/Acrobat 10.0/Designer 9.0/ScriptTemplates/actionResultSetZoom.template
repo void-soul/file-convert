@@ -1,0 +1,4 @@
+<#if fitW>event.target.zoomType = zoomtype.fitW;</#if>
+<#if fitH>event.target.zoomType = zoomtype.fitH;</#if>
+<#if fitP>event.target.zoomType = zoomtype.fitP;</#if>
+<#if percent>event.target.zoom = ${percent};</#if>

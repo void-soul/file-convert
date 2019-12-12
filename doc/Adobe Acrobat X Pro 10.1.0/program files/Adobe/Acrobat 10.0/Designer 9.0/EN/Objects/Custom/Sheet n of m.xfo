@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Sheet n of m</text>
+               <text name="description">Sheet n of m - Displays the current sheet and total sheet count of the form at run time (Sheet 1 of 30).</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field h="7.5mm" name="CurrentSheet" presence="hidden" w="55mm" x="0mm" y="0mm" access="readOnly" id="floatingField025865_copy1">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="20mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event name="event__layout_ready" activity="ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.sheet(this)+1;</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder #?>
+            </field>
+            <field h="7.5mm" name="SheetCount" presence="hidden" w="55mm" x="0mm" y="0mm" access="readOnly" id="floatingField015021_copy1">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="20mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event name="event__layout_ready" activity="ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.sheetCount();</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder ##?>
+            </field>
+            <draw name="Sheets" x="0mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData contentType="text/html" maxLength="0">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.8.7309.0"><p>Sheet<span style="xfa-spacerun:yes"> </span><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField025865"/> of<span style="xfa-spacerun:yes"> </span><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField015021"/></p></body>
+                  </exData>
+               </value>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <para vAlign="middle"/>
+            </draw>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

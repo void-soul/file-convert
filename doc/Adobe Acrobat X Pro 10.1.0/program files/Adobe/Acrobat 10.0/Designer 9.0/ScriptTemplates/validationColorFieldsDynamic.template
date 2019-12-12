@@ -1,0 +1,188 @@
+function InitializeColorFields() {
+
+	// Disable Acrobat's field highlighting. The Color
+	// Failed Fields action takes care of highlighting fields.
+	if (xfa.host.name == "Acrobat") {
+		app.runtimeHighlight = false;
+	}
+}
+
+function DoColorFields(oInvalidNode) {
+
+	// If this form is running on a client other than Acrobat
+	// (like on the server) then don't run this script
+	if (xfa.host.name != "Acrobat") {
+
+		return;
+	}
+
+	var sClassName = oInvalidNode.className;
+	
+	// Only color nodes that are <field>s or <exclGroup>s
+	// Ignore everything else
+	if ((sClassName != "field") && 
+	    (sClassName != "exclGroup")) {
+
+		return;
+	}
+
+	// If the node is a <field> that is a button or a barcode, then don't
+	// do any color processing
+	if (sClassName == "field") {
+
+		var sUIClassName = oInvalidNode.ui.oneOfChild.className;
+		
+		if ((sUIClassName == "barcode") || 
+		    (sUIClassName == "button")) {
+
+			return;
+		}
+	}
+
+<#if ColorFailed>
+	if (oInvalidNode.errorText == "") {
+</#if><#if ColorMandatory>
+	if ((oInvalidNode.errorText == "") &&
+	    (oInvalidNode.validate != null) && 
+	    (oInvalidNode.validate.getAttribute("nullTest") == "error")) {
+</#if><#if ColorBoth>
+	if (oInvalidNode.errorText == "") {
+</#if>
+
+		// Validation Succeeded
+		// Revert the appearance to its original state
+		var oBorder = sClassName == "field" ? oInvalidNode.ui.oneOfChild.border : oInvalidNode.border;
+		oBorder.parent.nodes.remove(oBorder);				
+
+		// Remove the tool tip if it wasn’t originally specified
+		var sSOM = oInvalidNode.somExpression;
+		sSOM = sSOM.replace("xfa[0].form[0]", "xfa[0].template[0]");
+		
+		var oOriginalNode = xfa.resolveNode(sSOM);
+		var oOriginalAssist = oOriginalNode.assist;
+		
+		if (!oOriginalAssist.isPropertySpecified("toolTip")) {
+
+			var oToolTip = oInvalidNode.assist.toolTip;
+			oInvalidNode.assist.nodes.remove(oToolTip);
+		}
+	}
+<#if ColorFailed>
+	else {
+</#if><#if ColorMandatory>
+	else if ((oInvalidNode.validate != null) &&
+	         (oInvalidNode.validate.getAttribute("nullTest") == "error")) {
+</#if><#if ColorBoth>
+	else {
+</#if>
+
+		// Validation Failed
+		// Show the invalid appearance
+		var oFailedBorder = sClassName == "field" ? oInvalidNode.ui.oneOfChild.border : oInvalidNode.border;
+
+<#if SetBorderColor>
+		// Border color
+		// Show a solid border with square corners
+<#if ColorFailed>
+		var sBorderColor = "${FailedBorderColor}";
+</#if><#if ColorMandatory>
+		var sBorderColor = "${MandatoryBorderColor}";
+</#if><#if ColorBoth>
+		var sBorderColor;
+
+		if ((oInvalidNode.validate != null) && 
+		    (oInvalidNode.validate.getAttribute("nullTest") == "error") &&
+		    (oInvalidNode.rawValue == null || oInvalidNode.rawValue.toString() == "")) {
+
+			sBorderColor = "${MandatoryBorderColor}";
+		}
+		else {
+
+			sBorderColor = "${FailedBorderColor}";
+		}
+
+		if (sBorderColor != "none") {
+</#if>		
+<#if ColorBoth>	</#if>		oFailedBorder.presence = "visible";
+			
+<#if ColorBoth>	</#if>		for (var i = 0; i < 4; i++) {
+
+<#if ColorBoth>	</#if>			var oEdge = oFailedBorder.getElement("edge", i);
+				
+<#if ColorBoth>	</#if>			oEdge.presence = "visible";
+<#if ColorBoth>	</#if>			oEdge.color.value = sBorderColor;
+<#if ColorBoth>	</#if>			oEdge.thickness = "2pt";
+<#if ColorBoth>	</#if>			oEdge.stroke = "solid";
+				
+<#if ColorBoth>	</#if>			var oCorner = oFailedBorder.getElement("corner", i);
+		
+<#if ColorBoth>	</#if>			oCorner.presence = "visible";
+<#if ColorBoth>	</#if>			oCorner.color.value = sBorderColor;
+<#if ColorBoth>	</#if>			oCorner.thickness = "2pt";
+<#if ColorBoth>	</#if>			oCorner.stroke = "solid";
+<#if ColorBoth>	</#if>			oCorner.join = "square";
+<#if ColorBoth>	</#if>			oCorner.inverted = "0";
+<#if ColorBoth>	</#if>			oCorner.radius = "0mm";
+<#if ColorBoth>	</#if>		}
+<#if ColorBoth>
+		}
+</#if></#if> 
+<#if SetBGColor>
+		// Background color
+		// Show a solid fill color
+<#if ColorFailed>
+		oFailedBorder.fill.color.value = "${FailedBackgroundColor}";
+</#if><#if ColorMandatory>
+		oFailedBorder.fill.color.value = "${MandatoryBackgroundColor}";
+</#if><#if ColorBoth>
+		var sFillColor;
+		
+		if ((oInvalidNode.validate != null) &&
+		    (oInvalidNode.validate.getAttribute("nullTest") == "error") &&
+		    (oInvalidNode.rawValue == null || oInvalidNode.rawValue.toString() == "")) {
+
+			sFillColor = "${MandatoryBackgroundColor}";
+		}
+		else {
+
+			sFillColor = "${FailedBackgroundColor}";
+		}
+
+		if (sFillColor != "none") {
+</#if>
+
+<#if ColorBoth>	</#if>		// The presence of the border must be visible to show the fill.
+<#if ColorBoth>	</#if>		// Hide the edges when the invalid appearance doesn't include
+<#if ColorBoth>	</#if>		// changing the border color
+<#if ColorBoth>	</#if>		if (oFailedBorder.presence != "visible") {
+
+<#if ColorBoth>	</#if>			oFailedBorder.presence = "visible";
+<#if ColorBoth>	</#if>			oFailedBorder.edge.presence = "invisible";
+<#if ColorBoth>	</#if>		}
+			
+<#if ColorBoth>	</#if>		// Replace the current fill type with a solid fill
+<#if ColorBoth>	</#if>		if (oFailedBorder.fill.oneOfChild.className != "solid") {
+
+<#if ColorBoth>	</#if>			var oFailedFillType = oFailedBorder.fill.oneOfChild;
+<#if ColorBoth>	</#if>			oFailedBorder.fill.nodes.remove(oFailedFillType);
+				
+<#if ColorBoth>	</#if>			var oSolid = xfa.form.createNode("solid", "");			
+<#if ColorBoth>	</#if>			oFailedBorder.fill.nodes.append(oSolid);
+<#if ColorBoth>	</#if>		}
+<#if ColorBoth>
+			oFailedBorder.fill.color.value = sFillColor;
+		}
+</#if></#if>
+		// Tool Tip
+		// If a tool tip isn't specified, populate the tool tip
+		// with the validation message
+		var oAssist = oInvalidNode.assist;
+		
+		if (!oAssist.isPropertySpecified("toolTip")) {
+
+			var oFailedToolTip = xfa.form.createNode("toolTip");
+			oAssist.nodes.append(oFailedToolTip);
+			oAssist.toolTip.value = oInvalidNode.errorText;
+		}
+	}
+}

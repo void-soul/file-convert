@@ -1,0 +1,6 @@
+.end
+# AcroscanOptionsNew.txt
+# Acrobat X, 08/26/2010
+# 
+# This file controls Acrobat's optimization of scanned PDFs.
+

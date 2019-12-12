@@ -1,0 +1,4 @@
+<cross-domain-policy>
+  <allow-access-from domain="PUT YOUR SERVER HOST URL HERE" />
+  <site-control permitted-cross-domain-policies="master-only"/>
+</cross-domain-policy>

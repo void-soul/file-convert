@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Subform</text>
+               <text name="description">Subform - An area that encloses groups of objects including fields, boilerplate objects, and other subforms.</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <subform name="Subform" x="0mm" y="0mm" w="100mm" h="50mm"/>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

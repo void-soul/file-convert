@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="cs_CZ" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>cs_CZ</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>DALŠÍ</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>ZPĚT</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>KONEC</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>KONEC</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>ZASTAVIT</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>POKRAČOVAT</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>ODMÍTNOUT</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>PŘIJMOUT</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>INSTALOVAT</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>ODINSTALOVAT</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>VYTVOŘIT</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Pokračovat</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>ANO</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>NE</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>Zrušit</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>ZAVŘÍT</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>ODESLAT</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>PŘESKOČIT</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Zaregistrujte svůj software</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Registrace produktů a služeb</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Chcete-li si zaregistrovat software a nastavit přístup k online službám {0}Acrobat.com{1}, zadejte nebo vytvořte svůj identifikátor Adobe ID.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Získejte přístup k podpoře produktu a k exkluzivním výhodám, jako jsou bulletiny, publikace a pozvání na akce a semináře pořádané společností Adobe. Chcete-li si zaregistrovat software, zadejte nebo vytvořte svůj identifikátor Adobe ID.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Identifikátor Adobe ID je nutný pro používání tohoto softwaru v režimu zkušební verze a pro nastavení přístupu k online službám {0}Acrobat.com{1} v průběhu zkušebního období. Svůj identifikátor Adobe ID budete muset zadat do 7 dní od prvního spuštění zkušební verze.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Chcete-li si zaregistrovat software, zadejte nebo vytvořte svůj identifikátor Adobe ID.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Identifikátor Adobe ID potřebujete k tomu, abyste mohli využívat své předplatné pro přístup k online službám na webu {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Tento počítač byl deaktivován. Musíte se přihlásit pomocí svého identifikátoru Adobe ID a znovu aktivovat své předplatné na tomto počítači.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_cz</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Pro jeho vytvoření stačí zadat e-mailovou adresu a heslo.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Potřebujete identifikátor Adobe ID?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>VYTVOŘIT IDENTIFIKÁTOR ADOBE ID</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>Máte již identifikátor Adobe ID?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>E-mailová adresa (Adobe ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Heslo</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>Zapomněli jste heslo?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_cz</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Abyste mohli využívat služby Acrobat.com, musíte zadat svůj identifikátor Adobe ID a souhlasit s příslušnými Podmínkami použití. Pokud nyní nezadáte svůj Adobe ID, může být jakékoli bezplatné období předplatného zkráceno.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Aby bylo možné vytvořit vaše předplatné pro Acrobat a zahájit bezplatný náhled služeb webu Acrobat.com, musíte zadat identifikátor Adobe ID a souhlasit s platnými podmínkami používání.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>PŘESKOČIT TENTO KROK</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Zadejte e-mailovou adresu spojenou s vaším identifikátorem Adobe ID.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Je vyžadováno heslo</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>Nezdařilo se připojit. Opakovat akci.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Identifikátor Adobe ID a heslo se neshodují</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Vytvořit identifikátor Adobe ID</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Vytvořením identifikátoru Adobe ID si registrujete svůj software a nastavíte přístup k online službám Acrobat.com. Všechna pole jsou vyžadována.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Vytvořením identifikátoru Adobe ID si registrujete svůj software. Všechna pole jsou vyžadována.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Vytvoření identifikátoru Adobe ID nastaví přístup ke službám Acrobat.com během zkušebního období a informuje nás o vašem zájmu o tento produkt. Všechna pole jsou vyžadována.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Vytvoření identifikátoru Adobe ID nás informuje o vašem zájmu o tento produkt. Všechna pole jsou vyžadována.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Identifikátor Adobe ID potřebujete k tomu, abyste mohli využívat své předplatné aplikace Acrobat pro přístup k online službám na webu {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>E-mailová adresa (Adobe ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Heslo</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Zadejte heslo znovu</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Jméno</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Příjmení</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>Země/oblast</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Informujte mne o společnosti Adobe a jejích produktech a službách, včetně uvedení a aktualizací produktů, akcí, průzkumů a nabídek.  Mé údaje budou použity společností Adobe a jejími zástupci v souladu s {0}Online zásadami ochrany osobních údajů společnosti Adobe{1}.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_cz</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_cz</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_cz</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Ano</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>Ne</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Vybrat</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Je třeba zadat heslo (6-12 znaků)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>Toto není platná e-mailová adresa.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Hesla nesouhlasí.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>Je třeba zadat jméno.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Je třeba zadat příjmení.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>Musíte vybrat zemi/oblast.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Tento identifikátor Adobe ID je již přiřazen k jinému předplatnému. Vytvořte si nový identifikátor Adobe ID nebo se přihlaste s jiným identifikátorem Adobe ID.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>Beru na vědomí, že v souladu s {0}Online zásadami ochrany osobních údajů společnosti Adobe{1} mohou společnost Adobe, její sesterské společnosti a zástupci ("Adobe") použít poskytnuté podrobnosti k aktualizaci a správě svých databází vztahujících se k předvolbám zákazníků a uživatelů. Svoluji, aby společnost Adobe za tímto účelem a za dalšími níže uvedenými účely přenesla mé údaje do zemí mimo EU, včetně USA, kde společnost Adobe provádí provozní činnost. 
+Beru na vědomí, že mohu kdykoli změnit své volby vztahující se ke zpracování mých osobních údajů společností Adobe návštěvou {2}stránky mého účtu{3} nebo kontaktováním Pracovníka pro ochranu soukromí společnosti Adobe, jak je uvedeno v {4}Online zásadách ochrany osobních údajů společnosti Adobe{5}. Dále beru na vědomí, že budu možná muset samostatně kontaktovat třetí strany, které získaly mé osobní údaje od společnosti Adobe před oznámením změn mých preferencí. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Tento řetězec je delší než maximálně povolený. Musí být dlouhý 6 až 12 znaků.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Tento řetězec je kratší než minimálně povolený. Musí být dlouhý 6 až 12 znaků.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Tento řetězec je delší než maximálně povolený. Musí být dlouhý 6 až 12 znaků.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Tento řetězec je kratší než minimálně povolený. Musí být dlouhý 6 až 12 znaků.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Tento řetězec je delší než maximálně povolený. Musí být dlouhý 1 až 300 znaků.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Tento řetězec je kratší než minimálně povolený. Musí být dlouhý 1 až 300 znaků.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>Vaše e-mailová adresa obsahuje neplatné znaky.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>Doména ve vaší e-mailové adrese je nesprávně formátovaná.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>Doména IP ve vaší e-mailové adrese je nesprávně formátovaná.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>Doména ve vaší e-mailové adrese obsahuje po sobě jdoucí tečky.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>Ve vaší e-mailové adrese chybí znak @ ("zavináč").</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>U domény ve vaší e-mailové adrese chybí tečka.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>Chybí jméno uživatele ve vaší e-mailové adrese.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>E-mail je vyžadován.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>Vaše e-mailová adresa obsahuje příliš mnoho znaků @.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Hesla nesouhlasí.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Přijměte pravidla a podmínky.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Vaše heslo musí mít 6 až 12 znaků a nemůže obsahovat po sobě jdoucí mezery nebo dvojtečky.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Neplatná e-mailová adresa.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Neplatná e-mailová adresa.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>Vaše e-mailová adresa obsahuje neplatné znaky.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>Toto není platná e-mailová adresa.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>Je třeba zadat jméno.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Je třeba zadat příjmení.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Přijměte pravidla a podmínky.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Zadejte svůj identifikátor Adobe ID.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>Toto není platná e-mailová adresa.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Vaše heslo musí mít 6 až 12 znaků a nemůže obsahovat po sobě jdoucí mezery nebo dvojtečky.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Registrace produktů a služeb</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Identifikátor Adobe ID a heslo si neodpovídají.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>Došlo k chybě. Opakujte akci po nějaké době.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Tato e-mailová adresa již byla použita.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Chyba sítě. Opakujte akci později.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>Toto není platná e-mailová adresa.</val>
+		</str>		
+	</set>
+	
+</asf>

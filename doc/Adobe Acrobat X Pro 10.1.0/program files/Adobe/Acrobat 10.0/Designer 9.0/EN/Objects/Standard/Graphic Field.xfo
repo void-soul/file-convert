@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Image Field</text>
+               <text name="description">Image Field - Displays an image from an external data source or an image added by an end user.</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="ImageField" y="0mm" x="0mm" w="25.4mm" h="30.4mm">
+               <ui>
+                  <imageEdit/>
+               </ui>
+               <value>
+                  <image/>
+               </value>
+               <caption placement="bottom" reserve="5mm">
+                  <font size="10pt" typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Image Field</text>
+                  </value>
+               </caption>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

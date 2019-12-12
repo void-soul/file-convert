@@ -1,0 +1,8 @@
+if (xfa.host.version < 8) {
+	this.resolveNode("${SOM}").fontColor = "${Forecolor}";
+}
+else {
+	var CaptionColorBackup = this.resolveNode("${SOM}").caption.font.fill.color.value;	
+	this.resolveNode("${SOM}").font.fill.color.value = "${Forecolor}";
+	this.resolveNode("${SOM}").caption.font.fill.color.value = CaptionColorBackup;
+}

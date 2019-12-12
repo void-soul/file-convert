@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Page Navigation</text>
+               <text name="description">Page Navigation - Displays a group of button objects to navigate to first, last, previous, and next pages.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field h="5.9944mm" name="LastPage" w="25.4mm" x="76.2mm">
+               <ui>
+                  <button/>
+               </ui>
+               <caption>
+                  <value>
+                     <text>Last Page</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Myriad Pro"/>
+               </caption>
+               <border>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript" runAt="both">// Go to the last page.
+
+xfa.host.currentPage = xfa.host.numPages - 1;</script>
+               </event>
+            </field>
+            <field h="5.9944mm" name="NextPage" w="25.4mm" x="25.4mm">
+               <ui>
+                  <button/>
+               </ui>
+               <caption>
+                  <value>
+                     <text>Next Page</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Myriad Pro"/>
+               </caption>
+               <border>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript" runAt="both">// Go to the next page.
+
+xfa.host.pageDown( );</script>
+               </event>
+            </field>
+            <field h="5.9944mm" name="PreviousPage" w="25.4mm" x="50.8mm">
+               <ui>
+                  <button/>
+               </ui>
+               <caption>
+                  <value>
+                     <text>Previous Page</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Myriad Pro"/>
+               </caption>
+               <border>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript" runAt="both">// Go to the previous page.
+
+xfa.host.pageUp( );</script>
+               </event>
+            </field>
+            <field h="5.9944mm" name="FirstPage" w="25.4mm">
+               <ui>
+                  <button/>
+               </ui>
+               <caption>
+                  <value>
+                     <text>First Page</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Myriad Pro"/>
+               </caption>
+               <border>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript" runAt="both">// Go to the first page.
+
+xfa.host.currentPage = 0;</script>
+               </event>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

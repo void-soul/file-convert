@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <desc name="xfometadata">
+     <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+   </desc>
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Subform Instance Controls: Insert Remove Move</text>
+               <text name="description">Subform Instance Controls: Insert Remove Move – Creates a group of buttons with script to insert, remove or move one instance of a repeating subform or table row.</text>
+            </desc>
+            <subform layout="tb">
+            <para hAlign="center" vAlign="middle"/>
+            <subform w="0.55in" h="0.55in">
+             <field xmlns="http://www.xfa.org/schema/xfa-template/2.4/" h="5.08mm" name="SubformUpButton1" w="5.08mm" x="6.35mm">
+               <ui>
+                  <button/>
+               </ui>
+               <font typeface="Arial"/>
+               <caption>
+                  <value>
+                     <text>▲</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Arial">
+                     <fill/>
+                  </font>
+                  <margin/>
+               </caption>
+               <border hand="right">
+                  <?templateDesigner StyleID apbx2?>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <margin/>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript">/*
+   This button will move the current instance of the repeating subform or table row up one position.
+
+   bCalc: Flag - true if the moved instance might be referenced by other calculations, otherwise false.
+   message: The error message displayed.	
+*/
+var bCalc = true;
+var message = "The current item can't be moved since it already is the first instance in the list.";
+
+
+// DO NOT MODIFY THE CODE BEYOND THIS POINT - 9.0.0.2.20101008.1.734229.723806 - Subform_Instance_Controls_IRM.xfo.p1
+
+var oWrapper = this.parent.parent;	// The outer subform built in to the object, enclosing the button group.
+var oTargetSubform = oWrapper.parent;	// The subform or table row the controls are intended to manipulate.
+var nIndex = oTargetSubform.index		// Get the index number of the current subform or table row.
+var oManager = oTargetSubform.instanceManager;	// Get the instance manager.
+
+// Proceed if the current subform is not the first instance.
+if (nIndex != 0) {
+	
+	// Move the current subform.
+	var nIndexFrom = nIndex;
+	var nIndexTo = nIndex - 1;
+	oManager.moveInstance(nIndexFrom, nIndexTo);
+
+	// Fire the form calculations.
+	if (bCalc == true) {
+		
+		// Execute all the form calculations.
+		xfa.form.recalculate(1);
+	}
+
+} else {
+
+	xfa.host.messageBox(message,"Move Item", 3);
+}
+
+// END OF DO NOT MODIFY</script>
+               </event>
+               <assist>
+                  <toolTip>Move this item up</toolTip>
+               </assist>
+               <value/>
+             </field>
+             <field xmlns="http://www.xfa.org/schema/xfa-template/2.4/" h="5.08mm" name="InsertSubformButton1" w="5.08mm">
+               <ui>
+                  <button/>
+               </ui>
+               <font typeface="Arial"/>
+               <caption>
+                  <value>
+                     <text>+</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Arial">
+                     <fill/>
+                  </font>
+                  <margin/>
+               </caption>
+               <border hand="right">
+                  <?templateDesigner StyleID apbx2?>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <margin/>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript">/*
+   This button will insert one instance of the repeating subform or table row.
+
+   bCalc: Flag - true if the new instance might be referenced by other calculations, otherwise false.	
+   message: The error message displayed.
+*/	
+var bCalc = true;
+var message = "You have reached the maximum number of items allowed.";
+
+
+// DO NOT MODIFY THE CODE BEYOND THIS POINT - 9.0.0.2.20101008.1.734229.723806 - Subform_Instance_Controls_IRM.xfo.p2
+
+var oWrapper = this.parent.parent;	// The outer subform built in to the object, enclosing the button group.
+var oTargetSubform = oWrapper.parent;	// The subform or table row the controls are intended to manipulate.
+var oManager = oTargetSubform.instanceManager; // Get the instance manager.
+var nMaxCount = oManager.occur.max; 		// Get the maximum number of subform occurrences allowed.
+var nSubCount = oManager.count;			// Get the current number of instances.
+
+// Proceed if the maximum number of subform occurrences has not been reached.
+if ((nMaxCount == "-1") || (nSubCount &lt; nMaxCount)) {
+	
+	// Invoke the Instance Manager.
+	var oNewInstance = oManager.addInstance(1);
+
+	// Fire the form calculations.
+	if (bCalc == true) {	
+		// Execute all the form calculations.
+		xfa.form.recalculate(1);
+	}
+
+	// Move the new subform below the current one.
+	var nIndexFrom = oNewInstance.index;
+	var nIndexTo = oTargetSubform.index + 1;
+	oManager.moveInstance(nIndexFrom, nIndexTo);
+} else {
+
+	xfa.host.messageBox(message,"Insert Item", 3);
+}
+
+// END OF DO NOT MODIFY</script>
+               </event>
+               <assist>
+                  <toolTip>Insert an item</toolTip>
+               </assist>
+               <value/>
+             </field>
+             <field xmlns="http://www.xfa.org/schema/xfa-template/2.4/" h="5.08mm" name="SubformDownButton1" w="5.08mm" x="6.35mm" y="6.35mm">
+               <ui>
+                  <button/>
+               </ui>
+               <font typeface="Arial"/>
+               <caption>
+                  <value>
+                     <text>▼</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Arial">
+                     <fill/>
+                  </font>
+                  <margin/>
+               </caption>
+               <border hand="right">
+                  <?templateDesigner StyleID apbx2?>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <margin/>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript">/*
+   This button will move the current instance of the repeating subform or table row down one position.
+
+   bCalc: Flag - true if the moved instance might be referenced by other calculations, otherwise false.	
+   message: The error message displayed.
+*/
+var bCalc = true;
+var message = "The current item can't be moved since it already is the last instance in the list.";
+
+
+// DO NOT MODIFY THE CODE BEYOND THIS POINT - 9.0.0.2.20101008.1.734229.723806 - Subform_Instance_Controls_IRM.xfo.p3
+
+var oWrapper = this.parent.parent;	// The outer subform built in to the object, enclosing the button group.
+var oTargetSubform = oWrapper.parent;	// The subform or table row the controls are intended to manipulate.
+var oManager = oTargetSubform.instanceManager;	// Get the instance manager.
+var nSubCount = oManager.count;			// Get the current number of instances.
+var nIndex = oTargetSubform.index		// Get the index number of the current subform or table row.
+
+// Proceed if the current subform is not the last instance.
+if ((nIndex + 1) &lt; nSubCount)  {
+	
+	// Move the current subform.
+	var nIndexFrom = nIndex;
+	var nIndexTo = nIndex + 1;
+	oManager.moveInstance(nIndexFrom, nIndexTo);
+
+	// Fire the form calculations.
+	if (bCalc == true) {
+		
+		// Execute all the form calculations.
+		xfa.form.recalculate(1);
+	}
+
+} else {
+
+	xfa.host.messageBox(message,"Move Item", 3);
+}
+
+// END OF DO NOT MODIFY</script>
+               </event>
+               <assist>
+                  <toolTip>Move this item down</toolTip>
+               </assist>
+               <value/>
+             </field>
+             <field xmlns="http://www.xfa.org/schema/xfa-template/2.4/" h="5.08mm" name="RemoveSubformButton1" w="5.08mm" y="6.35mm">
+               <ui>
+                  <button/>
+               </ui>
+               <font typeface="Arial"/>
+               <caption>
+                  <value>
+                     <text>-</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Arial">
+                     <fill/>
+                  </font>
+                  <margin/>
+               </caption>
+               <border hand="right">
+                  <?templateDesigner StyleID apbx2?>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+                  <edge stroke="raised"/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <margin/>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript">/*
+   This button will Remove the current instance of the repeating subform or table row.
+
+   bCalc: Flag - true if the removed instance might be referenced by other calculations, otherwise false.	
+   message: The error message displayed.
+*/	
+var bCalc = true;
+var message = "You have reached the minimum number of items allowed.";
+
+// DO NOT MODIFY THE CODE BEYOND THIS POINT - 9.0.0.2.20101008.1.734229.723806 - Subform_Instance_Controls_IRM.xfo.p4
+
+var oWrapper = this.parent.parent;	// The outer subform built in to the object, enclosing the button group.
+var oTargetSubform = oWrapper.parent;	// The subform or table row the controls are intended to manipulate.
+var oManager = oTargetSubform.instanceManager;	// Get the instance manager.
+var nMinCount = oManager.occur.min;			// Get the minimum number of subform occurrences allowed.
+var nSubCount = oManager.count;				// Get the current number of instances.
+
+// Proceed if the minimum number of subform occurrences has not been reached.
+if (nSubCount &gt; nMinCount) {
+	
+	// Invoke the Instance Manager.
+	oManager.removeInstance(oTargetSubform.index);
+
+	// Fire the form calculations.
+	if (bCalc == true) {
+		
+		// Execute all the form calculations.
+		xfa.form.recalculate(1);
+	}
+
+} else {
+
+	xfa.host.messageBox(message,"Remove Item", 3);
+}
+
+// END OF DO NOT MODIFY</script>
+               </event>
+               <assist>
+                  <toolTip>Remove this item</toolTip>
+               </assist>
+               <value/>
+             </field>
+             <bind match="none"/>
+             <margin leftInset="1.27mm" topInset="1.27mm" rightInset="1.27mm" bottomInset="1.27mm"/>
+            </subform>
+            <bind match="none"/>
+            </subform>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

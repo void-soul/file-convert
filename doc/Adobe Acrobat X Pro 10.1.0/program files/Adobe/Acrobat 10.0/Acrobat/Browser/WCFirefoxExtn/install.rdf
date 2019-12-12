@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>web2pdfextension@web2pdf.adobedotcom</em:id>
+    <em:name>Adobe Acrobat - Create PDF</em:name>
+    <em:version>1.1</em:version>
+    <em:type>2</em:type>
+   
+    <!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+    <!-- Firefox >= 3.6 -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.6</em:minVersion>
+        <em:maxVersion>4.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <!-- Front End MetaData -->
+    <em:description>Converts a web page to PDF</em:description>
+    <em:creator>Adobe Systems Incorporated</em:creator>
+    <em:homepageURL>http://www.adobe.com/</em:homepageURL>
+  </Description>      
+</RDF>

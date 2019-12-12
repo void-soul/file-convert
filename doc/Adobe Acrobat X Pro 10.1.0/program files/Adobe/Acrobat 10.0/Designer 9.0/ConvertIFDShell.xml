@@ -1,0 +1,66 @@
+<import>
+	<title res="114">Adobe Output Designer form</title>
+	<type res="115">Adobe Output Designer Form</type>
+	<fileSpec>*.ifd</fileSpec>
+	<exe>ConvertIFDShell.exe</exe>
+	<options>
+		<option>
+			<name>log</name>
+			<caption res="110">Generate a trace log of the conversion process.             </caption>
+			<style>list</style>
+			<value>0</value>
+			<list>
+				<item>
+					<display res="111">Do not log</display>
+					<emit>0</emit>
+				</item>				
+				<item>
+					<display res="112">Log to \TEMP\ConvertIFD.log</display>	
+					<emit>$temp\ConvertIFD</emit>
+				</item>				
+				<item>
+					<display res="113">Log to \TEMP\inputfile.log</display>
+					<emit>$temp\$form</emit>
+				</item>				
+			</list>
+		</option>
+
+		<option>
+			<name>target</name>
+			<caption res="107">Use Output Designer PDF configuration.</caption>
+			<style>check</style>
+			<value></value>
+			<on>PDF</on>
+			<off></off>
+		</option>
+		<xoption>
+			<name>target</name>
+			<caption res="109">Use Output Designer configuration:</caption>
+			<style>text</style>
+			<value></value>
+		</xoption>
+		<option>
+			<caption res="108"> </caption>
+			<style>static</style>
+			<value></value>
+		</option>
+
+		<option>
+			<name>fieldCorrection</name>
+			<caption res="104">Sync like named fields as global.</caption>
+			<style>check</style>
+			<value></value>
+			<on>global</on>
+			<off></off>
+		</option>
+		<option>
+			<name>importFilter</name>
+			<caption res="105">Import fields only.</caption>
+			<style>check</style>
+			<value>fieldsOnly</value>
+			<on>fieldsOnly</on>
+			<off>none</off>
+		</option>
+
+	</options>
+</import>

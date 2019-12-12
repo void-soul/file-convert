@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="ro_RO" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>ro_RO</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>ÎNAINTE</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>ÎNAPOI</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>IEŞIRE</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>PĂRĂSIRE</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>Oprire</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>CONTINUARE</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>REFUZ</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>ACCEPTARE</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>INSTALARE</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>DEZINSTALARE</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>CREARE</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Continuare</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>DA</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>NU</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>Anulare</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>ÎNCHIDERE</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>TRIMITERE</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>IGNORARE</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Înregistraţi software-ul</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Înregistrare pentru produse &amp; servicii</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Pentru a înregistra software-ul dvs. şi pentru a configura accesul la serviciile online {0}Acrobat.com{1}, introduceţi sau creaţi un ID Adobe.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Obţineţi acces la asistenţă pentru produse şi la beneficii exclusive, precum buletine informative, publicaţii şi invitaţii la evenimentele şi seminariile Adobe. Pentru a înregistra software-ul dvs., introduceţi sau creaţi un ID Adobe.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Este necesar un ID Adobe pentru a utiliza acest software ca probă şi pentru a configura accesul la serviciile online {0}Acrobat.com{1} în perioada de probă. Veţi avea 7 zile de la prima lansare a probei pentru a introduce un ID Adobe.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Pentru a înregistra software-ul dvs., introduceţi sau creaţi un ID Adobe.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Vi se solicită să introduceţi un ID Adobe pentru a utiliza abonamentul şi a accesa serviciile online {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Acest calculator a fost dezactivat. Vi se solicită să vă conectaţi cu ID-ul Adobe pentru a reactiva abonamentul dvs. pe acest calculator.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_ro</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Trebuie doar să introduceţi o adresă de e-mail şi o parolă pentru a crea unul.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Aveţi nevoie de un ID Adobe?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>CREAŢI UN ID ADOBE</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>Aveţi deja un ID Adobe?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>E-mail (ID Adobe)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Parolă</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>Aţi uitat parola?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_ro</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Pentru a beneficia de serviciile Acrobat.com, trebuie să introduceţi un ID Adobe şi să vă exprimaţi acordul cu termenii de utilizare aplicabili. Dacă nu introduceţi un ID Adobe în acest moment, orice perioadă de abonament gratuită aplicabilă poate fi redusă.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Pentru a finaliza abonarea dvs. la Acrobat şi pentru a începe previzualizarea gratuită a serviciilor Acrobat.com, trebuie să introduceţi un ID Adobe şi să fiţi de acord cu termenii de utilizare aplicabili.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>IGNORAŢI ACEST PAS</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Introduceţi adresa de e-mail asociată cu contul dvs. ID Adobe.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Este necesară parola</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>Stabilirea conexiunii a eşuat. Încercaţi din nou.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>ID-ul Adobe şi parola nu corespund</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Creare ID Adobe</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Crearea unui ID Adobe înregistrează software-ul dvs. şi configurează accesul la serviciile online Acrobat.com. Toate câmpurile sunt obligatorii.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Crearea unui ID Adobe înregistrează software-ul dvs. Toate câmpurile sunt obligatorii.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Crearea unui ID Adobe configurează accesul la serviciile Acrobat.com în perioada dvs. de probă şi ne informează despre interesul dvs. faţă de acest produs. Toate câmpurile sunt obligatorii.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Crearea unui ID Adobe ne informează despre interesul dvs. faţă de acest produs. Toate câmpurile sunt obligatorii.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Vi se solicită să introduceţi un ID Adobe pentru a utiliza abonamentul dvs. Acrobat şi a accesa serviciile online {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>Adresă de e-mail (ID Adobe)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Parolă</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Reintroduceţi parola</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Prenume</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Nume</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>Ţară/Regiune</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Doresc să primesc informaţii despre Adobe şi produsele şi serviciile sale, inclusiv despre lansări şi upgrade-uri de produse, evenimente, sondaje şi oferte. Datele mele vor fi utilizate de Adobe şi de agenţii săi în conformitate cu {0}politica de confidenţialitate Adobe online{1}.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_ro</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_ro</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_ro</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Da</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>Nu</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Selectare</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Parola este obligatorie (6 - 12 caractere)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>Aceasta nu este o adresă de e-mail validă.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Parolele nu corespund.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>Prenumele este obligatoriu.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Numele este obligatoriu.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>Selectarea ţării/regiunii este obligatorie.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Acest ID Adobe este deja asociat cu alt abonament. Creaţi un ID Adobe nou sau conectaţi-vă cu alt ID Adobe.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>Înţeleg că, în conformitate cu {0}Politica de confidenţialitate online{1}, Adobe, afiliaţii şi agenţii săi ("Adobe") vor utiliza detaliile pe care le furnizez pentru a-şi actualiza şi administra bazele de date privind preferinţele clienţilor şi utilizatorilor. Consimt ca Adobe să transfere datele mele în ţări din afara UE, unde Adobe îşi desfăşoară activitatea, inclusiv în Statele Unite, în aceste scopuri şi în alte scopuri, bifate mai jos. 
+Înţeleg că îmi pot modifica în orice moment preferinţele cu privire la prelucrarea datelor mele personale de către Adobe, vizitând {2}pagina contului meu{3} sau contactând funcţionarul de confidenţialitate Adobe, după cum este stipulat în {4}Politica de confidenţialitate Adobe online{5}. Înţeleg că este posibil să trebuiască să contactez separat terţi care au primit datele mele personale de la Adobe înainte de a comunica modificarea preferinţelor mele. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Acest şir este mai lung decât lungimea maximă permisă. Acest şir trebuie să aibă între 6 şi 12 caractere.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Acest şir este mai scurt decât lungimea minimă permisă. Acest şir trebuie să aibă între 6 şi 12 caractere.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Acest şir este mai lung decât lungimea maximă permisă. Acest şir trebuie să aibă între 6 şi 12 caractere.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Acest şir este mai scurt decât lungimea minimă permisă. Acest şir trebuie să aibă între 6 şi 12 caractere.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Acest şir este mai lung decât lungimea maximă permisă. Acest şir trebuie să aibă între 1 şi 300 de caractere.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Acest şir este mai scurt decât lungimea minimă permisă. Acest şir trebuie să aibă între 1 şi 300 de caractere.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>Adresa dvs. de e-mail conţine caractere nevalide.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>Domeniul din adresa dvs. de e-mail este formatat incorect.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>Domeniul IP din adresa dvs. de e-mail este formatat incorect.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>Domeniul din adresa dvs. de e-mail are puncte consecutive.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>Semnul @ lipseşte din adresa dvs. de e-mail.</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>Lipseşte un punct din domeniul adresei dvs. de e-mail.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>Numele de utilizator din adresa dvs. de e-mail lipseşte.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>Adresa de e-mail este obligatorie.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>Adresa dvs. de e-mail conţine prea multe caractere @.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Parolele nu corespund.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Acceptaţi termenii şi condiţiile.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Parola dvs. trebuie să aibă între 6 şi 12 caractere şi nu poate conţine spaţii sau caractere două puncte consecutive.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Adresă de e-mail nevalidă.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Adresă de e-mail nevalidă.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>Adresa dvs. de e-mail conţine caractere nevalide.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>Aceasta nu este o adresă de e-mail validă.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>Prenumele este obligatoriu.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Numele este obligatoriu.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Acceptaţi termenii şi condiţiile.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Introduceţi ID-ul dvs. Adobe.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>Aceasta nu este o adresă de e-mail validă.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Parola dvs. trebuie să aibă între 6 şi 12 caractere şi nu poate conţine spaţii sau caractere două puncte consecutive.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Înregistrare pentru produse &amp; servicii</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>ID-ul Adobe şi parola nu corespund.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>A survenit o eroare. Încercaţi din nou mai târziu.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Această adresă de e-mail a fost deja utilizată.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Eroare de reţea. Încercaţi din nou mai târziu.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>Aceasta nu este o adresă de e-mail validă.</val>
+		</str>		
+	</set>
+	
+</asf>

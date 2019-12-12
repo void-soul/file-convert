@@ -1,0 +1,2 @@
+<#if ReturnResultNone>this.resolveNode("${ScriptObjectSOM}").${Function}(${FunctionParams});</#if>
+<#if ReturnResultTo>this.resolveNode("${SOM}").rawValue = this.resolveNode("${ScriptObjectSOM}").${Function}(${FunctionParams});</#if>

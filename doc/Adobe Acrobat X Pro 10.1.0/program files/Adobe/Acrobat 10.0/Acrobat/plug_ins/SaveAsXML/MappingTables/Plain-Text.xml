@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Root SYSTEM "MappingTable.dtd">
+<Root File-format="plain-text" Menu-name="$IDS_PLAIN_TEXT_MENU_NAME" Mac-creator="????" Mac-type="TEXT" Win-suffix="txt" Encode-out="Host-code-out">
+	<!--
+	ADOBE SYSTEMS INCORPORATED
+	Copyright 2003 Adobe Systems Incorporated
+	All Rights Reserved
+	
+	NOTICE:  This Notice only applies to this file or any portion thereof.
+	Adobe permits you to use, modify, and distribute this file in accordance
+	with the terms and conditions of the Adobe license agreement accompanying
+	it ("Agreement").  Additionally, Adobe grants you a nonexclusive,
+	nontransferable, royalty-free license to use, modify and distribute
+	all or any portion of this file.  Where the terms of this Notice
+	and the terms of the Agreement differ, the terms of this Notice
+	shall control.  All other terms and conditions of the Agreement
+	remain unchanged and have full force and effect.  If you have received
+	this file from a source other than Adobe, then your use, modification,
+	or distribution of it requires the prior written permission of Adobe.
+-->
+	<!--Mapping Table version: 28-February-2003-->
+	<Define-event-list Name="form-content-elements">
+		<Event Inf-type="Obj-ref" Name-type="Structure-role" Node-name="Form" Node-content="Has-text-only" Event-class="Enter">
+			<Proc-doc-text do-br-substitution="do-br-substitution"/>
+		</Event>
+	</Define-event-list>
+	<Define-event-list Name="content-elements">
+		<Event Inf-type="Pds-mc" Name-type="Any" Node-name="-none-" Node-content="Has-text-only" Event-class="Enter">
+			<Proc-doc-text do-br-substitution="no-substitution"/>
+		</Event>
+		<Event Inf-type="Pds-mc" Name-type="Any" Node-name="-none-" Node-content="Has-text-only" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Span" Node-content="Has-kids" Event-class="Enter">
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Has-value">
+				<Proc-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Always">
+					<Proc-string/>
+				</Proc-var>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="No-value">
+				<Walk-children Use-event-list="content-elements"/>
+			</Evaluate-var>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Span" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Quote" Alternate-name="Q" Node-content="Has-kids" Event-class="Enter">
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Has-value">
+				<Proc-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Always">
+					<Proc-string/>
+				</Proc-var>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="No-value">
+				<Walk-children Use-event-list="content-elements"/>
+			</Evaluate-var>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Quote" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Code" Node-content="Has-kids" Event-class="Enter">
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Has-value">
+				<Proc-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Always">
+					<Proc-string/>
+				</Proc-var>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="No-value">
+				<Walk-children Use-event-list="content-elements"/>
+			</Evaluate-var>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Code" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Link" Alternate-name="A" Node-content="Has-kids" Event-class="Enter">
+			<Proc-doc-text do-br-substitution="do-br-substitution"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Link" Alternate-name="A" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Form" Node-content="Has-kids" Event-class="Enter">
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Has-value">
+				<Proc-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Always">
+					<Proc-string/>
+				</Proc-var>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="No-value">
+				<Walk-children Use-event-list="form-content-elements"/>
+			</Evaluate-var>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Annot" Node-content="Has-kids" Event-class="Enter">
+			<Evaluate-var Pdf-var="Type" Owner="Structelem" Type="Atom" Inherit="Not-inherited" Compare="Note" Condition="Matches-value">
+				<Proc-doc-text do-br-substitution="do-br-substitution"/>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="Type" Owner="Structelem" Type="Atom" Inherit="Not-inherited" Compare="Comment" Condition="Matches-value">
+				<Proc-doc-text do-br-substitution="do-br-substitution"/>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="Type" Owner="Structelem" Type="Atom" Inherit="Not-inherited" Compare="FreeText" Condition="Matches-value">
+				<Proc-doc-text do-br-substitution="do-br-substitution"/>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="Type" Owner="Structelem" Type="Atom" Inherit="Not-inherited" Compare="Underline" Condition="Matches-value">
+				<Walk-children Use-event-list="content-elements"/>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="Type" Owner="Structelem" Type="Atom" Inherit="Not-inherited" Compare="StrikeOut" Condition="Matches-value">
+				<Walk-children Use-event-list="content-elements"/>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="Type" Owner="Structelem" Type="Atom" Inherit="Not-inherited" Compare="Squiggly" Condition="Matches-value">
+				<Walk-children Use-event-list="content-elements"/>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="Type" Owner="Structelem" Type="Atom" Inherit="Not-inherited" Compare="Highlight" Condition="Matches-value">
+				<Walk-children Use-event-list="content-elements"/>
+			</Evaluate-var>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Figure" Alternate-name="Img" Node-content="Has-kids" Event-class="Enter">
+			<Evaluate-var Pdf-var="Alt" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Has-value">
+				<Proc-var Pdf-var="Alt" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Always">
+					<Proc-string/>
+				</Proc-var>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="Alt" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="No-value">
+				<Proc-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Has-value">
+					<Proc-string/>
+				</Proc-var>
+			</Evaluate-var>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Private" Node-content="Has-kids" Event-class="Enter">
+			<Comment>Private is discarded</Comment>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Private" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Any" Node-name="-none-" Node-content="Has-kids" Event-class="Enter">
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Has-value">
+				<Proc-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="Always">
+					<Proc-string/>
+				</Proc-var>
+			</Evaluate-var>
+			<Evaluate-var Pdf-var="ActualText" Owner="Structelem" Type="String" Inherit="Not-inherited" Condition="No-value">
+				<Walk-children Use-event-list="content-elements"/>
+			</Evaluate-var>
+		</Event>
+		<Comment>-------- Exit events for Inline elements ---------</Comment>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="TD" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string SP-After="Yes" NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="TH" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string SP-After="Yes" NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="BibEntry" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Note" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Reference" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="NonStruct" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Formula" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Ruby" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="RB" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="RT" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="RP" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="Warichu" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="WP" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Structure-role" Node-name="WT" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="No"/>
+		</Event>
+		<Event Inf-type="Struct-elem" Name-type="Any" Node-name="-none-" Node-content="Has-kids" Event-class="Exit">
+			<Emit-string NL-After="Yes"/>
+		</Event>
+	</Define-event-list>
+	<Set-encoding>
+		<Enum-encoding Type="Utf-8-out" Suppress="No" Emit-BOM="No"/>
+		<Enum-encoding Type="Utf-16-out" Suppress="No" Emit-BOM="Yes"/>
+		<Enum-encoding Type="Ucs-4-out" Suppress="No" Emit-BOM="Yes"/>
+		<Enum-encoding Type="Iso-latin-1-out" Suppress="No" Emit-BOM="No"/>
+		<Enum-encoding Type="Html-ascii-out" Suppress="No" Emit-BOM="No"/>
+	</Set-encoding>
+	<Begin-encoding/>
+	<Walk-structure Use-event-list="content-elements"/>
+</Root>

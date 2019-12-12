@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Current Date</text>
+               <text name="description">Current Date - Creates a date/time field with a script that displays the current date.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field access="readOnly" h="8.9916mm" locale="ambient" name="CurrentDate" w="38.1mm">
+               <ui>
+                  <dateTimeEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </dateTimeEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="21.59mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Current Date</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <bind match="none"/>
+               <value>
+                  <date/>
+               </value>
+               <event name="event__layout_ready" activity="ready" ref="$layout">
+                  <script>// Current Date in short-style date format.
+
+$.rawValue = num2date(date(), DateFmt(1))</script>
+               </event>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

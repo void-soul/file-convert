@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="nb_NO" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>nb_NO</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>NESTE</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>TILBAKE</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>AVSLUTT</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>AVSLUTT</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>STOPP</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>FORTSETT</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>AVSLÅ</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>GODTA</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>INSTALLER</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>AVINSTALLER</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>OPPRETT</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Fortsett</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>JA</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>NEI</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>Avbryt</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>LUKK</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>SEND INN</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>UTELAT</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Registrer programvaren</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Registrering for produkter og tjenester</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Du registrerer programvaren og konfigurerer tilgang til de elektroniske tjenestene på {0}Acbrobat.com{1} ved å angi eller opprette en Adobe-ID.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Få tilgang til produktstøtte og eksklusive fordeler, som nyhetsbrev, publikasjoner og invitasjoner til Adobe-arrangementer og -seminarer. Angi eller opprett en Adobe-ID for å registrere programvaren.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>En Adobe-ID er nødvendig for å bruke denne programvaren som prøveversjon og konfigurere tilgang til de elektroniske tjenestene på {0}Acrobat.com{1} i løpet av denne prøveperioden. Du har sju dager fra oppstart av prøveversjonen på å angi en Adobe-ID.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Angi eller opprett en Adobe-ID for å registrere programvaren.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Du må angi en Adobe-ID for å bruke og få tilgang til nettjenestene på {0}Acrobat.com{1}</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Maskinen har blitt deaktivert. Du må logge på med din Adobe-ID for å aktivere abonnementet på denne maskinen.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_no</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Du kan enkelt angi en e-postadresse og et passord for å opprette en ID.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Trenger du en Adobe-ID?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>OPPRETT EN ADOBE-ID</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>Har du allerede en Adobe-ID?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>E-postadresse (Adobe-ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Passord</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>Glemt passord?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_no</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Du må angi en Adobe-ID og godta de gjeldene brukerbetingelsene for å kunne benytte deg av tjenestene på Acrobat.com. Hvis du ikke angir en Adobe-ID på dette tidspunktet, kan en eventuell gratis abonnementsperiode reduseres.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Du må angi en Adobe-ID og samtykke i de aktuelle bruksvilkårene for å kunne fullføre abonnementet på Acrobat og starte gratis forhåndsvisning av tjenestene på Acrobat.com.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>UTELAT DETTE TRINNET</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Angi e-postadressen som du vil knytte til Adobe-ID-kontoen.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Passord påkrevd</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>Kunne ikke koble til. Prøv på nytt.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Adobe-ID-en og passordet stemmer ikke overens</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Opprett en Adobe-ID</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Ved å opprette en Adobe-ID registrerer du programvaren og konfigurerer tilgang til de elektroniske tjenestene til Acrobat.com. Alle feltene må fylles ut.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Ved å opprette en Adobe-ID registrerer du programvaren. Alle feltene må fylles ut.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Ved å opprette en Adobe-ID konfigurerer du tilgang til tjenestene på Acrobat.com i løpet av prøveperioden og gir oss informasjon om din interesse i produktet. Alle feltene må fylles ut.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Ved å opprette en Adobe-ID gir du oss informasjon om din interesse i produktet. Alle feltene må fylles ut.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Du må angi din Adobe-ID for å bruke Acrobat-abonnementet og få tilgang til online-tjenestene på {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>E-postadresse (Adobe-ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Passord</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Skriv inn passord på nytt</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Fornavn</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Etternavn</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>Land/område</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Send meg informasjon om Adobe og produktene og tjenestene, inkludert nye produkter og oppgraderinger, arrangementer, undersøkelser og tilbud. Informasjonen om meg vil bli brukt av Adobe og deres agenter i henhold til {0}Adobes personvern på Internett{1}.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_no</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_no</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_no</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Ja</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>Nei</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Velg</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Passord påkrevd (6–12 tegn)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>Dette er ikke en gyldig e-postadresse.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Passordene stemmer ikke overens.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>Fornavn påkrevd.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Etternavn påkrevd.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>Valg av land/område påkrevd.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Denne Adobe-ID-en er allerede knyttet til et annet abonnement. Opprett en ny Adobe-ID eller logg på med en annen Adobe-ID.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>Jeg forstår at, i henhold til deres {0}personvernerklæring for Internett{1}, Adobe, deres datterselskaper og agenter ("Adobe") vil bruke informasjonen jeg oppgir til å oppdatere og håndtere sine databaser ang. kunder og brukerpreferanser. Jeg godtar at Adobe sender informasjon om meg til land utenfor EU der Adobe opererer, inkludert USA, for disse formålene og for de ytterlige formålene som er merket av under. 
+Jeg forstår at jeg når som helst kan endre mine preferanser om Adobes behandling av mine persondata ved å gå til {2}siden for min konto{3} eller ved å kontakte Adobes representant for personvern slik det forklares i {4}Adobes personvernerklæring for Internett{5}. Jeg forstår at jeg kanskje må kontakte tredjeparter som har mottatt mine persondata fra Adobe i forkant av at jeg melder i fra om endring i preferansene, separat. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Denne strengen er lenger enn maksimalt tillatt. Den skal være mellom 6 og 12 tegn.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Denne strengen er kortere enn minimalt tillatt. Den skal være mellom 6 og 12 tegn.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Denne strengen er lenger enn maksimalt tillatt. Den skal være mellom 6 og 12 tegn.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Denne strengen er kortere enn minimalt tillatt. Den skal være mellom 6 og 12 tegn.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Denne strengen er lenger enn maksimalt tillatt. Den skal være mellom 1 og 300 tegn.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Denne strengen er kortere enn minimalt tillatt. Den skal være mellom 1 og 300 tegn.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>E-postadressen inneholder ugyldige tegn.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>Domenet i e-postadressen er feil formatert.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>IP-domenet i e-postadressen er feil formatert.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>Domenet i e-postadressen har flere etterfølgende punktum.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>Alfakrølltegnet (@) mangler i e-postadressen.</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>Domenet i e-postadressen mangler et punktum.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>Brukernavnet i e-postadressen mangler.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>E-postadressen er påkrevd.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>E-postadressen inneholder for mange @-tegn.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Passordene stemmer ikke overens.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Du må godta brukerbetingelsene.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Passordet må være mellom 6 og 12 tegn og kan ikke inneholde flere etterfølgende mellomrom eller kolon.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Ugyldig e-postadresse.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Ugyldig e-postadresse.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>E-postadressen inneholder ugyldige tegn.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>Dette er ikke en gyldig e-postadresse.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>Fornavn påkrevd.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Etternavn påkrevd.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Du må godta brukervilkårene.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Angi din Adobe-ID.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>Dette er ikke en gyldig e-postadresse.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Passordet må være mellom 6 og 12 tegn og kan ikke inneholde flere etterfølgende mellomrom eller kolon.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Registrering for produkter &amp; tjenester</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Adobe-ID-en og passordet stemmer ikke overens.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>Det har oppstått en feil. Prøv på nytt om en stund.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Denne e-postadressen har allerede blitt brukt.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Nettverksfeil. Prøv på nytt senere.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>Dette er ikke en gyldig e-postadresse.</val>
+		</str>		
+	</set>
+	
+</asf>

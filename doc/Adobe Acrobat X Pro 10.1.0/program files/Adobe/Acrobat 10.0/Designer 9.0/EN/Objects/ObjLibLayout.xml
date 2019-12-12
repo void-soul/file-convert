@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objectLibraryGroupLayoutSet preview="0" zoom="0.75">
+   <groupLayout directory=".\Standard" view="small">
+      <item file="Button.xfo"/>
+      <item file="Check Box.xfo"/>
+      <item file="Circle.xfo"/>
+      <item file="ContentArea.xfo"/>
+      <item file="Date-Time Edit.xfo"/>
+      <item file="Decimal Edit.xfo"/>
+      <item file="Signature.xfo"/>
+      <item file="Drop-down List Box.xfo"/>
+      <item file="Email Submit Button.xfo"/>
+      <item file="HTTP Submit Button.xfo"/>
+      <item file="Graphic.xfo"/>
+      <item file="Graphic Field.xfo"/>
+      <item file="Line.xfo"/>
+      <item file="List Box.xfo"/>
+      <item file="Numeric Edit.xfo"/>
+      <item file="Paper Forms Barcode.xfo"/>
+      <item file="Password Edit.xfo"/>
+      <item file="Print Button.xfo"/>
+      <item file="Radio Button.xfo"/>
+      <item file="Rectangle.xfo"/>
+      <item file="Reset Fields Button.xfo"/>
+      <item file="Subform.xfo"/>
+      <item file="Table.xfo"/>
+      <item file="Text.xfo"/>
+      <item file="Text Edit.xfo"/>
+   </groupLayout>
+   <groupLayout directory=".\Custom" view="small">
+      <item file="Address Block.xfo"/>
+      <item file="Form Bridge.xfo"/>
+      <item file="Countries.xfo"/>
+      <item file="Current Date.xfo"/>
+      <item file="Data Drop-down List.xfo"/>
+      <item file="Data List Box.xfo"/>
+      <item file="Email Address.xfo"/>
+      <item file="Insertion Point.xfo"/>
+      <item file="Name.xfo"/>
+      <item file="Page Navigation.xfo"/>
+      <item file="Page n of m.xfo"/>
+      <item file="Phone Number - UK.xfo"/>
+      <item file="Phone Number - North America.xfo"/>
+      <item file="Process Fields.xfo"/>
+      <item file="Sheet n of m.xfo"/>
+      <item file="Signature - Print and Sign.xfo"/>
+      <item file="Subform Instance Controls Add.xfo"/>
+      <item file="Subform Instance Controls IRM.xfo"/>
+      <item file="Survey Question.xfo"/>
+      <item file="U.S. Social Security Number.xfo"/>
+      <item file="U.S. States.xfo"/>
+   </groupLayout>
+   <groupLayout directory=".\Barcodes" view="small">
+      <item file="Aztec.xfo"/>
+      <item file="AUS Post Customer 2.xfo"/>
+      <item file="AUS Post Customer 3.xfo"/>
+      <item file="AUS Post Reply Paid.xfo"/>
+      <item file="AUS Post Standard.xfo"/>
+      <item file="Codabar.xfo"/>
+      <item file="Code 11.xfo"/>
+      <item file="Code 128.xfo"/>
+      <item file="Code 128A.xfo"/>
+      <item file="Code 128B.xfo"/>
+      <item file="Code 128C.xfo"/>
+      <item file="Code 128 SSCC.xfo"/>
+      <item file="Code 2 of 5 Industrial.xfo"/>
+      <item file="Code 2 of 5 Interleaved.xfo"/>
+      <item file="Code 2 of 5 Matrix.xfo"/>
+      <item file="Code 2 of 5 Standard.xfo"/>
+      <item file="Code 3 of 9.xfo"/>
+      <item file="Code 49.xfo"/>
+      <item file="Code 93.xfo"/>
+      <item file="Code QR.xfo"/>
+      <item file="Data Matrix.xfo"/>
+      <item file="EAN-13.xfo"/>
+      <item file="EAN-8.xfo"/>
+      <item file="GS1 DataBar.xfo"/>
+      <item file="GS1 DataBar Expanded.xfo"/>
+      <item file="GS1 DataBar Limited.xfo"/>
+      <item file="GS1 DataBar Stacked.xfo"/>
+      <item file="GS1 DataBar Stacked Omni.xfo"/>
+      <item file="GS1 DataBar Truncated.xfo"/>
+      <item file="Logmars.xfo"/>
+      <item file="MSI.xfo"/>
+      <item file="PDF 417.xfo"/>
+      <item file="Paper Forms Barcode.xfo"/>
+      <item file="Planet Code.xfo"/>
+      <item file="Plessey.xfo"/>
+      <item file="QR Code.xfo"/>
+      <item file="RFID.xfo"/>
+      <item file="UKRM Post 4SCC.xfo"/>
+      <item file="UPC-EAN 2.xfo"/>
+      <item file="UPC-EAN 5.xfo"/>
+      <item file="UPC-A.xfo"/>
+      <item file="UPC-E.xfo"/>
+      <item file="UPS Maxicode.xfo"/>
+      <item file="USPS 5 Zip.xfo"/>
+      <item file="USPS DPBC.xfo"/>
+      <item file="USPS Intelligent Mail.xfo"/>
+      <item file="USPS Standard.xfo"/>
+   </groupLayout>
+</objectLibraryGroupLayoutSet>

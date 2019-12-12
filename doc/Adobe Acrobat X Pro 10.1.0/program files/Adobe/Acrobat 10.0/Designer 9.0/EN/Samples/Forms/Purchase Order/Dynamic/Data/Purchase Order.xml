@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<transaction>
+ <header>
+  <txtPONum>8745236985</txtPONum>
+  <dtmDate>2004-02-08</dtmDate>
+  <txtOrderedByCompanyName>Any Company Name</txtOrderedByCompanyName>
+  <txtOrderedByAddress>555, Any Blvd.</txtOrderedByAddress>
+  <txtOrderedByCity>Any City</txtOrderedByCity>
+  <txtOrderedByStateProv>ST</txtOrderedByStateProv>
+  <txtOrderedByZipCode>12345</txtOrderedByZipCode>
+  <txtOrderedByCountry>Any Country</txtOrderedByCountry>
+  <txtOrderedByPhone>(123) 456-7890</txtOrderedByPhone>
+  <txtOrderedByFax>(123) 456-7899</txtOrderedByFax>
+  <txtOrderedByContactName>Contact Name</txtOrderedByContactName>
+  <txtDeliverToCompanyName>Any Company Name</txtDeliverToCompanyName>
+  <txtDeliverToAddress>7895, Any Street</txtDeliverToAddress>
+  <txtDeliverToCity>Any City</txtDeliverToCity>
+  <txtDeliverToStateProv>ST</txtDeliverToStateProv>
+  <txtDeliverToZipCode>12346</txtDeliverToZipCode>
+  <txtDeliverToCountry>Any Country</txtDeliverToCountry>
+  <txtDeliverToPhone>(123) 456-7891</txtDeliverToPhone>
+  <txtDeliverToFax>(123) 456-7899</txtDeliverToFax>
+  <txtDeliverToContactName>Contact Name</txtDeliverToContactName>
+ </header>
+ <detail>
+  <txtPartNum>00010-100</txtPartNum>
+  <txtDescription>Monitor</txtDescription>
+  <numQty>1</numQty>
+  <numUnitPrice>350.00</numUnitPrice>
+ </detail>
+ <detail>
+  <txtPartNum>00010-200</txtPartNum>
+  <txtDescription>Desk lamps</txtDescription>
+  <numQty>3</numQty>
+  <numUnitPrice>55.00</numUnitPrice>
+ </detail> 
+ <detail>
+  <txtPartNum>00025-275</txtPartNum>
+  <txtDescription>Phone</txtDescription>
+  <numQty>5</numQty>
+  <numUnitPrice>85.00</numUnitPrice>
+ </detail>
+ <detail>
+  <txtPartNum>00300-896</txtPartNum>
+  <txtDescription>Address book</txtDescription>
+  <numQty>2</numQty>
+  <numUnitPrice>15.00</numUnitPrice>
+ </detail>
+ <total>
+  <txtCondition>Account number: 123456</txtCondition>
+  <numStateTaxRate>7.00</numStateTaxRate>
+  <numFederalTaxRate>8.00</numFederalTaxRate>
+  <numShippingCharge>50.00</numShippingCharge>
+ </total>
+</transaction>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="zh_CN" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>zh_CN</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>下一步</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>上一步</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>退出</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>退出</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>停止</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>继续</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>拒绝</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>接受</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>安装</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>卸载</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>创建</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>继续</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>确定</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>是</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>否</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>取消</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>关闭</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>提交</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>跳过</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>注册软件</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>注册产品与服务</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>要注册您的软件，并设置针对 {0}Acrobat.com{1} 联机服务的访问权限，请输入或创建 Adobe 身份证。</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>获取产品支持和专属权利，例如新闻稿、出版物和参加 Adobe 活动和研讨会的邀请。要注册您的软件，请输入或创建 Adobe 身份证。</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>要试用此软件，需要输入 Adobe 身份证，以及设置在试用期针对 {0}Acrobat.com{1} 联机服务的访问权限。自首次启动试用版本起，您有 7 天时间来输入 Adobe 身份证。</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>要注册您的软件，请输入或创建 Adobe 身份证。</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>要使用订阅和访问 {0}Acrobat.com{1} 联机服务，需要输入 Adobe 身份证。</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>此计算机已停用。需要使用您的 Adobe 身份证进行登录以重新激活此计算机上的订阅。</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_cn</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>仅需提供电子邮件与口令即可创建。</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>需要 Adobe 身份证吗？</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>创建 Adobe 身份证</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>已拥有 Adobe 身份证？</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>电子邮件（Adobe 身份证）</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>口令</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>忘记了口令？</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_cn</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>要使用 Acrobat.com 服务，您必须提供 Adobe 身份证并同意适用的使用条款。如果此时没有提供 Adobe 身份证，将有可能缩短您的适用附赠订阅期限。</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>要完成 Acrobat 订阅和开始免费预览 Acrobat.com 服务，必须提供 Adobe 身份证并同意接受适用的使用条款。</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>跳过此步骤</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>请输入与您的 Adobe 身份证帐户相关联的电子邮件地址。</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>要求口令</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>连接失败。请重试。</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Adobe 身份证与口令不匹配</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>创建 Adobe 身份证</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>创建 Adobe 身份证注册您的软件并设置针对 Acrobat.com 联机服务的访问权限。所有字段均为必填项。</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>创建 Adobe 身份证注册您的软件。所有字段均为必填项。</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>创建 Adobe 身份证设置在试用期针对 Acrobat.com 服务的访问权限，使我们了解您对此产品感兴趣的方面。所有字段均为必填项。</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>创建 Adobe 身份证使我们了解您对此产品感兴趣的方面。所有字段均为必填项。</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>要使用 Acrobat 订阅和访问 {0}Acrobat.com{1} 联机服务，需要输入 Adobe 身份证。</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>电子邮件地址（Adobe 身份证）</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>口令</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>重新输入口令</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>名</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>姓</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>国家/地区</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>请及时通知我有关 Adobe 及其产品和服务的信息，包括产品发布、产品升级、活动、调查以及优惠。我的数据将由 Adobe 及其代理按照 {0}Adobe 联机隐私策略{1}使用。</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_cn</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_cn</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_cn</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>是</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>否</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>选择</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>要求口令（6-12 个字符）</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>这不是一个有效的电子邮件地址。</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>口令不匹配。</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>“名”为必填项。</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>“姓”为必填项。</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>“国家/地区”为必选项。</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>此 Adobe 身份证已与其它订阅相关联。请创建新的 Adobe 身份证或使用其它 Adobe 身份证登录。</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>我了解，按照{0}联机隐私策略{1}，Adobe 及其附属公司与代理 (Adobe) 将使用我提供的详细信息，来更新和管理有关客户和用户首选项的数据库。我同意 Adobe 将我的数据传送给 Adobe 具有运营业务的欧盟以外的国家（包括美国），用于这些目的以及以下所选目的。
+我了解，根据 {4}Adobe 联机隐私策略{5}中的条款，我可以通过访问{2}我的帐户页面{3}或联系 Adobe 隐私执行官来随时更改有关 Adobe 处理我的个人数据的首选项。我了解，可能需要分别联系在更改我的首选项之前就从 Adobe 处接收到我的个人数据的第三方。
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>此字符串长度超过了最大限制。长度必须为 6 到 12 个字符。</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>此字符串长度小于最小限制。长度必须为 6 到 12 个字符。</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>此字符串长度超过了最大限制。长度必须为 6 到 12 个字符。</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>此字符串长度小于最小限制。长度必须为 6 到 12 个字符。</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>此字符串长度超过了最大限制。长度必须为 1 到 300 个字符。</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>此字符串长度小于最小限制。长度必须为 1 到 300 个字符。</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>电子邮件地址包含无效字符。</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>电子邮件地址中域的格式错误。</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>电子邮件地址中 IP 域的格式错误。</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>电子邮件地址中的域有连续句点。</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>电子邮件地址中缺少“at”符号 (@)。</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>电子邮件地址中的域缺少句点。</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>电子邮件地址中缺少用户名。</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>电子邮件为必填项。</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>电子邮件地址包含过多的 @ 字符。</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>口令不匹配。</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>请接受条款和条件。</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>口令长度必须在 6 到 12 个字符之间，并且不能包含连续空格或冒号。</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>电子邮件地址无效。</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>电子邮件地址无效。</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>电子邮件地址包含无效字符。</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>这不是一个有效的电子邮件地址。</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>“名”为必填项。</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>“姓”为必填项。</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>请接受条款和条件。</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>请提供您的 Adobe 身份证。</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>这不是一个有效的电子邮件地址。</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>口令长度必须在 6 到 12 个字符之间，并且不能包含连续空格或冒号。</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>注册产品与服务</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Adobe 身份证与口令不匹配。</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>出现了一个错误。请稍后重试。</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>该电子邮件地址已被使用。</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>网络错误。请稍后重试。</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>这不是一个有效的电子邮件地址。</val>
+		</str>		
+	</set>
+	
+</asf>

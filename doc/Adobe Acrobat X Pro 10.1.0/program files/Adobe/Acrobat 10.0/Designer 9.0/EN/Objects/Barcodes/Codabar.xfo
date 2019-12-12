@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Codabar</text>
+               <text name="description">Codabar Barcode</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="CodabarBarCode" y="0mm" x="0mm" w="41.275mm" h="13.594mm">
+               <ui>
+                  <barcode type="codabar" checksum="none" textLocation="below" dataLength="10" startChar="a" endChar="b" wideNarrowRatio="3.0"/>
+               </ui>
+               <font size="10pt" typeface="Courier New"/>
+               <value>
+                  <text>1234567890</text>
+               </value>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template>
+</xdp:xdp>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V8.2.1.3144.1.471865" APIVersion="2.8.8118.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Process Fields</text>
+               <text name="description">Use these fields on a form that you want to use with LiveCycle. Your form will be email and web enabled with these fields.</text>
+		<text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="AWS_SUBMIT" x="82.55mm" w="28.575mm" h="9mm">
+               <ui>
+                  <button/>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <caption>
+                  <value>
+                     <text>Submit</text>
+                  </value>
+                  <para vAlign="middle" hAlign="center"/>
+                  <font typeface="Myriad Pro"/>
+               </caption>
+               <border hand="right">
+                  <?templateDesigner StyleID apbx2?>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+                  <corner/>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript">
+// This is the AWS_SUBMIT click script
+if (xfa.host.name == "Acrobat")
+{
+	// get the local URL of the PDF, to check to see if it's a file on disk or from the web. 
+	var sURL = event.target.URL;
+	if (sURL == null) sURL = "";
+
+	// we can email only if there is a Workflow Server email address.
+	// we allow email submission only if the pdf is loaded from disk (not in a browser)  
+	// Detecting if it is from local disk is by seeing if the URL starts with file:// (rather than htpp://, for instance)
+	if ( (sURL.indexOf("file://") == 0) )
+	{
+		if (AWS_STATUS.rawValue == "Submitted") { 
+			app.alert("This task item has already been submitted.");
+			bSubmit = false;
+		}
+		else {
+			// set this boolean to false if any of the criteria fails
+			var bEmail = true;
+
+			// check for an empty LiveCycle server email address
+			if (AWS_MAILTO.rawValue == null || AWS_MAILTO.rawValue == "") {
+				// prompt for an email address to send the submission to
+				AWS_MAILTO.rawValue = app.response("This form does not contain the email address for a LiveCycle Server. Please enter the LiveCycle Server email address now.", "Task Item Submission Information");
+				if (AWS_MAILTO.rawValue == null || AWS_MAILTO.rawValue == "") {
+					bEmail = false;
+				}
+			}
+
+			// check for either a taskId or a business process name
+			// If there is a taskId it is presumed that you are "participating"
+			// in the middle of a business process, whereas if there is no
+			// taskId it is presumed that you want to "initiate" a new
+			// business process.
+			// if there is no taskId, prompt for the business process name
+			if (bEmail) {
+				if ( (AWS_TASKID.rawValue == null		|| AWS_TASKID.rawValue == "") &amp;&amp; 
+					 (AWS_PROCESSTYPE.rawValue == null	|| AWS_PROCESSTYPE.rawValue == "") ) {
+					// prompt for the business process name
+					AWS_PROCESSTYPE.rawValue = app.response("This form does not contain a taskId or a business process name.  Please enter the business process name that you wish to initiate with this form.", "Task Item Submission Information"); 
+					if (AWS_PROCESSTYPE.rawValue == null || AWS_PROCESSTYPE.rawValue == "") {
+						bEmail = false;
+					}
+				}
+			}
+			
+			if (bEmail) {
+				var _mailto = AWS_MAILTO.rawValue;
+				if (_mailto.indexOf("mailto:") != 0)
+					_mailto = "mailto:" + _mailto;
+				event.target.submitForm({cURL:       _mailto,
+				 						 bEmpty:     true,		// Post all fields (true), or do Not post all fields (false)
+				 						 cSubmitAs:  AWS_SUBMIT_TYPE.rawValue,		// Post in XDP or PDF format
+				 						 cCharset:   "utf-8"});
+				// set status to "Submitted" so that another send is not attempted via email.
+				AWS_STATUS.rawValue = "Submitted";
+			}		
+		}
+	}
+
+	else {  // The PDF did not originate from file:// (i.e. not from local disk)
+		// do a normal web acrobat submit
+		if(AWS_SUBMIT_TYPE.rawValue == "PDF")
+			PDF_SUBMIT.execEvent("click");
+		else
+			FSSUBMIT_.execEvent("click");
+	}
+}
+
+else // other web rendering submit (xfa.host.name not == "Acrobat")
+{
+	
+		if(AWS_SUBMIT_TYPE.rawValue == "PDF")
+			PDF_SUBMIT.execEvent("click");
+		else
+			FSSUBMIT_.execEvent("click");}
+				  </script>
+               </event>
+            </field>
+            <field h="9mm" name="AWS_ACTION" w="62mm" x="9.525mm">
+               <ui>
+                  <choiceList>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </choiceList>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <border hand="right">
+                  <edge cap="butt" presence="hidden" stroke="lowered"/>
+                  <fill/>
+                  <corner/>
+               </border>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="12.7mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>Action</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+               <items/>
+               <items presence="hidden" save="1"/>
+               <event name="event__form_ready" activity="ready" ref="$form">
+                  <script contentType="application/x-javascript" runAt="both">
+var sChoice = AWS_CHOICE.rawValue;
+if (sChoice == null) sChoice = "";
+
+if (sChoice.length &gt; 0) {
+    // Set the contents of the AWS_ACTION drop-down list box
+    // equal to list in the AWS_CHOICE text box.
+    // This is required when the form is opened for the very
+    // first time.
+	
+    // Populate action list array from the comma delimited string in AWS_CHOICE
+    var astrChoiceList;
+    var choices;
+
+    // Clear drop-down list box
+    AWS_ACTION.clearItems();
+
+	astrChoiceList = AWS_CHOICE.rawValue;
+
+    // add each choice to AWS_ACTION
+    choices = astrChoiceList.split(",");
+    var numchoices = choices.length;
+
+    for (var i = 0; i &lt; numchoices; i++)
+    {
+    	AWS_ACTION.addItem(choices[i], choices[i]);
+    }
+
+    // Automatically select the first item
+    // only if the array is not empty
+    if (numchoices &gt; 0)
+    {
+		AWS_ACTION.rawValue = choices[0];
+    }
+}
+else {
+	AWS_ACTION.presence = "hidden";
+}
+			      </script>
+               </event>
+               <bind match="global"/>
+               <validate scriptTest="warning"/>
+            </field>
+            <field name="FSSUBMIT_" presence="invisible" x="88.9mm" y="12.7mm" w="6.35mm" h="6mm">
+               <ui>
+                  <button/>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <caption>
+                  <value>
+                     <text>Submit</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font typeface="Myriad Pro"/>
+               </caption>
+               <bind match="none"/>
+               <border>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+                  <corner/>
+               </border>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <event name="event__click" activity="click">
+                  <submit textEncoding="UTF-8" xdpContent="pdf datasets xfdf"/>
+               </event>
+            </field>
+            <field h="6mm" name="AWS_PROCESSTYPE" presence="invisible" relevant="+interactive" w="10.875mm" y="12.7mm" x="76.2mm">
+               <value>
+                  <text maxChars="255"/>
+               </value>
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge/>
+                        <fill>
+                           <color value="192,192,192"/>
+                        </fill>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <caption reserve="15.875mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>AWS_PROCESSTYPE</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+               <font typeface="Myriad Pro"/>
+               <border hand="right">
+                  <edge cap="butt" presence="hidden" stroke="lowered"/>
+                  <corner/>
+               </border>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <bind match="global"/>
+               <para vAlign="middle"/>
+            </field>
+            <field h="6mm" name="AWS_ASSIGNED_ID" presence="invisible" relevant="+interactive" w="3.175mm" y="12.7mm" x="107.95mm">
+               <value>
+                  <text maxChars="255"/>
+               </value>
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge/>
+                        <fill>
+                           <color value="192,192,192"/>
+                        </fill>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <caption reserve="15.875mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>AWS_ASSIGNED_ID</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+               <font typeface="Myriad Pro"/>
+               <border hand="right">
+                  <edge cap="butt" presence="hidden" stroke="lowered"/>
+                  <corner/>
+               </border>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <bind match="global"/>
+               <para vAlign="middle"/>
+            </field>
+            <field h="5.9944mm" name="AWS_TASKID" presence="invisible" w="15.875mm" x="19.05mm" y="12.7mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge/>
+                        <corner/>
+                        <corner/>
+                        <corner/>
+                        <fill/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="15.875mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>AWS_TASKID</text>
+                  </value>
+               </caption>
+               <value>
+                  <text maxChars="255"/>
+               </value>
+               <bind match="global"/>
+            </field>
+            <field h="6mm" name="AWS_CHOICE" presence="invisible" relevant="+interactive" w="15.875mm" y="12.7mm" x="57.15mm">
+               <value>
+                  <text maxChars="255"/>
+               </value>
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge/>
+                        <fill>
+                           <color value="192,192,192"/>
+                        </fill>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <caption reserve="15.875mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>AWS_CHOICE</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+               <font typeface="Myriad Pro"/>
+               <border hand="right">
+                  <edge cap="butt" presence="hidden" stroke="lowered"/>
+                  <corner/>
+               </border>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <bind match="global"/>
+               <para vAlign="middle"/>
+            </field>
+            <field h="6mm" name="AWS_STATUS" presence="invisible" relevant="+interactive" w="15.875mm" y="12.7mm">
+               <value>
+                  <text maxChars="255"/>
+               </value>
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge/>
+                        <fill>
+                           <color value="192,192,192"/>
+                        </fill>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <caption reserve="15.875mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>AWS_STATUS</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+               <font typeface="Myriad Pro"/>
+               <border hand="right">
+                  <edge cap="butt" presence="hidden" stroke="lowered"/>
+                  <corner/>
+               </border>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <para vAlign="middle"/>
+               <bind match="none"/>
+            </field>
+            <field h="5.9944mm" name="AWS_MAILTO" presence="invisible" w="15.875mm" x="38.1mm" y="12.7mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge/>
+                        <corner/>
+                        <corner/>
+                        <corner/>
+                        <fill/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="15.875mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>AWS_MAILTO</text>
+                  </value>
+               </caption>
+               <value>
+                  <text maxChars="255"/>
+               </value>
+               <bind match="global"/>
+            </field>
+            <field name="AWS_SUBMIT_TYPE" x="73.025mm" w="3.175mm" h="9mm" presence="invisible">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <?templateDesigner StyleID aped3?>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption>
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Text Field</text>
+                  </value>
+               </caption>
+               <value>
+                  <text>XDP</text>
+               </value>
+               <bind match="global"/>
+            </field>
+            <field name="PDF_SUBMIT" y="12.7mm" x="98.425mm" w="6.35mm" h="6mm" presence="invisible">
+               <ui>
+                  <button/>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <caption>
+                  <value>
+                     <text>Button</text>
+                  </value>
+                  <para vAlign="middle" hAlign="center"/>
+                  <font typeface="Myriad Pro"/>
+               </caption>
+               <border hand="right">
+                  <?templateDesigner StyleID apbx2?>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="212,208,200"/>
+                  </fill>
+               </border>
+               <bind match="none"/>
+               <event activity="click" name="event__click">
+                  <submit format="pdf" textEncoding="UTF-16" xdpContent="pdf datasets xfdf"/>
+               </event>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

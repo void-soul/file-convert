@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Data Matrix</text>
+               <text name="description">Data Matrix Non-Scriptable Barcode. Value must be assigned to this barcode at design time, and this barcode will not update after form object value changes.</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="DataMatrixBarCode" y="0mm" x="0mm" w="25.4mm" h="25.4mm" access="readOnly">
+               <ui>
+                  <barcode type="dataMatrix" dataLength="10" moduleWidth="0.0167in" moduleHeight="0.0167in"/>
+               </ui>
+               <value>
+                  <text>1234567890</text>
+               </value>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template>
+</xdp:xdp>

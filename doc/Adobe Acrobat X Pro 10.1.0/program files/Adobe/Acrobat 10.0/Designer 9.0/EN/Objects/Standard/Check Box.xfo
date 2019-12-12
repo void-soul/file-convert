@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Check Box</text>
+               <text name="description">Check Box - Enables end users to turn an option on or off.</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="CheckBox" y="0mm" x="0mm" w="28mm" h="6mm">
+               <ui>
+                  <checkButton size="10pt" shape="square" allowNeutral="0">
+                     <border>
+                        <?templateDesigner StyleID apcb2?>
+                        <edge stroke="lowered"/>
+                        <fill>
+                           <solid/>
+                           <color value="255,255,255"/>
+                        </fill>
+                     </border>
+                  </checkButton>
+               </ui>
+               <font size="10pt" typeface="Myriad Pro"/>
+               <margin leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer>0</integer>
+               </value>
+               <caption placement="right" reserve="21mm">
+                  <para vAlign="middle"/>
+                  <font size="10pt" typeface="Myriad Pro"/>
+                  <value>
+                     <text>Check Box</text>
+                  </value>
+               </caption>
+               <items>
+                  <integer>1</integer>
+                  <integer>0</integer>
+                  <integer>2</integer>
+               </items>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

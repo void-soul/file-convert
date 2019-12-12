@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="es_ES" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>es_ES</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>SIGUIENTE</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>ATRÁS</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>SALIR</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>SALIR</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>DETENER</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>CONTINUAR</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>RECHAZAR</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>ACEPTAR</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>INSTALAR</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>DESINSTALAR</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>CREAR</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Continuar</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>Aceptar</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>SÍ</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>NO</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>Cancelar</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>CERRAR</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>ENVIAR</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>OMITIR</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Registrar el software</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Registro para productos y servicios</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Para registrar el software y configurar el acceso a los servicios en línea de {0}Acrobat.com{1}, introduzca o cree un ID de Adobe.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Obtenga acceso al soporte técnico y consiga ventajas exclusivas, como boletines, publicaciones e invitaciones a eventos y seminarios de Adobe. Para registrar el software, introduzca o cree un ID de Adobe.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Se necesita un ID de Adobe para usar este software como prueba y configurar el acceso a los servicios en línea de {0}Acrobat.com{1} durante el periodo de prueba. Dispondrá de 7 días a partir del primer inicio de la prueba para introducir un ID de Adobe.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Para registrar el software, introduzca o cree un ID de Adobe.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Debe introducir un ID de Adobe para poder usar la suscripción y acceder a los servicios en línea de {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Este equipo se ha desactivado. Debe iniciar sesión con su ID de Adobe para volver a activar la suscripción en este equipo.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_es</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Para crear uno, sólo hay que proporcionar una dirección de correo electrónico y una contraseña.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>¿Necesita un ID de Adobe?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>CREAR UN ID DE ADOBE</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>¿Ya tiene un ID de Adobe?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>Dirección de correo electrónico (ID de Adobe)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Contraseña</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>¿Ha olvidado la contraseña?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_es</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Para disfrutar de los servicios de Acrobat.com, debe proporcionar un ID de Adobe y aceptar las Condiciones de uso vigentes. Si no proporciona un ID de Adobe en este momento, el periodo de suscripción gratuita correspondiente podría verse reducido.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Para completar la suscripción a Acrobat y obtener una vista previa gratuita de los servicios de Acrobat.com, debe proporcionar un ID de Adobe y aceptar las Condiciones de uso vigentes.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>OMITIR ESTE PASO</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Introduzca la dirección de correo electrónico asociada a su cuenta de ID de Adobe.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Se requiere una contraseña</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>No se pudo establecer conexión. Vuelva a intentarlo.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>El ID de Adobe y la contraseña no concuerdan</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Crear un ID de Adobe</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>La creación de un ID de Adobe registra el software y configura el acceso a los servicios en línea de Acrobat.com. Todos los campos son obligatorios.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>La creación de un ID de Adobe registra el software. Todos los campos son obligatorios.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>La creación de un ID de Adobe configura el acceso a los servicios de Acrobat.com durante el periodo de prueba y nos permite saber que está interesado en este producto. Todos los campos son obligatorios.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>La creación de un ID de Adobe nos permite saber que está interesado en este producto. Todos los campos son obligatorios.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Debe introducir un ID de Adobe para poder usar la suscripción a Acrobat y acceder a los servicios en línea de {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>Dirección de correo electrónico (ID de Adobe)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Contraseña</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Vuelva a escribir la contraseña</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Nombre</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Apellidos</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>País/región</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Manténganme informado sobre Adobe y sus productos y servicios, es decir, sobre los lanzamientos y las actualizaciones de productos, los eventos, las encuestas y las ofertas. Adobe y sus agentes usarán mis datos de acuerdo con la {0}Política de privacidad en línea de Adobe{1}.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_es</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_es</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_es</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Sí</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>No</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Seleccionar</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Se requiere una contraseña (de 6 a 12 caracteres)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>No es una dirección de correo electrónico válida.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Las contraseñas no concuerdan.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>El nombre es obligatorio.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Los apellidos son obligatorios.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>La selección de país/región es obligatoria.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Este ID de Adobe ya está asociado a otra suscripción. Cree un nuevo ID de Adobe o inicie sesión con un ID de Adobe diferente.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>Entiendo que, de conformidad con su {0}Política de privacidad en línea{1}, Adobe, sus socios y sus agentes ("Adobe") usarán la información detallada que yo proporcione para actualizar y administrar las bases de datos que recogen las preferencias de los clientes y los usuarios. Autorizo a Adobe a transferir mis datos a los países ajenos a la Unión Europea en los que Adobe tiene operaciones, como Estados Unidos, para estos fines y para otros adicionales especificados a continuación. 
+Entiendo que puedo modificar en cualquier momento mis preferencias sobre el procesamiento de mis datos personales por parte de Adobe. Para ello, debo visitar la {2}página de mi cuenta{3} o contactar con el agente de privacidad de Adobe según lo especificado en la {4}Política de privacidad en línea de Adobe{5}. Entiendo que puede ser necesario contactar por separado con terceros a los que Adobe hubiera enviado mis datos personales antes de que yo comunicara los cambios en las preferencias. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Esta cadena tiene un número de caracteres superior al máximo permitido. Debe tener entre 6 y 12 caracteres.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Esta cadena tiene un número de caracteres inferior al mínimo permitido. Debe tener entre 6 y 12 caracteres.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Esta cadena tiene un número de caracteres superior al máximo permitido. Debe tener entre 6 y 12 caracteres.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Esta cadena tiene un número de caracteres inferior al mínimo permitido. Debe tener entre 6 y 12 caracteres.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Esta cadena tiene un número de caracteres superior al máximo permitido. Debe tener entre 1 y 300 caracteres.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Esta cadena tiene un número de caracteres inferior al mínimo permitido. Debe tener entre 1 y 300 caracteres.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>La dirección de correo electrónico contiene caracteres no válidos.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>El formato del dominio de la dirección de correo electrónico no es correcto.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>El formato del dominio IP de la dirección de correo electrónico no es correcto.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>El dominio de la dirección de correo electrónico contiene puntos consecutivos.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>Falta un signo de arroba (@) en la dirección de correo electrónico.</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>Falta un punto en el dominio de la dirección de correo electrónico.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>Falta el nombre de usuario en la dirección de correo electrónico.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>La dirección de correo electrónico es obligatoria.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>La dirección de correo electrónico contiene demasiados caracteres @.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Las contraseñas no concuerdan.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Acepte los términos y condiciones.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>La contraseña debe tener entre 6 y 12 caracteres y no puede contener espacios consecutivos ni signos de dos puntos.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Dirección de correo electrónico no válida.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Dirección de correo electrónico no válida.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>La dirección de correo electrónico contiene caracteres no válidos.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>No es una dirección de correo electrónico válida.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>El nombre es obligatorio.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Los apellidos son obligatorios.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Acepte los términos y condiciones.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Proporcione su ID de Adobe.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>No es una dirección de correo electrónico válida.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>La contraseña debe tener entre 6 y 12 caracteres y no puede contener espacios consecutivos ni signos de dos puntos.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Registro para productos y servicios</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>El ID de Adobe y la contraseña no concuerdan.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>Se ha producido un error. Espere unos minutos y vuelva a intentarlo.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Esta dirección de correo electrónico ya se ha usado.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Error de red. Vuelva a intentarlo más tarde.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>No es una dirección de correo electrónico válida.</val>
+		</str>		
+	</set>
+	
+</asf>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V9.0.0.0.00000000.0.000000" APIVersion="3.1.8308.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.0/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">GS1 DataBar (RSS) Stacked</text>
+               <text name="description">GS1 DataBar (RSS) Stacked Barcode</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="GS1DataBarRSSStackedBarcode" y="0mm" x="0mm" w="40.64mm" h="13.3mm">
+               <ui>
+                  <barcode type="rss14Stacked" wideNarrowRatio="3.0" dataLength="13"/>
+                </ui>
+               <font size="10pt" typeface="Courier New"/>
+               <value>
+                  <text>1234567890</text>
+               </value>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template>
+</xdp:xdp>

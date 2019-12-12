@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Signature - Print and Sign</text>
+               <text name="description">Signature - Print and Sign - Displays a space on a printed form where an end user can provide a signature.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <draw name="Signature" minW="76.2mm" minH="4.699mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text>Signed By</text>
+               </value>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="0.508mm" bottomInset="0.508mm" leftInset="0.508mm" rightInset="0.508mm"/>
+               <para vAlign="middle"/>
+               <border>
+                  <edge/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+                  <corner/>
+               </border>
+            </draw>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

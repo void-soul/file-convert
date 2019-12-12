@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="zh_TW" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>zh_TW</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>下一步</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>上一步</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>結束</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>結束</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>停止</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>繼續</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>拒絕</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>接受</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>安裝</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>移除</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>建立</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>繼續</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>確定</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>是</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>否</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>取消</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>關閉</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>送出</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>略過</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>註冊您的軟體</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>註冊產品與服務</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>若要註冊軟體並設定存取 {0}Acrobat.com{1} 線上服務，請輸入或建立 Adobe ID。</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>存取產品支援及獨享福利，例如電子報、出版物與 Adobe 活動暨研討會的邀請函。若要註冊您的軟體，請輸入或建立 Adobe ID。</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>需要 Adobe ID 才能試用此軟體，並設定在試用期間存取 {0}Acrobat.com{1} 線上服務。從第一次啟動試用算起，您有 7 天時間可輸入 Adobe ID。</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>若要註冊您的軟體，請輸入或建立 Adobe ID。</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>您必須輸入 Adobe ID 才能使用訂閱，以及存取 {0}Acrobat.com{1} 線上服務。</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>此機器已停用。您必須以 Adobe ID 登入才能在此機器上重新啟用訂閱。</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_tw</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>只要提供電子郵件和密碼，即可建立 Adobe ID。</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>需要 Adobe ID 嗎？</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>建立 ADOBE ID</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>已有 Adobe ID？</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>電子郵件 (Adobe ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>密碼</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>忘記密碼？</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_tw</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>為了善用 Acrobat.com 服務，您必須提供 Adobe ID 並同意適用的使用條款。如果此時沒有提供 Adobe ID，任何適用的免費訂閱期可能會縮短。</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>為完成 Acrobat 訂閱及啟動 Acrobat.com 服務的免費預覽，您必須提供 Adobe ID 並同意適用的使用條款。</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>略過此步驟</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>請輸入與您的 Adobe ID 帳戶關聯的電子郵件地址。</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>必須填寫密碼</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>無法連線。請再試一次。</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Adobe ID 與密碼不相符</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>建立 Adobe ID</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>建立 Adobe ID 會註冊軟體並設定存取 Acrobat.com 線上服務。所有欄位均必填。</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>建立 Adobe ID 會註冊軟體。所有欄位均必填。</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>建立 Adobe ID 會設定在試用期間存取 Acrobat.com 服務，並讓我們知道您對本產品感興趣。所有欄位均必填。</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>建立 Adobe ID 可讓我們知道您對本產品感興趣。所有欄位均必填。</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>您必須輸入 Adobe ID 才能使用 Acrobat 訂閱，以及存取 {0}Acrobat.com{1} 線上服務。</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>電子郵件地址 (Adobe ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>密碼</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>重新輸入密碼</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>名</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>姓</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>國家/地區</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>請通知我有關 Adobe 及其產品與服務的資訊，包括產品發行版本、產品升級、活動、調查及優惠方案。Adobe 及其代理可依照 {0}Adobe 線上隱私策略{1}使用我的資料。</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_tw</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_tw</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_tw</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>是</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>否</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>選擇</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>需要密碼 (6-12 個字元)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>這不是有效的電子郵件地址。</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>密碼不相符。</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>必須填寫「名」。</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>必須填寫「姓」。</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>必須選擇「國家/地區」。</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>此 Adobe ID 已與另一個訂閱關聯。請建立新 Adobe ID 或使用其它的 Adobe ID 登入。</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>我瞭解 Adobe、其關係企業及代理商 (以下簡稱"Adobe") 依照其{0}線上隱私策略{1}，將使用我提供的詳細資料來更新及管理其有關客戶及使用者偏好設定的資料庫。我同意 Adobe 針對這些用途及下面勾選的其它用途，將我的資料傳送至歐盟以外 Adobe 設有營運據點的國家，其中包括美國。
+我瞭解我隨時可以造訪{2}我的帳戶頁面{3}或聯繫 {4}Adobe 線上隱私策略{5}所規定的 Adobe 隱私專員，以變更有關 Adobe 處理我個人資料的偏好設定。我瞭解可能需要另外聯繫在進行我的偏好設定變更溝通之前，已從 Adobe 接收我的個人資料的協力廠商。
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>此字串超過允許的長度上限。長度必須為 6 至 12 個字元。</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>此字串比允許的長度下限短。長度必須為 6 至 12 個字元。</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>此字串超過允許的長度上限。長度必須為 6 至 12 個字元。</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>此字串比允許的長度下限短。長度必須為 6 至 12 個字元。</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>此字串超過允許的長度上限。長度必須為 1 至 300 個字元。</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>此字串比允許的長度下限短。長度必須為 1 至 300 個字元。</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>電子郵件地址包含無效字元。</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>電子郵件地址的網域格式錯誤。</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>電子郵件地址的 IP 網域格式錯誤。</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>電子郵件地址的網域含有連續句點。</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>電子郵件地址中缺少 at 符號 (@)。</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>電子郵件地址的網域缺少句點。</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>電子郵件地址中缺少使用者名稱。</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>必須填寫電子郵件。</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>電子郵件地址包含過多 @ 字元。</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>密碼不相符。</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>請接受條款與條件。</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>您的密碼必須介於 6 到 12 個字元之間，且不得包含連續的空格或冒號。</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>電子郵件地址無效。</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>電子郵件地址無效。</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>電子郵件地址包含無效字元。</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>這不是有效的電子郵件地址。</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>必須填寫名。</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>必須填寫姓。</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>請接受條款與條件。</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>請提供您的 Adobe ID。</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>這不是有效的電子郵件地址。</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>您的密碼必須介於 6 到 12 個字元之間，且不得包含連續的空格或冒號。</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>註冊產品與服務</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Adobe ID 與密碼不相符。</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>發生錯誤。請稍後再試一次。</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>此電子郵件地址已被使用。</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>網路錯誤。請稍後再試一次。</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>這不是有效的電子郵件地址。</val>
+		</str>		
+	</set>
+	
+</asf>

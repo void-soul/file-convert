@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="sv_SE" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>sv_SE</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>NÄSTA</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>BAKÅT</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>AVSLUTA</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>LÄMNA</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>STOPP</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>FORTSÄTT</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>AVBÖJ</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>ACCEPTERA</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>INSTALLERA</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>AVINSTALLERA</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>SKAPA</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Fortsätt</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>JA</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>NEJ</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>Avbryt</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>STÄNG</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>SKICKA</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>HOPPA ÖVER</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Registrera programvaran</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Registrering för produkter och tjänster</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>För att registrera ditt program och få åtkomst till onlinetjänsterna på {0}Acrobat.com{1} måste du ange eller skapa ett Adobe-ID.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Få tillgång till produktsupport och exklusiva fördelar som nyhetsbrev, publikationer och inbjudningar till evenemang och seminarier med Adobe. Om du vill registrera ditt program måste du ange eller skapa ett Adobe-ID.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Det krävs ett Adobe-ID för att du ska kunna använda provversionen av det här programmet och ansluta till onlinetjänsterna på {0}Acrobat.com{1} under testperioden. Från det att du startar provversionen första gången har du sju dagar på dig att ange ett Adobe-ID.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Om du vill registrera ditt program måste du ange eller skapa ett Adobe-ID.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Du måste ange ett Adobe-ID innan du kan använda din prenumeration och få tillgång till onlinetjänsterna på {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Den här datorn har inaktiverats. Du måste logga in med ditt Adobe-ID och aktivera din prenumeration igen på den här datorn.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_se</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Du skapar det genom att helt enkelt ange en e-postadress och ett lösenord.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Behöver du ett Adobe-ID?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>SKAPA ETT ADOBE-ID</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>Har du redan ett Adobe-ID?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>E-post (Adobe-ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Lösenord</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>Har du glömt lösenordet?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_se</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>För att kunna utnyttja Acrobat.coms tjänster måste du tillhandahålla ett Adobe-ID och acceptera de tillämpliga användningsvillkoren. Om du inte tillhandahåller något Adobe-ID vid denna tidpunkt, kan eventuell tillämplig gratisprenumeration komma att begränsas.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Innan du kan färdigställa din prenumeration på Acrobat och starta gratisförhandsgranskningen av tjänsterna på Acrobat.com måste du ange ett Adobe-ID och acceptera användningsvillkoren.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>HOPPA ÖVER DET HÄR STEGET</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Ange e-postadressen som har kopplats till ditt Adobe-ID-konto.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Lösenord krävs</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>Det gick inte att ansluta. Försök igen.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Adobe-ID och lösenord matchar inte</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Skapa ett Adobe-ID</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>När du skapar ett Adobe-ID registreras ditt program och du får åtkomst till onlinetjänsterna för Acrobat.com. Alla fält är obligatoriska.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>När du skapar ett Adobe-ID registreras ditt program. Alla fält är obligatoriska.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>När du skapar ett Adobe-ID får du åtkomst till onlinetjänsterna för Acrobat.com under testperioden, och vi får reda på ditt intresse för produkten. Alla fält är obligatoriska.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>När du skapar ett Adobe-ID får vi reda på ditt intresse för produkten. Alla fält är obligatoriska.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Du måste ange ett Adobe-ID innan du kan använda din prenumeration på Acrobat och få tillgång till onlinetjänsterna på {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>E-postadress (Adobe-ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Lösenord</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Ange lösenordet på nytt</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Förnamn</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Efternamn</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>Land/region</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Håll mig informerad om Adobe och dess produkter och tjänster, inklusive produktversioner och uppgraderingar, händelser, undersökningar och erbjudanden.  Mina data kommer att användas av Adobe och dess agenter i enlighet med {0}Adobes sekretessbestämmelser online{1}.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_se</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_se</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_se</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Ja</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>Nej</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Välj</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Lösenord krävs (6-12 tecken)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>Detta är inte en giltig e-postadress.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Lösenorden stämmer inte.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>Förnamn måste anges.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Efternamn måste anges.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>Land/region måste anges.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Detta Adobe-ID har redan kopplats till en annan prenumeration. Skapa ett nytt Adobe-ID eller logga in med ett annat Adobe-ID.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>Jag förstår att Adobe, dess dotterbolag och agenter (Adobe), i enlighet med dess {0}sekretessbestämmelser online{1}, använder den information jag tillhandahåller till att uppdatera och hantera dess databaser vad gäller kund- och användarinställningar. Jag samtycker till att Adobe överför mina data till länder utanför EU där Adobe har verksamhet, däribland USA, i dessa syften eller för de ytterligare syften som anges nedan. 
+Jag förstår att jag när som helst kan ändra mina inställningar vad gäller Adobes hantering av min personliga information genom att besöka {2}min kontosida{3} eller kontakta Adobes sekretessansvarige så som anges i {4}Adobes sekretessbestämmelser online{5}. Jag förstår att jag kan behöva kontakta tredje part som har fått min personliga information från Adobe innan jag ändrade mina inställningar. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Den här strängen är längre än tillåtet. Dess längd måste vara mellan 6 och 12 tecken.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Den här strängen är kortare än tillåtet. Dess längd måste vara mellan 6 och 12 tecken.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Den här strängen är längre än tillåtet. Dess längd måste vara mellan 6 och 12 tecken.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Den här strängen är kortare än tillåtet. Dess längd måste vara mellan 6 och 12 tecken.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Den här strängen är längre än tillåtet. Dess längd måste vara mellan 1 och 300 tecken.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Den här strängen är kortare än tillåtet. Dess längd måste vara mellan 1 och 300 tecken.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>E-postadressen innehåller ogiltiga tecken.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>Domänen i e-postadressen är felformaterad.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>IP-domänen i e-postadressen är felformaterad.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>Domänen i e-postadressen har flera punkter.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>Snabel-a (@) i e-postadressen saknas.</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>Domänen i e-postadressen saknar en punkt.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>Användarnamnet i e-postadressen saknas.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>E-postadressen måste anges.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>E-postadressen innehåller för många @-tecken.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Lösenorden stämmer inte.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Godkänn villkoren.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Lösenordet måste innehålla mellan 6 och 12 tecken, och får inte innehålla flera blanksteg eller kolon i följd.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Ogiltig e-postadress.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Ogiltig e-postadress.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>E-postadressen innehåller ogiltiga tecken.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>Detta är inte en giltig e-postadress.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>Förnamn måste anges.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Efternamn måste anges.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Godkänn villkoren.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Ange ditt Adobe-ID.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>Detta är inte en giltig e-postadress.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Lösenordet måste innehålla mellan 6 och 12 tecken, och får inte innehålla flera blanksteg eller kolon i följd.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Registrering för produkter och tjänster</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Ditt Adobe-ID och lösenord stämmer inte överens.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>Ett fel har uppstått. Försök igen om en stund.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Den här e-postadressen har redan använts.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Nätverksfel. Försök igen senare.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>Detta är inte en giltig e-postadress.</val>
+		</str>		
+	</set>
+	
+</asf>

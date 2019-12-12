@@ -1,0 +1,3 @@
+<#if PgUp>xfa.host.pageUp();</#if>
+<#if PgDn>xfa.host.pageDown();</#if>
+<#if GotoPage>xfa.host.currentPage = ${Page};</#if>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Countries</text>
+               <text name="description">Countries - Displays a drop-down list populated with Country names.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field h="8.9916mm" name="Country" w="88.9mm">
+               <ui>
+                  <choiceList>
+                     <border>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </choiceList>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="15.24mm">
+                  <font typeface="Myriad Pro"/>
+                  <para marginLeft="0pt" marginRight="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text>Country</text>
+                  </value>
+               </caption>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.0762mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+               </border>
+               <value>
+                  <text>AL</text>
+               </value>
+               <items>
+                  <text>Albania</text>
+                  <text>Andorra</text>
+                  <text>Armenia</text>
+                  <text>Australia</text>
+                  <text>Austria</text>
+                  <text>Azerbaijan</text>
+                  <text>Belarus</text>
+                  <text>Belgium</text>
+                  <text>Bermuda</text>
+                  <text>Bosnia/Herzegovina</text>
+                  <text>Bulgaria</text>
+                  <text>Canada</text>
+                  <text>Croatia</text>
+                  <text>Cyprus</text>
+                  <text>Czech Republic</text>
+                  <text>Denmark</text>
+                  <text>Estonia</text>
+                  <text>Finland</text>
+                  <text>France</text>
+                  <text>Georgia</text>
+                  <text>Germany</text>
+                  <text>Greece</text>
+                  <text>Greenland</text>
+                  <text>Hungary</text>
+                  <text>Iceland</text>
+                  <text>Ireland</text>
+                  <text>Italy</text>
+                  <text>Japan</text>
+                  <text>Latvia</text>
+                  <text>Liechtenstein</text>
+                  <text>Lithuania</text>
+                  <text>Luxembourg</text>
+                  <text>Macedonia, The Former Yugoslav Republic of</text>
+                  <text>Malta</text>
+                  <text>Mexico</text>
+                  <text>Moldova, Republic of</text>
+                  <text>Monaco</text>
+                  <text>Netherlands</text>
+                  <text>New Zealand</text>
+                  <text>Norway</text>
+                  <text>Poland</text>
+                  <text>Portugal</text>
+                  <text>Romania</text>
+                  <text>Russian Federation</text>
+                  <text>San Marino</text>
+                  <text>Serbia/Montenegro</text>
+                  <text>Slovakia</text>
+                  <text>Slovenia</text>
+                  <text>Spain</text>
+                  <text>Sweden</text>
+                  <text>Switzerland</text>
+                  <text>Turkey</text>
+                  <text>Ukraine</text>
+                  <text>United Kingdom</text>
+                  <text>United States</text>
+                  <text>Vatican City State (Holy See)</text>
+               </items>
+               <items save="1" presence="hidden">
+                  <text>AL</text>
+                  <text>AD</text>
+                  <text>AM</text>
+                  <text>AU</text>
+                  <text>AT</text>
+                  <text>AZ</text>
+                  <text>BY</text>
+                  <text>BE</text>
+                  <text>BM</text>
+                  <text>BA</text>
+                  <text>BG</text>
+                  <text>CA</text>
+                  <text>HR</text>
+                  <text>CY</text>
+                  <text>CZ</text>
+                  <text>DK</text>
+                  <text>EE</text>
+                  <text>FI</text>
+                  <text>FR</text>
+                  <text>GE</text>
+                  <text>DE</text>
+                  <text>GR</text>
+                  <text>GL</text>
+                  <text>HU</text>
+                  <text>IS</text>
+                  <text>IE</text>
+                  <text>IT</text>
+                  <text>JP</text>
+                  <text>LV</text>
+                  <text>LI</text>
+                  <text>LT</text>
+                  <text>LU</text>
+                  <text>MK</text>
+                  <text>MT</text>
+                  <text>MX</text>
+                  <text>MD</text>
+                  <text>MC</text>
+                  <text>NL</text>
+                  <text>NZ</text>
+                  <text>NO</text>
+                  <text>PL</text>
+                  <text>PT</text>
+                  <text>RO</text>
+                  <text>RU</text>
+                  <text>SM</text>
+                  <text>CS</text>
+                  <text>SK</text>
+                  <text>SI</text>
+                  <text>ES</text>
+                  <text>SE</text>
+                  <text>CH</text>
+                  <text>TR</text>
+                  <text>UA</text>
+                  <text>GB</text>
+                  <text>US</text>
+                  <text>VA</text>
+               </items>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

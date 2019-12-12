@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="ja_JP" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>ja_JP</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>次へ</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>戻る</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>終了</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>終了</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>停止</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>続行</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>同意しない</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>同意する</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>インストール</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>アンインストール</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>作成</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>続行</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>はい</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>いいえ</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>キャンセル</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>閉じる</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>送信</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>スキップ</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>ソフトウェアの登録</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>製品とサービスの登録</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>ソフトウェアを登録し、{0}Acrobat.com{1} オンラインサービスへのアクセスを設定するには、Adobe ID を入力または作成します。</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>ニュースレター、出版物、およびアドビ システムズ社のイベントやセミナーへの招待といった製品サポートおよび特典を受けることができます。ソフトウェアを登録するには、Adobe ID を入力するか作成してください。</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>このソフトウェアを体験版として使用し、体験期間中に {0}Acrobat.com{1} オンラインサービスにアクセスできるよう設定するには、Adobe ID が必要です。体験版を初めて起動してから 7 日以内に Adobe ID を入力する必要があります。</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>ソフトウェアを登録するには、Adobe ID を入力するか作成してください。</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>サブスクリプションを使用し、{0}Acrobat.com{1} オンラインサービスにアクセスするには、Adobe ID を入力する必要があります。</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>このコンピューターは解除されています。このコンピューター上でサブスクリプションを再開するには、Adobe ID を使用してログインする必要があります。</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_jp</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Adobe ID は、電子メールとパスワードを入力するだけで作成できます。</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Adobe ID が必要ですか？</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>Adobe ID を作成</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>既に Adobe ID をお持ちですか？</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>電子メール (Adobe ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>パスワード</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>パスワードを忘れた場合</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_jp</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Acrobat.com サービスを利用するには、Adobe ID を入力し、該当する利用規約に同意する必要があります。この時点で Adobe ID を入力しない場合、適用される無料サブスクリプション期間が短縮されることがあります。</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Acrobat へのサブスクリプションを完了し、Acrobat.com サービスの無料プレビューを開始するには、Adobe ID を入力し、適用される利用規約に同意する必要があります。</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>この手順をスキップ</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Adobe ID アカウントに関連付けられている電子メールアドレスを入力してください。</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>パスワードが必要です</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>接続に失敗しました。もう一度やり直してください。</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Adobe ID とパスワードが一致しません</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Adobe ID を作成</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Adobe ID を作成すると、ソフトウェアが登録され、Acrobat.com オンラインサービスへのアクセスが設定されます。すべてのフィールドに入力する必要があります。</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Adobe ID を作成すると、ソフトウェアが登録されます。すべてのフィールドに入力する必要があります。</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Adobe ID を作成すると、体験期間中に Acrobat.com サービスにアクセスできるよう設定され、お客様がこの製品に関心をお持ちであることがアドビ システムズ社に通知されます。すべてのフィールドに入力する必要があります。</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Adobe ID を作成すると、お客様がこの製品に関心をお持ちであることがアドビ システムズ社に通知されます。すべてのフィールドに入力する必要があります。</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Acrobat サブスクリプションを使用し、{0}Acrobat.com{1} オンラインサービスにアクセスするには、Adobe ID を入力する必要があります。</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>電子メールアドレス (Adobe ID)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>パスワード</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>パスワードを再入力</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>名</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>姓</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>国 / 地域</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>アドビ システムズ社およびアドビ製品とサービス（製品リリース、アップグレード、イベント、アンケート、特典など）に関する情報を受け取ることを希望します。私の個人情報が、{0}アドビオンラインプライバシーポリシー{1}に従って、アドビ システムズ社およびその代理店に使用されることに同意します。</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_jp</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_jp</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_jp</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>はい</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>いいえ</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>選択</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>パスワードが必要です (6 ～ 12 文字)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>この電子メールアドレスは有効ではありません。</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>パスワードが一致しません。</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>名が必要です。</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>姓が必要です。</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>国 / 地域を選択する必要があります。</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>この Adobe ID は別のサブスクリプションに既に関連付けられています。新しい Adobe ID を作成するか、別の Adobe ID でサインインしてください。</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>アドビ、その関連会社および業務委託先 (「アドビ」) が、アドビの{0}オンラインプライバシーポリシー{1}に従って、私が提供した詳細情報を使用して顧客およびユーザー設定に関連するデータベースを更新および管理することを了承します。これらの目的および以下にチェックしたその他の目的のために、アメリカ合衆国など、アドビが事業を展開している EU 域外の国に対して、アドビが私のデータを転送することに同意します。
+{4}アドビオンラインプライバシーポリシー{5} で規定されているように、{2}マイアカウントページ{3} にアクセスするか、アドビのプライバシー責任者に連絡することで、アドビが処理する私の個人データに関連する私の個人設定を私がいつでも変更できることを了承します。私の個人設定の変更が通知される前に、サードパーティが私の個人データをアドビから受け取った場合、このサードパーティに別途連絡する必要が私に生じる可能性があることを了承します。
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>この文字列は、許可されている最大長を超えています。6 ～ 12 文字で指定する必要があります。</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>この文字列は、許可されている最小長より短いです。6 ～ 12 文字で指定する必要があります。</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>この文字列は、許可されている最大長を超えています。6 ～ 12 文字で指定する必要があります。</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>この文字列は、許可されている最小長より短いです。6 ～ 12 文字で指定する必要があります。</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>この文字列は、許可されている最大長を超えています。1 ～ 300 文字で指定する必要があります。</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>この文字列は、許可されている最小長より短いです。1 ～ 300 文字で指定する必要があります。</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>電子メールアドレスに無効な文字が含まれています。</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>電子メールアドレスのドメインの形式が正しくありません。</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>電子メールアドレスの IP ドメインの形式が正しくありません。</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>電子メールアドレスのドメインに連続したピリオドが含まれています。</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>電子メールアドレスにアットマーク (@) がありません。</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>電子メールアドレスのドメインにピリオドがありません。</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>電子メールアドレスのユーザー名がありません。</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>電子メールが必要です。</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>電子メールアドレスに含まれる @ の数が多すぎます。</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>パスワードが一致しません。</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>利用条件に同意してください。</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>パスワードは 6 ～ 12 文字で入力する必要があり、連続したスペースまたはコロンを含めることはできません。</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>電子メールアドレスが無効です。</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>電子メールアドレスが無効です。</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>電子メールアドレスに無効な文字が含まれています。</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>この電子メールアドレスは有効ではありません。</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>名が必要です。</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>姓が必要です。</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>利用条件に同意してください。</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Adobe ID を入力してください。</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>この電子メールアドレスは有効ではありません。</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>パスワードは 6 ～ 12 文字で入力する必要があり、連続したスペースまたはコロンを含めることはできません。</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>製品とサービスの登録</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Adobe ID とパスワードが一致しません。</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>エラーが発生しました。しばらくしてから、もう一度やり直してください。</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>この電子メールアドレスは既に使用されています。</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>ネットワークエラーです。後でやり直してください。</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>この電子メールアドレスは有効ではありません。</val>
+		</str>		
+	</set>
+	
+</asf>

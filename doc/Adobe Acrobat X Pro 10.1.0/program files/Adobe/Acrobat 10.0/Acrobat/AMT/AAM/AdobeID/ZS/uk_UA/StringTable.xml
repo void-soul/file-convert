@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="uk_UA" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>uk_UA</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>ДАЛІ</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>НАЗАД</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>ВИЙТИ</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>ВИХІД</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>ЗУПИНИТИ</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>ПРОДОВЖИТИ</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>ВІДХИЛИТИ</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>ПРИЙНЯТИ</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>УСТАНОВИТИ</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>ВИДАЛИТИ</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>СТВОРИТИ</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Продовжити</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>ТАК</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>НІ</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>Скасувати</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>ЗАКРИТИ</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>ПЕРЕДАТИ</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>ПРОПУСТИТИ</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Зареєструйте своє програмне забезпечення</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Реєстрація продуктів і послуг</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Щоб зареєструвати програмне забезпечення та настроїти доступ до мережних служб {0}Acrobat.com{1}, введіть або створіть посвідчення Adobe.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Отримайте доступ до підтримки продуктів і ексклюзивних переваг на кшталт інформаційних бюлетенів, публікацій і запрошень на заходи та семінари Adobe. Щоб зареєструвати програмне забезпечення, введіть або створіть посвідчення Adobe.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Посвідчення Adobe необхідне для використання пробної версії цього програмного забезпечення та настройки доступу до мережних служб {0}Acrobat.com{1} під час пробного періоду. Ввести посвідчення Adobe можна впродовж 7 днів із першого запуску пробної версії.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Щоб зареєструвати програмне забезпечення, введіть або створіть посвідчення Adobe.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Щоб використовувати підписку та отримати доступ до мережевих служб {0}Acrobat.com{1}, необхідно ввести посвідчення Adobe.</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Цю машину деактивовано. Щоб повторно активувати підписку на цій машині, необхідно увійти за допомогою посвідчення Adobe.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_ua</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Просто вкажіть адресу електронної пошти та пароль, щоб створити посвідчення.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Потрібне посвідчення Adobe?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>СТВОРИТИ ПОСВІДЧЕННЯ ADOBE</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>Вже є посвідчення Adobe?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>Електронна пошта (посвідчення Adobe)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Пароль</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>Забули пароль?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_ua</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Щоб скористатися службами Acrobat.com, необхідно вказати посвідчення Adobe та прийняти відповідні умови використання. Якщо цього разу не надати посвідчення Adobe, можуть скоротитися будь-які відповідні додаткові строки підписки.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Щоб завершити підписку на служби Acrobat і розпочати безкоштовний попередній перегляд служб Acrobat.com, необхідно ввести посвідчення Adobe та погодитися з відповідними умовами використання.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>ПРОПУСТИТИ ЦЕЙ КРОК</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Введіть адресу електронної пошти, пов’язану з вашим обліковим записом посвідчення Adobe.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Потрібний пароль</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>Не вдалося підключитися. Повторіть спробу.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Посвідчення Adobe та пароль не співпадають</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Створити посвідчення Adobe</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Створення посвідчення Adobe дає змогу зареєструвати програмне забезпечення та встановити доступ до мережних служб Acrobat.com. Усі поля обов’язкові для заповнення.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Створення посвідчення Adobe дає змогу зареєструвати програмне забезпечення. Усі поля обов’язкові для заповнення.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Створення посвідчення Adobe забезпечує доступ до служб Acrobat.com упродовж пробного періоду та сповіщає нас про ваш інтерес до цього продукту. Всі поля обов’язкові для заповнення.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Створення посвідчення Adobe ID сповіщає нас про ваш інтерес до цього продукту. Всі поля обов’язкові для заповнення.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Щоб використовувати підписку на служби Acrobat і отримати доступ до мережевих служб {0}Acrobat.com{1}, необхідно ввести посвідчення Adobe.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>Адреса електронної пошти (посвідчення Adobe)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Пароль</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Підтвердження пароля</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Ім’я</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Прізвище</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>Країна/Регіон</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Надсилати мені новини про компанію Adobe, її продукти та послуги, зокрема випуски та оновлення продуктів, події, дослідження та пропозиції. Мої дані будуть використані компанією Adobe та її представниками згідно з {0}мережною політикою конфіденційності Adobe{1}.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_ua</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_ua</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_ua</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Так</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>Ні</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Вибрати</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Необхідно вказати пароль (6-12 символів)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>Ця адреса електронної пошти недійсна.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Паролі не співпадають.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>Необхідно вказати ім’я.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Необхідно вказати прізвище.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>Необхідно вибрати країну/регіон.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Це посвідчення Adobe вже пов’язане з іншою підпискою. Створіть нове посвідчення Adobe або увійдіть за допомогою іншого посвідчення Adobe.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>Я розумію, що, відповідно до своєї {0}мережної політики конфіденційності{1}, компанія Adobe, її дочірні підприємства та представники ("Adobe") використовуватимуть надані мною дані для оновлення та керування своїми базами даних параметрів замовників і користувачів. Я погоджуюсь із тим, що компанія Adobe передаватиме мої дані до країн за межами ЄС, де компанія Adobe здійснює діяльність, у тому числі США, у зазначених цілях, а також у додаткових цілях, виділених нижче. 
+Я розумію, що в будь-який момент можу змінити параметри обробки моїх особистих даних компанією Adobe, відвідавши {2}сторінку свого облікового запису{3} або звернувшись до вповноваженого Adobe з питань конфіденційності відповідно до положень {4}мережної політики конфіденційності Adobe{5}. Я розумію, що перед зміною моїх параметрів може виникнути потреба в окремому зверненні до третіх сторін, які перед цим отримають мої особисті дані від компанії Adobe. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Довжина цього рядка більша за припустиму. Вона має складати 6-12 символів.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Довжина цього рядка менша за припустиму. Вона має складати 6-12 символів.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Довжина цього рядка більша за припустиму. Вона має складати 6-12 символів.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Довжина цього рядка менша за припустиму. Вона має складати 6-12 символів.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Довжина цього рядка більша за припустиму. Вона має складати 1-300 символів.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Довжина цього рядка менша за припустиму. Вона має складати 1-300 символів.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>Адреса електронної пошти містить неприпустимі символи.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>Домен адреси електронної пошти має неправильний формат.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>IP-домен адреси електронної пошти має неправильний формат.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>Домен адреси електронної пошти містить кілька крапок поспіль.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>В адресі електронної пошти не вистачає символу "@".</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>У домені адреси електронної пошти не вистачає крапки.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>В адресі електронної пошти не вистачає імені користувача.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>Необхідно вказати адресу електронної пошти.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>Адреса електронної пошти містить забагато символів "@".</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Паролі не співпадають.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Прийміть умови та положення.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Пароль має містити 6-12 символів і не може містити кілька пробілів або двокрапок поспіль.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Недійсна адреса електронної пошти.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Недійсна адреса електронної пошти.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>Адреса електронної пошти містить недопустимі символи.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>Ця адреса електронної пошти недійсна.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>Необхідно вказати ім’я.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Необхідно вказати прізвище.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Прийміть умови та положення.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Укажіть своє посвідчення Adobe.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>Ця адреса електронної пошти недійсна.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Пароль має містити 6-12 символів і не може містити кілька пробілів або двокрапок поспіль.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Реєстрація продуктів і послуг</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Посвідчення Adobe та пароль не співпадають.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>Сталася помилка. Повторіть спробу через деякий час.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Ця адреса електронної пошти вже використана.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Помилка в мережі. Повторіть спробу пізніше.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>Ця адреса електронної пошти недійсна.</val>
+		</str>		
+	</set>
+	
+</asf>

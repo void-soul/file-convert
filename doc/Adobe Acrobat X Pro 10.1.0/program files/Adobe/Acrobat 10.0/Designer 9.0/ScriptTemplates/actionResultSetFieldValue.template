@@ -1,0 +1,6 @@
+<#if SetToValue>this.resolveNode("${SOM}").rawValue = "${Value}";</#if>
+<#if SetToValueOf>this.resolveNode("${SOM}").rawValue = this.resolveNode("${Value}").rawValue;</#if>
+<#if SetToNewValueOfThisField>this.resolveNode("${SOM}").rawValue = xfa.event.newText;</#if>
+<#if SetToNewValueOfThisListField>this.resolveNode("${SOM}").rawValue = ${Value}.boundItem(xfa.event.newText);</#if>
+<#if SetToNewValueOfThisListBox>this.resolveNode("${SOM}").rawValue = ((xfa.host.version < 8.1 || xfa.host.version >= 9) ? (${Value}.boundItem(xfa.event.newText)) : (xfa.event.newText));</#if>
+<#if SetToExpression>this.resolveNode("${SOM}").rawValue = ${Value};</#if>

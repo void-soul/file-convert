@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<movie>
+		<category>Comedy</category>
+		<title>Hoodwinked</title>
+		<actor>Anne Hathaway</actor>
+	</movie>
+	<movie>
+		<category>Comedy</category>
+		<title>RV</title>
+		<actor>Robin Williams</actor>
+	</movie>
+	<movie>
+		<category>Comedy</category>
+		<title>Aladdin</title>
+		<actor>Robin Williams</actor>
+	</movie>
+	<movie>
+		<category>Comedy</category>
+		<title>School of Rock</title>
+		<actor>Jack Black</actor>
+	</movie>
+	<movie>
+		<category>Comedy</category>
+		<title>Nacho Libre</title>
+		<actor>Jack Black</actor>
+	</movie>
+	<movie>
+		<category>Action</category>
+		<title>MI:I</title>
+		<actor>Tom Cruise</actor>
+	</movie>
+	<movie>
+		<category>Action</category>
+		<title>MI:II</title>
+		<actor>Tom Cruise</actor>
+	</movie>
+	<movie>
+		<category>Action</category>
+		<title>MI:III</title>
+		<actor>Tom Cruise</actor>
+	</movie>
+	<movie>
+		<category>Action</category>
+		<title>The Rock</title>
+		<actor>Nicholas Cage</actor>
+	</movie>
+	<movie>
+		<category>Action</category>
+		<title>Con Air</title>
+		<actor>Nicholas Cage</actor>
+	</movie>
+	<movie>
+		<category>Action</category>
+		<title>The Matrix</title>
+		<actor>Keanu Reeves</actor>
+	</movie>
+	<movie>
+		<category>Drama</category>
+		<title>Shawshank Redemption</title>
+		<actor>Tim Robbins</actor>
+	</movie>
+	<movie>
+		<category>Drama</category>
+		<title>Castaway</title>
+		<actor>Tom Hanks</actor>
+	</movie>
+	<movie>
+		<category>Drama</category>
+		<title>The Green Mile</title>
+		<actor>Tom Hanks</actor>
+	</movie>
+	<movie>
+		<category>Drama</category>
+		<title>Road to Perdition</title>
+		<actor>Tom Hanks</actor>
+	</movie>
+</data>

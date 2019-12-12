@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Data List Box</text>
+               <text name="description">Data List Box - Creates a list box with script to populate the list from a data source.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="DataListBox" y="0mm" x="0mm" w="62mm" h="31mm">
+               <ui>
+                  <choiceList open="always">
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </choiceList>
+               </ui>
+               <font size="10pt" typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <caption placement="top" reserve="5mm">
+                  <font size="10pt" typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>List Box</text>
+                  </value>
+               </caption>
+               <event name="event__initialize" activity="initialize">
+                  <script contentType="application/x-javascript">/*	This listbox object will populate two columns with data from a data connection.
+
+	sDataConnectionName - name of the data connection to get the data from.  Note the data connection will appear in the Data View.
+	sColHiddenValue 	- this is the hidden value column of the listbox.  Specify the table column name used for populating.
+	sColDisplayText		- this is the display text column of the listbox.  Specify the table column name used for populating.
+
+	These variables must be assigned for this script to run correctly.  Replace &lt;value&gt; with the correct value.
+*/	
+
+var sDataConnectionName = "&lt;value&gt;";		//	example - var sDataConnectionName = "MyDataConnection";
+var sColHiddenValue = "&lt;value&gt;";			//	example - var sColHiddenValue = "MyIndexValue";
+var sColDisplayText = "&lt;value&gt;";			//	example - var sColDisplayText = "MyDescription"
+
+
+//	Search for sourceSet node which matchs the DataConnection name
+var nIndex = 0;
+while(xfa.sourceSet.nodes.item(nIndex).name != sDataConnectionName)
+{
+	nIndex++;
+}
+
+var oDB = xfa.sourceSet.nodes.item(nIndex).clone(1);
+oDB.open();
+oDB.first();
+
+//	Search node with the class name "command"
+var nDBIndex = 0;
+while(oDB.nodes.item(nDBIndex).className != "command")
+{
+	nDBIndex++;
+}
+
+//	Backup the original settings before assigning BOF and EOF to stay
+var sBOFBackup = oDB.nodes.item(nDBIndex).query.recordSet.getAttribute("bofAction");
+var sEOFBackup = oDB.nodes.item(nDBIndex).query.recordSet.getAttribute("eofAction");
+
+oDB.nodes.item(nDBIndex).query.recordSet.setAttribute("stayBOF", "bofAction");
+oDB.nodes.item(nDBIndex).query.recordSet.setAttribute("stayEOF", "eofAction");
+
+//	Clear the list
+this.clearItems();
+
+//	Search for the record node with the matching Data Connection name
+nIndex = 0;
+while(xfa.record.nodes.item(nIndex).name != sDataConnectionName)
+{
+	nIndex++;
+}
+var oRecord = xfa.record.nodes.item(nIndex);
+
+//	Find the value node
+var oValueNode = null;
+var oTextNode = null;
+for(var nColIndex = 0; nColIndex &lt; oRecord.nodes.length; nColIndex++)
+{
+	if(oRecord.nodes.item(nColIndex).name == sColHiddenValue)
+	{
+		oValueNode = oRecord.nodes.item(nColIndex);
+	}
+	if(oRecord.nodes.item(nColIndex).name == sColDisplayText)
+	{
+		oTextNode = oRecord.nodes.item(nColIndex);
+	}
+}
+
+while(!oDB.isEOF())
+{
+ 	this.addItem(oTextNode.value, oValueNode.value);
+  	oDB.next();
+}
+
+//	Restore the original settings
+oDB.nodes.item(nDBIndex).query.recordSet.setAttribute(sBOFBackup, "bofAction");
+oDB.nodes.item(nDBIndex).query.recordSet.setAttribute(sEOFBackup, "eofAction");
+
+//	Close connection
+oDB.close();</script>
+               </event>
+               <items/>
+               <items save="1" presence="hidden"/>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

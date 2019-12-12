@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="tr_TR" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>tr_TR</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>SONRAKİ</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>GERİ</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>ÇIKIŞ</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>ÇIK</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>DURDUR</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>DEVAM</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>REDDET</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>KABUL ET</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>YÜKLE</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>KALDIR</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>OLUŞTUR</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Devam</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>TAMAM</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>EVET</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>HAYIR</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>İptal</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>KAPAT</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>GÖNDER</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>ATLA</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Yazılımınızı Kaydettirin</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Ürün &amp; Hizmetleri için Kayıt</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Yazılımınızı kaydettirmek ve {0}Acrobat.com{1} çevrimiçi hizmetlerine erişebilmek için bir Adobe kimliği girin veya oluşturun.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Ürün desteği ve bültenler, yayınlar gibi özel avantajların yanı sıra Adobe etkinlikleri ve seminerlere davetiyeler alabilmek için erişim sağlayın. Yazılımınızı kaydettirmek için, Adobe kimliğinizi girin veya bir Adobe kimliği oluşturun.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Bu yazılımı deneme sürümü olarak kullanabilmek ve deneme süreniz boyunca {0}Acrobat.com{1} çevrimiçi hizmetlerine erişebilmek için bir Adobe kimliği gerekmektedir. Deneme sürenizin başlangıcından itibaren bir Adobe kimliği girmek için 7 gününüz vardır.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Yazılımınızı kaydettirmek için bir Adobe kimliği girin veya oluşturun.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Aboneliğinizi kullanmak ve {0}Acrobat.com{1} çevrimiçi hizmetlerine erişmek için Adobe kimliğinizi girmeniz gerekmektedir.</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Bu bilgisayar devre dışı bırakılmış. Aboneliğinizi bu bilgisayarda tekrar etkinleştirmek için Adobe kimliğinizle oturum açmanız gerekmektedir.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_tr</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Bir kimlik oluşturmak için e-posta ve şifre girin.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Adobe kimliğine mi ihtiyacınız var?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>ADOBE KİMLİĞİ OLUŞTUR</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>Adobe kimliğiniz var mı?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>E-posta (Adobe kimliği)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Şifre</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>Şifrenizi mi unuttunuz?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_tr</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Acrobat.com hizmetlerinin sağladığı avantajlardan yararlanabilmek için bir Adobe kimliği girmeniz ve geçerli Kullanım Koşulları'nı kabul etmeniz gerekir. Bu süre içerisinde bir Adobe kimliği girmezseniz, geçerli zorunlu abonelik dönemi kısaltılabilir.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Acrobat aboneliğinizi tamamlamak ve Acrobat.com Hizmetleri'nin ücretsiz ön gösterimini başlatmak için bir Adobe kimliği girmeli ve geçerli kullanım şartlarını kabul etmelisiniz.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>BU ADIMI ATLAYIN</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Lütfen Adobe kimliği hesabınızla ilişkili e-posta adresinizi girin.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Şifre gerekiyor</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>Bağlantı başarısız. Yeniden deneyin.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Adobe kimliği ve şifre eşleşmiyor</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Adobe kimliği oluştur</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Adobe kimliği oluşturmak yazılımınızı kaydeder ve Acrobat.com çevrimiçi servislerine erişim sağlar. Tüm alanlar gereklidir.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Adobe kimliği oluşturmak yazılımınızı kaydeder. Tüm alanlar gereklidir.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Adobe kimliği oluşturmanız, deneme süreniz boyunca Acrobat.com hizmetlerine erişim sağlar ve ürüne olan ilginiz hakkında bizi bilgilendirir. Tüm alanlar gereklidir.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Adobe kimliği oluşturmanız ürüne olan ilginiz hakkında bizi bilgilendirir. Tüm alanlar gereklidir.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>Acrobat aboneliğinizi kullanmak ve {0}Acrobat.com{1} çevrimiçi hizmetlerine erişmek için Adobe kimliğinizi girmeniz gerekmektedir.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>E-Posta Adresi (Adobe kimliği):</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Şifre</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Şifreyi Yeniden Girin</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Ad</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Soyadı</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>Ülke/Bölge</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Ürün sürümleri ve yükseltmeleri, etkinlikler, anketler ve teklifler dahil olmak üzere Adobe ve ürün ve hizmetleri hakkında beni bilgilendirin. Verilerim, Adobe ve temsilcileri tarafından {0}Adobe çevrimiçi gizlilik ilkesi{1}ne uygun olarak kullanılacaktır.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_tr</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_tr</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_tr</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Evet</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>Hayır</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Seç</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Şifre gerekiyor (6 - 12 karakter arası)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>Bu, geçerli bir E-posta adresi değil.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Şifreler eşleşmiyor.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>Ad gerekiyor.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Soyadı gerekiyor.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>Ülke/Bölge seçimi gerekiyor.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Bu Adobe kimliği, önceden başka bir abonelikle ilişkilendirilmiş. Lütfen yeni bir Adobe kimliği oluşturun veya farklı bir Adobe kimliği ile oturum açın.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>{0}Çevrimiçi Gizlilik İlkesi{1}ne uygun olarak, Adobe, bağlı kuruluşları ve temsilcilerinin ("Adobe"), verdiğim ayrıntıları müşteri ve kullanıcı tercihleriyle ilgili olan veritabanını güncelleştirmek ve yönetmek için kullanacağını anlıyorum. Adobe'nin benim verilerimi Amerika Birleşik Devletleri de dahil olmak üzere faaliyet gösterdiği AB dışı ülkelere bu ve aşağıda geçen ilave amaçlar için aktarmasına onay veriyorum. 
+Anlıyorum ki, kişisel verilerimin Adobe tarafından işlenmesine yönelik tercihlerimi {2}hesabım sayfası{3}nı ziyaret ederek veya {4}Adobe'nin Çevrimiçi Gizlilik İlkesi{5}'ne uygun olarak Adobe'nin Gizlilik Sorumlusu ile iletişime geçerek her zaman değiştirebilirim. Tercih değişikliklerim öncesindeki kişisel verilerimi Adobe'den almış olan üçüncü taraflarla, ayrı olarak iletişime geçmem gerekebileceğini anlıyorum. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Bu dize maksimum izin verilenden daha uzundur. Uzunluk 6 ile 12 karakter arasında olmalıdır.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Bu dize maksimum izin verilenden daha kısadır. Uzunluk 6 ile 12 karakter arasında olmalıdır.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Bu dize maksimum izin verilenden daha uzundur. Uzunluk 6 ile 12 karakter arasında olmalıdır.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Bu dize maksimum izin verilenden daha kısadır. Uzunluk 6 ile 12 karakter arasında olmalıdır.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Bu dize maksimum izin verilenden daha uzundur. Uzunluk 1 ile 300 karakter arasında olmalıdır.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Bu dize maksimum izin verilenden daha kısadır. Uzunluk 1 ile 300 karakter arasında olmalıdır.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>E-posta adresiniz geçersiz karakterler içeriyor.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>E-posta adresinizdeki etki alanı yanlış biçimlendirilmiş.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>E-posta adresinizdeki IP etki alanı yanlış biçimlendirilmiş.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>E-posta adresinizdeki etki alanı ardışık noktalar içeriyor.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>E-posta adresinizde at (@) işareti eksik.</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>E-posta adresinizdeki etki alanında nokta eksik.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>E-posta adresinizde kullanıcı adı eksik.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>E-posta gerekiyor.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>E-posta adresiniz çok fazla @ karakteri içeriyor.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Şifreler eşleşmiyor.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Lütfen hükümleri ve koşulları kabul edin.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Şifrenizin 6 ile 12 karakter arasında olması ve ardışık boşluklar veya iki nokta işaretleri içermemesi gerekiyor.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Geçersiz e-posta adresi.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Geçersiz e-posta adresi.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>E-posta adresiniz geçersiz karakterler içeriyor.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>Bu geçerli bir e-posta adresi değil.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>Ad gerekiyor.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Soyadı gerekiyor.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Lütfen hükümleri ve koşulları kabul edin.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Lütfen Adobe kimliğinizi girin.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>Bu geçerli bir e-posta adresi değil.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Şifrenizin 6 ile 12 karakter arasında olması ve ardışık boşluklar veya iki nokta işaretleri içermemesi gerekiyor.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Ürün &amp; Hizmetleri için Kayıt</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Adobe kimliği ve şifre eşleşmiyor.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>Bir hata oluştu. Lütfen bir süre sonra yeniden deneyin.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Bu e-posta adresi zaten kullanılıyor.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Ağ hatası. Lütfen daha sonra yeniden deneyin.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>Bu geçerli bir e-posta adresi değil.</val>
+		</str>		
+	</set>
+	
+</asf>

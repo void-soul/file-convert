@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">U.S. States</text>
+               <text name="description">U.S. States - Displays a drop-down list populated with U.S. state names.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field h="8.9916mm" name="State" w="50.8mm">
+               <ui>
+                  <choiceList>
+                     <border>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </choiceList>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="10.16mm">
+                  <font typeface="Myriad Pro"/>
+                  <para marginLeft="0pt" marginRight="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text>State</text>
+                  </value>
+               </caption>
+               <border>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden"/>
+                  <edge presence="hidden" thickness="0.0762mm"/>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.0762mm"/>
+               </border>
+               <items>
+                  <text>Alabama</text>
+                  <text>Alaska</text>
+                  <text>Arizona</text>
+                  <text>Arkansas</text>
+                  <text>California</text>
+                  <text>Colorado</text>
+                  <text>Connecticut</text>
+                  <text>Delaware</text>
+                  <text>District of Columbia</text>
+                  <text>Florida</text>
+                  <text>Georgia</text>
+                  <text>Hawaii</text>
+                  <text>Idaho</text>
+                  <text>Illinois</text>
+                  <text>Indiana</text>
+                  <text>Iowa</text>
+                  <text>Kansas</text>
+                  <text>Kentucky</text>
+                  <text>Louisiana</text>
+                  <text>Maine</text>
+                  <text>Maryland</text>
+                  <text>Massachusetts</text>
+                  <text>Michigan</text>
+                  <text>Minnesota</text>
+                  <text>Mississippi</text>
+                  <text>Missouri</text>
+                  <text>Montana</text>
+                  <text>Nebraska</text>
+                  <text>Nevada</text>
+                  <text>New Hampshire</text>
+                  <text>New Jersey</text>
+                  <text>New Mexico</text>
+                  <text>New York</text>
+                  <text>North Carolina</text>
+                  <text>North Dakota</text>
+                  <text>Ohio</text>
+                  <text>Oklahoma</text>
+                  <text>Oregon</text>
+                  <text>Pennsylvania</text>
+                  <text>Rhode Island</text>
+                  <text>South Carolina</text>
+                  <text>South Dakota</text>
+                  <text>Tennessee</text>
+                  <text>Texas</text>
+                  <text>Utah</text>
+                  <text>Vermont</text>
+                  <text>Virginia</text>
+                  <text>Washington</text>
+                  <text>West Virginia</text>
+                  <text>Wisconsin</text>
+                  <text>Wyoming</text>
+               </items>
+               <items save="1" presence="hidden">
+                  <text>AL</text>
+                  <text>AK</text>
+                  <text>AZ</text>
+                  <text>AR</text>
+                  <text>CA</text>
+                  <text>CO</text>
+                  <text>CT</text>
+                  <text>DE</text>
+                  <text>DC</text>
+                  <text>FL</text>
+                  <text>GA</text>
+                  <text>HI</text>
+                  <text>ID</text>
+                  <text>IL</text>
+                  <text>IN</text>
+                  <text>IA</text>
+                  <text>KS</text>
+                  <text>KY</text>
+                  <text>LA</text>
+                  <text>ME</text>
+                  <text>MD</text>
+                  <text>MA</text>
+                  <text>MI</text>
+                  <text>MN</text>
+                  <text>MS</text>
+                  <text>MO</text>
+                  <text>MT</text>
+                  <text>NE</text>
+                  <text>NV</text>
+                  <text>NH</text>
+                  <text>NJ</text>
+                  <text>NM</text>
+                  <text>NY</text>
+                  <text>NC</text>
+                  <text>ND</text>
+                  <text>OH</text>
+                  <text>OK</text>
+                  <text>OR</text>
+                  <text>PA</text>
+                  <text>RI</text>
+                  <text>SC</text>
+                  <text>SD</text>
+                  <text>TN</text>
+                  <text>TX</text>
+                  <text>UT</text>
+                  <text>VT</text>
+                  <text>VA</text>
+                  <text>WA</text>
+                  <text>WV</text>
+                  <text>WI</text>
+                  <text>WY</text>
+               </items>
+               <value>
+                  <text>AL</text>
+               </value>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

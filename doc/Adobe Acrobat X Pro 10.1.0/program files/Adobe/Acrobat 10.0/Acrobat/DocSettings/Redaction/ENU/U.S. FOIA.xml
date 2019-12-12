@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RedactionSet Name="U.S. FOIA" >
+<RedactionCode Name="(b) (1) (A)" />
+<RedactionCode Name="(b) (1) (B)" />
+<RedactionCode Name="(b) (2)" />
+<RedactionCode Name="(b) (3) (A)" />
+<RedactionCode Name="(b) (3) (B)" />
+<RedactionCode Name="(b) (4)" />
+<RedactionCode Name="(b) (5)" />
+<RedactionCode Name="(b) (6)" />
+<RedactionCode Name="(b) (7)(A)" />
+<RedactionCode Name="(b) (7)(B)" />
+<RedactionCode Name="(b) (7)(C)" />
+<RedactionCode Name="(b) (7)(D)" />
+<RedactionCode Name="(b) (7)(E)" />
+<RedactionCode Name="(b) (7)(F)" />
+<RedactionCode Name="(b) (8)" />
+<RedactionCode Name="(b) (9)" />
+</RedactionSet>

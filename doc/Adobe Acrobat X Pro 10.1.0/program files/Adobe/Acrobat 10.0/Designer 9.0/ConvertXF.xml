@@ -1,0 +1,48 @@
+<import>
+	<title res="1101">XForms Document</title>
+	<type res="1102">XForms Model</type>
+	<fileSpec>*.xhtml; *.xml; *.html; *.htm; *.xfdl</fileSpec>
+	<exe>ConvertXF\ConvertXF.exe</exe>
+	<options>
+		<fixed/>				
+		<option>
+			<name>embedschema</name>
+			<caption res="1103">&amp;Embed Schemas Inline</caption>
+			<style>check</style>
+			<value>off</value>
+			<on>on</on>
+			<off>off</off>
+		</option>
+		<option>
+			<name>workingdir</name>
+			<caption res="1104">&amp;Set Working Directory:</caption>
+			<style>text</style>			
+			<value></value>
+		</option>							
+		<option>
+			<name>log</name>
+			<caption res="1105">&amp;Generate log file:</caption>
+			<style>list</style>
+			<value>0</value>
+			<list>
+				<item>
+					<display res="1106">Do not log</display>
+					<emit>0</emit>
+				</item>				
+				<item>
+					<display res="1107">Log to \TEMP\ConvertXForms.log</display>	
+					<emit>temp\ConvertXForms.log</emit>
+				</item>				
+				
+			</list>
+		</option>
+		<option>
+			<style>static</style>
+			<caption res="1108"> </caption>
+		</option>
+		<option>
+			<style>static</style>
+			<caption res="1109">The Clipboard will not be available for other processes during the conversion.</caption>
+		</option>
+	</options>
+</import>

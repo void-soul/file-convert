@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Email Address</text>
+               <text name="description">A Text Field object validating an email address.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="email" w="63.5mm" h="6.35mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="12.7mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>email</text>
+                  </value>
+               </caption>
+               <validate>
+                  <script contentType="application/x-javascript">// Validate the email address.
+
+var r = new RegExp("^[a-z0-9_\\-\\.]+\\@[a-z0-9_\\-\\.]+\\.[a-z]{2,3}$"); // Create a new Regular Expression Object.
+// Set the regular expression to look for  an email address in general form.
+
+var result = r.test(this.rawValue); // Test the rawValue of the current object to see
+									// if it fits the general form of an email address.
+
+if (result == true) // If it fits the general form,
+	true;			// all is well.
+else				// Otherwise,
+	false;			// fail the validation.</script>
+                  <message>
+                     <text name="scriptTest">Please enter a valid email address e.g. name@somewhere.com</text>
+                  </message>
+               </validate>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

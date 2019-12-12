@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="nl_NL" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="Applet">
+		<str name="Locale" translate="yes">
+			<val>nl_NL</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next" translate="yes">
+			<val>VOLGENDE</val>
+		</str>
+		<str name="back" translate="yes">
+			<val>VORIGE</val>
+		</str>
+		<str name="exit" translate="yes">
+			<val>AFSLUITEN</val>
+		</str>
+		<str name="quit" translate="yes">
+			<val>AFSLUITEN</val>
+		</str>
+		<str name="stop" translate="yes">
+			<val>STOPPEN</val>
+		</str>
+		<str name="continue" translate="yes">
+			<val>DOORGAAN</val>
+		</str>
+		<str name="decline" translate="yes">
+			<val>WEIGEREN</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>ACCEPTEREN</val>
+		</str>			
+		<str name="install" translate="yes">
+			<val>INSTALLEREN</val>
+		</str>			
+		<str name="uninstall" translate="yes">
+			<val>VERWIJDEREN</val>
+		</str>			
+		
+		<str name="create" translate="yes">
+			<val>MAKEN</val>
+		</str>			
+		
+		<str name="btnContinue" translate="yes">
+			<val>Doorgaan</val>
+		</str>
+		<str name="btnOK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="btnYes" translate="yes">
+			<val>JA</val>
+		</str>
+		<str name="btnNo" translate="yes">
+			<val>NEE</val>
+		</str>
+		<str name="btnCancel" translate="yes">
+			<val>Annuleren</val>
+		</str>
+		<str name="btnClose" translate="yes">
+			<val>SLUITEN</val>
+		</str>	
+		<str name="btnSubmit" translate="yes">
+			<val>VERZENDEN</val>
+		</str>	
+		<str name="btnSkip" translate="yes">
+			<val>OVERSLAAN</val>
+		</str>
+	</set>
+
+	<set name="adobeid">
+		<str name="title" translate="yes">
+			<val>Uw software registreren</val>
+		</str>
+		<str name="titleReg" translate="yes">
+			<val>Registratie voor producten en services</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Als u uw software wilt registreren en toegang tot de online services van {0}Acrobat.com{1} wilt instellen, moet u een Adobe-id invoeren of maken.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Krijg toegang tot productondersteuning en exclusieve voordelen, zoals nieuwsbrieven, publicaties en uitnodigingen voor Adobe-events en -seminars. U kunt uw software registreren door een Adobe-id in te voeren of te maken.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Een Adobe-id is vereist als u deze software als proefversie wilt gebruiken en toegang tot de online services van {0}Acrobat.com{1} wilt instellen tijdens uw proefperiode. Nadat u de proefversie voor het eerst hebt gestart, hebt u nog 7 dagen de tijd om een Adobe-id in te voeren.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Als u uw software wilt registreren, moet u een Adobe-id invoeren of maken.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>U moet een Adobe-id invoeren als u uw abonnement wilt gebruiken en toegang wilt tot de online services van {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="instructSubDeactivated_1_2" translate="yes">
+			<val>Deze computer is gedeactiveerd. U moet u aanmelden met uw Adobe-id om uw abonnement op deze computer opnieuw te activeren.</val>
+		</str>
+		<str name="csliveLink" translate="yes">
+			<val>http://www.adobe.com/go/cslive_nl</val>
+		</str>
+		<str name="createSub" translate="yes">
+			<val>Als u een id wilt maken, moet u eenvoudigweg een e-mailadres en wachtwoord opgeven.</val>
+		</str>		
+		<str name="create" translate="yes">
+			<val>Hebt u een Adobe-id nodig?</val>
+		</str>
+		<str name="createBtn" translate="yes">
+			<val>EEN ADOBE-ID MAKEN</val>
+		</str>	
+		<str name="have" translate="yes">
+			<val>Hebt u al een Adobe-id?</val>
+		</str>
+		<str name="id" translate="yes">
+			<val>E-mail (Adobe-id)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Wachtwoord</val>
+		</str>
+		<str name="forgotPW" translate="yes">
+			<val>Wachtwoord vergeten?</val>
+		</str>
+		<str name="pwLink" translate="yes">
+			<val>http://www.adobe.com/go/forgetpassword_nl</val>
+		</str>
+		<str name="accept" translate="yes">
+			<val>Als u gebruik wilt maken van de services van Acrobat.com, moet u een Adobe-id opgeven en akkoord gaan met de toepasselijke voorwaarden. Als u op dit moment geen Adobe-id opgeeft, wordt een eventuele toepasselijke gratis abonnementsperiode mogelijk ingekort.</val>
+		</str>
+		<str name="acceptSubscription_1_2" translate="yes">
+			<val>Als u uw abonnement op Acrobat wilt voltooien en wilt beginnen met uw gratis proefperiode van Acrobat.com Services, moet u een Adobe-id opgeven en instemmen met de toepasselijke gebruiksvoorwaarden.</val>
+		</str>
+		<str name="skip" translate="yes">
+			<val>DEZE STAP OVERSLAAN</val>
+		</str>
+		<str name="errorEmail" translate="yes">
+			<val>Voer het e-mailadres in dat is gekoppeld aan uw Adobe-id-account.</val>
+		</str>
+		<str name="errorPassword" translate="yes">
+			<val>Wachtwoord vereist</val>
+		</str>
+		<str name="errorConnect" translate="yes">
+			<val>Kan geen verbinding maken. Probeer het opnieuw.</val>
+		</str>
+		<str name="errorMatch" translate="yes">
+			<val>Adobe-id en wachtwoord komen niet overeen</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title" translate="yes">
+			<val>Een Adobe-id maken</val>
+		</str>
+		<str name="instruct1" translate="yes">
+			<val>Door een Adobe-id te maken registreert u uw software en stelt u de toegang tot online services van Acrobat.com in. Alle velden zijn vereist.</val>
+		</str>
+		<str name="instruct1NoServ" translate="yes">
+			<val>Door een Adobe-id te maken registreert u uw software. Alle velden zijn vereist.</val>
+		</str>
+		<str name="instructTrialLaunchServices" translate="yes">
+			<val>Door een Adobe-id te maken stelt u de toegang tot online services van Acrobat.com tijdens uw proefperiode in en informeert u ons over uw interesse in dit product. Alle velden zijn vereist.</val>
+		</str>
+		<str name="instructTrialLaunchNo" translate="yes">
+			<val>Door een Adobe-id te maken informeert u ons over uw interesse in dit product. Alle velden zijn vereist.</val>
+		</str>
+		<str name="instructSubscriptionServ_1_2" translate="yes">
+			<val>U moet een Adobe-id invoeren als u uw abonnement op Acrobat wilt gebruiken en toegang wilt tot de online services van {0}Acrobat.com{1}.</val>
+		</str>
+		<str name="email" translate="yes">
+			<val>E-mailadres (Adobe-id)</val>
+		</str>
+		<str name="password" translate="yes">
+			<val>Wachtwoord</val>
+		</str>
+		<str name="confirm" translate="yes">
+			<val>Typ wachtwoord opnieuw</val>
+		</str>
+		<str name="first" translate="yes">
+			<val>Voornaam</val>
+		</str>
+		<str name="last" translate="yes">
+			<val>Achternaam</val>
+		</str>
+		<str name="country" translate="yes">
+			<val>Land/regio</val>
+		</str>
+		<str name="opt" translate="yes">
+			<val>Houd mij op de hoogte van de producten en services van Adobe, inclusief productreleases en -upgrades, evenementen, enquêtes en aanbiedingen. Mijn gegevens worden door Adobe en haar vertegenwoordigers gebruikt conform het {0}online privacybeleid van Adobe{1}.</val>
+		</str>
+		<str name="germanprivacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_nl</val>
+		</str>
+		<str name="privacyLink" translate="yes">
+			<val>http://www.adobe.com/go/privacy_nl</val>
+		</str>
+		<str name="accountLink" translate="yes">
+			<val>http://www.adobe.com/go/adobemembership_nl</val>
+		</str>
+		<str name="yes" translate="yes">
+			<val>Ja</val>
+		</str>
+		<str name="no" translate="yes">
+			<val>Nee</val>
+		</str>
+		<str name="sel" translate="yes">
+			<val>Selecteren</val>
+		</str>	
+		<str name="errorPW" translate="yes">
+			<val>Wachtwoord vereist (6-12 tekens)</val>
+		</str>
+		<str name="emailFormat" translate="yes">
+			<val>Dit e-mailadres is ongeldig.</val>
+		</str>
+		<str name="pwMatch" translate="yes">
+			<val>Wachtwoorden komen niet overeen.</val>
+		</str>
+		<str name="errorFirst" translate="yes">
+			<val>Voornaam is vereist.</val>
+		</str>
+		<str name="errorLast" translate="yes">
+			<val>Achternaam is vereist.</val>
+		</str>
+		<str name="errorSelection" translate="yes">
+			<val>Selectie van land/regio is vereist.</val>
+		</str>
+		<str name="errorDupe" translate="yes">
+			<val>Deze Adobe-id is al gekoppeld aan een ander abonnement. Maak een nieuwe Adobe-id of meld u aan met een andere Adobe-id.</val>
+		</str>
+		<str name="germanOnly" translate="yes">
+		<val>Ik begrijp dat Adobe, haar filialen en haar vertegenwoordigers ("Adobe") de details die ik opgeef conform het {0}Online Privacybeleid{1} gebruiken om databases over klanten en gebruikersvoorkeuren bij te werken en te beheren. Ik stem ermee in dat Adobe mijn gegevens voor deze doeleinden en voor aanvullende doeleinden die hieronder zijn geselecteerd, kan overbrengen naar landen buiten de EU waar Adobe actief is, waaronder de Verenigde Staten. 
+Ik begrijp dat ik mijn voorkeuren met betrekking tot de verwerking van mijn persoonlijke gegevens door Adobe op elk gewenst moment kan wijzigen door naar {2}mijn accountpagina{3} te gaan of door contact op te nemen met de privacyfunctionaris van Adobe, zoals bepaald in het {4}Online Privacybeleid van Adobe{5}. Ik begrijp dat ik mogelijk contact moet opnemen met afzonderlijke derde partijen die mijn persoonlijke gegevens van Adobe hebben ontvangen voorafgaand aan het doorgeven van mijn voorkeurswijzigingen. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Deze tekenreeks is langer dan het toegestane maximum. De tekenreeks moet 6 tot 12 tekens lang zijn.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Deze tekenreeks is korter dan het toegestane minimum. De tekenreeks moet 6 tot 12 tekens lang zijn.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Deze tekenreeks is langer dan het toegestane maximum. De tekenreeks moet 6 tot 12 tekens lang zijn.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Deze tekenreeks is korter dan het toegestane minimum. De tekenreeks moet 6 tot 12 tekens lang zijn.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError" translate="yes">
+			<val>Deze tekenreeks is langer dan het toegestane maximum. De tekenreeks moet 1 tot 300 tekens lang zijn.</val>
+		</str>
+		<str name="tooShortError" translate="yes">
+			<val>Deze tekenreeks is korter dan het toegestane minimum. De tekenreeks moet 1 tot 300 tekens lang zijn.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError" translate="yes">
+			<val>Uw e-mailadres bevat ongeldige tekens.</val>
+		</str>
+		<str name="invalidDomainError" translate="yes">
+			<val>Het domein in uw e-mailadres heeft een onjuiste indeling.</val>
+		</str>
+		<str name="invalidIPDomainError" translate="yes">
+			<val>Het IP-domein in uw e-mailadres heeft een onjuiste indeling.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError" translate="yes">
+			<val>Het domein in uw e-mailadres heeft punten achter elkaar.</val>
+		</str>
+		<str name="missingAtSignError" translate="yes">
+			<val>Het teken @ ontbreekt in uw e-mailadres.</val>
+		</str>
+		<str name="missingPeriodInDomainError" translate="yes">
+			<val>In het domein van uw e-mailadres ontbreekt een punt.</val>
+		</str>
+		<str name="missingUsernameError" translate="yes">
+			<val>In uw e-mailadres ontbreekt een gebruikersnaam.</val>
+		</str>
+		<str name="requiredFieldError" translate="yes">
+			<val>Het e-mailadres is vereist.</val>
+		</str>		
+		<str name="tooManyAtSignsError" translate="yes">
+			<val>Uw e-mailadres bevat te veel @-tekens.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError" translate="yes">
+			<val>Wachtwoorden komen niet overeen.</val>
+		</str>
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Ga akkoord met de voorwaarden.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Uw wachtwoord moet 6 tot 12 tekens lang zijn en mag geen opeenvolgende spaties of dubbele punten bevatten.</val>
+		</str>
+		<str name="emailTooLong" translate="yes">
+			<val>Ongeldig e-mailadres.</val>
+		</str>
+		<str name="emailBlank" translate="yes">
+			<val>Ongeldig e-mailadres.</val>
+		</str>
+		<str name="invalidCharsInEmail" translate="yes">
+			<val>Uw e-mailadres bevat ongeldige tekens.</val>
+		</str>
+		<str name="invalidEmailFormat" translate="yes">
+			<val>Dit e-mailadres is ongeldig.</val>
+		</str>
+		<str name="firstNameRequired" translate="yes">
+			<val>Voornaam is vereist.</val>
+		</str>
+		<str name="lastNameRequired" translate="yes">
+			<val>Achternaam is vereist.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError" translate="yes">
+			<val>Ga akkoord met de voorwaarden.</val>
+		</str>
+		<str name="adobeIdMandatory" translate="yes">
+			<val>Geef uw Adobe-id op.</val>
+		</str>
+		<str name="invalidEmailID" translate="yes">
+			<val>Dit e-mailadres is ongeldig.</val>
+		</str>
+		<str name="invalidPassword" translate="yes">
+			<val>Uw wachtwoord moet 6 tot 12 tekens lang zijn en mag geen opeenvolgende spaties of dubbele punten bevatten.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title" translate="yes">
+			<val>Registratie voor producten en services</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051" translate="yes">
+			<val>Adobe-id en wachtwoord komen niet overeen.</val>
+		</str>
+		<str name="UNKNOWN_ERROR" translate="yes">
+			<val>Er is een fout opgetreden. Wacht enige tijd en probeer het opnieuw.</val>
+		</str>
+		<str name="ID_IN_USE" translate="yes">
+			<val>Dit e-mailadres is al gebruikt.</val>
+		</str>	
+		<str name="TIMEOUT" translate="yes">
+			<val>Netwerkfout. Probeer het later opnieuw.</val>
+		</str>	
+		<str name="INVALID_ID" translate="yes">
+			<val>Dit e-mailadres is ongeldig.</val>
+		</str>		
+	</set>
+	
+</asf>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">U.S. Social Security Number</text>
+               <text name="description">Social Security Number - U.S. - Displays a text field that formats input as a United States Social Security Number.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field h="8.9916mm" name="SSN" w="38.1mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para hAlign="center" marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="8.89mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>SSN</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+               <border>
+                  <edge presence="hidden" thickness="0.0762mm"/>
+                  <edge presence="hidden" thickness="0.0762mm"/>
+                  <edge presence="hidden" thickness="0.0762mm"/>
+                  <edge presence="hidden" thickness="0.0762mm"/>
+                  <corner presence="hidden" thickness="0.003in"/>
+                  <corner presence="hidden" thickness="0.003in"/>
+                  <corner presence="hidden" thickness="0.003in"/>
+                  <corner presence="hidden" thickness="0.003in"/>
+               </border>
+               <value>
+                  <text maxChars="9"/>
+               </value>
+               <format>
+                  <picture>999-99-9999</picture>
+               </format>
+               <validate>
+                  <message>
+                     <text name="formatTest">Please enter the number using numerical characters only, e.g., enter 111-22-3333 as 111223333</text>
+                  </message>
+                  <picture>999999999</picture>
+               </validate>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

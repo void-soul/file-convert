@@ -1,0 +1,2 @@
+<#if SetExclGrpButtons>this.resolveNode("${SOM}").border.fill.color.value = "${FillColor}";</#if>
+<#if SetDefault>this.resolveNode("${SOM}").ui.oneOfChild.border.fill.color.value = "${FillColor}";</#if>

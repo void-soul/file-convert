@@ -1,0 +1,6 @@
+if (xfa.host.name == "Acrobat") {
+	app.launchURL("${URL}", true);
+}
+else {
+	xfa.host.gotoURL("${URL}");
+}

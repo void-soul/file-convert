@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Reset Button</text>
+               <text name="description">Reset Button - Runs a script that resets all fields to their default values.</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field name="ResetButton" y="0mm" x="0mm" w="28.575mm" h="6mm">
+               <?templateDesigner isResetFieldsObject true?>
+               <ui>
+                  <button/>
+               </ui>
+               <font size="10pt" typeface="Myriad Pro"/>
+               <caption>
+                  <value>
+                     <text>Reset Form</text>
+                  </value>
+                  <para hAlign="center" vAlign="middle"/>
+                  <font size="10pt" typeface="Myriad Pro"/>
+               </caption>
+               <border hand="right">
+                  <?templateDesigner StyleID apbx2?>
+                  <edge stroke="raised"/>
+                  <fill>
+                     <solid/>
+                     <color value="212,208,200"/>
+                  </fill>
+               </border>
+               <bind match="none"/>
+               <event name="event__click" activity="click">
+                  <script contentType="application/x-javascript">xfa.host.resetData();</script>
+               </event>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

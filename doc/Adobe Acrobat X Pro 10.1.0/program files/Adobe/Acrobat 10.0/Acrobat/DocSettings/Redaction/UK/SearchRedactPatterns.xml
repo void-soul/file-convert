@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd">
+<asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+<set name="Entry1">
+<str name="displayName">
+<val>Phone Numbers</val>
+</str>
+<str name="regEx" translate="no">
+<val>((((((\(\d{2}\)\s?)|((\b\s?)\d{2}\s?(\(0\)\s?)?)|(\b\s?))(0?\d{2,5}(\s|\-)))|(\(0?\d{2,5}\)\s?)))?((\d{5,8})|(\d{3,4}\s\d{4})))(\b)</val>
+</str>
+<str name="examples">
+<val>This pattern will search for 5 to 8 digit phone numbers separated by punctuation marks, as well as leading area codes.
+
+For example:
+555-1212
+212.555.1212
+1 (212) 555-1212</val>
+</str>
+</set>
+<set name="Entry2">
+<str name="displayName">
+<val>Credit Cards</val>
+</str>
+<str name="regEx" translate="no">
+<val>(\b)((\d{4}(-|\s|\.|_)?){3}\d{4})(\b)</val>
+</str>
+<str name="examples">
+<val>This pattern will search for 16-digit credit card numbers, either consecutive or separated by punctuation marks.
+
+For example:
+1234-5678-9012-3456
+1234567890123456
+1234 5678 9012 3456</val>
+</str>
+</set>
+<set name="Entry3">
+<str name="displayName">
+<val>National Insurance Numbers</val>
+</str>
+<str name="regEx" translate="no">
+<val>(\b)(([a-zA-Z]{2}(\s\d{2}){3}(\s[a-zA-Z])?)|([a-zA-Z]{2}\s?\d{6}[a-zA-Z]?(\s?[a-zA-Z])?))(\b)</val>
+</str>
+<str name="examples">
+<val>This pattern will search for 8- or 9-character national insurance numbers, either consecutive or 2 letters plus 2 digits plus 2 digits plus 2 digits plus 1 optional letter.
+
+For example:
+123-45-6789
+123456789</val>
+</str>
+</set>
+<set name="Entry4">
+<str name="displayName">
+<val>Email Addresses</val>
+</str>
+<str name="regEx" translate="no">
+<val>([a-zA-Z0-9_])([a-zA-Z0-9_\-\.])*@([a-zA-Z\-])+\.([a-zA-Z\.]+)</val>
+</str>
+<str name="examples">
+<val>This pattern will search for email addresses.
+
+For example:
+John.Doe@acme.com
+John_Doe_1234@acme.gov
+j-doe@marketing.acme.net</val>
+</str>
+</set>
+<set name="Entry5">
+<str name="displayName">
+<val>Dates</val>
+</str>
+<str name="regEx" translate="no">
+<val>(\b)(((\d{1,2}(\||\-|\.|\s|\\|/|_)){2}\d{2}(\d{2})?)|(\d{1,2}(st|nd|rd|th)?(\||\-|\.|\s|\\|/|_)(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)((\||\-|\.|\s|\\|/|_|,)(\||\-|\.|\s|\\|/|_)?\d{2}(\d{2})?)?)|((jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)(\||\-|\.|\s|\\|/|_)\d{1,2}(st|nd|rd|th)?((\||\-|\.|\s|\\|/|_|,)(\||\-|\.|\s|\\|/|_)?\d{2}(\d{2})?)?)|(\d{2}(\d{2})?((\||\-|\.|\s|\\|/|_)\d{1,2}){2}))(\b)</val>
+</str>
+<str name="examples">
+<val>Numerical day/month or month/day, followed by year:
+01-01-08 12/31/08 31.12.2008
+
+Numerical year, followed by day/month or month/day:
+08-01-01 08/12/31 2008-12-31
+
+Month in words:
+1st January 2008 1 Jan 08 January 1st 2008 Jan 1 08</val>
+</str>
+</set>
+</asf>

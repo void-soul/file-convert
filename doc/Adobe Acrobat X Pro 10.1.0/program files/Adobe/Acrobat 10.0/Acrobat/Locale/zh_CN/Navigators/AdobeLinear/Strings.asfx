@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><asf locale="zh_CN" version="1.0" xmlns="http://ns.adobe.com/asf">
+  <str name="navName" translate="yes">
+    <val>线性</val>
+  </str>
+  <str name="navDescription" translate="yes">
+    <val>在此布局中，文件以线性路径排列，用户可以按照已确定的顺序导览文件。</val>
+  </str>
+  
+  
+  
+  
+  <!-- All remaining strings should be identical across Adobe's shipping navigators -->
+  <str name="navCategory" translate="yes">
+    <val>Acrobat 布局</val>
+  </str>
+  <str name="fieldFileName" translate="yes">
+    <val>名称</val>
+  </str>
+  <str name="fieldDisplayName" translate="yes">
+    <val>显示名称</val>
+  </str>
+  <str name="fieldCreated" translate="yes">
+    <val>创建日期</val>
+  </str>
+  <str name="fieldModified" translate="yes">
+    <val>修改日期</val>
+  </str>
+  <str name="fieldSize" translate="yes">
+    <val>大小</val>
+  </str>
+  <str name="fieldCompressed" translate="yes">
+    <val>压缩大小</val>
+  </str>
+  <str name="fieldDescription" translate="yes">
+    <val>说明</val>
+  </str>
+  <str name="fieldTags" translate="yes">
+    <val>标签</val>
+  </str>
+  <str name="fieldAspectRatio" translate="yes">
+    <val>长宽比</val>
+  </str>
+  <str name="fieldSummary" translate="yes">
+    <val>小结</val>
+  </str>
+  <str name="fieldWithColon" translate="yes">
+    <val>%field%：</val>
+  </str>
+  
+  <str name="previousCard" translate="yes">
+    <val>显示上一个文件</val>
+  </str>  
+  <str name="nextCard" translate="yes">
+    <val>显示下一个文件</val>
+  </str>
+  <str name="deleteFile" translate="yes">
+    <val>删除文件</val>
+  </str>  
+  <str name="deleteFolder" translate="yes">
+    <val>删除文件夹</val>
+  </str>  
+  <str name="extractFile" translate="yes">
+    <val>提取文件</val>
+  </str>  
+  <str name="extractFolder" translate="yes">
+    <val>提取文件夹</val>
+  </str>  
+  <str name="editFile" translate="yes">
+    <val>打开文件</val>
+  </str>  
+  <str name="editFileTooltip" translate="yes">
+    <val>在原始应用程序中打开文件</val>
+  </str>  
+  <str name="printFile" translate="yes">
+    <val>打印文件</val>
+  </str>  
+  <str name="showInfo" translate="yes">
+    <val>显示信息视图</val>
+  </str>  
+  <str name="closeInfo" translate="yes">
+    <val>关闭信息视图</val>
+  </str>  
+  <str name="backFolder" translate="yes">
+    <val>返回</val>
+  </str>  
+  <str name="closeFolder" translate="yes">
+    <val>关闭文件夹</val>
+  </str>  
+  <str name="showMiniNav" translate="yes">
+    <val>显示缩略图视图</val>
+  </str>  
+  <str name="closeMiniNav" translate="yes">
+    <val>关闭缩略图视图</val>
+  </str>  
+  <str name="closePreview" translate="yes">
+    <val>关闭预览</val>
+  </str>  
+  <str name="pageUp" translate="yes">
+    <val>显示上一页</val>
+  </str>  
+  <str name="pageDown" translate="yes">
+    <val>显示下一页</val>
+  </str>  
+  <str name="mediaPlay" translate="yes">
+    <val>播放</val>
+  </str>  
+  <str name="mediaPause" translate="yes">
+    <val>暂停</val>
+  </str>  
+  <str name="mediaAdjustVolume" translate="yes">
+    <val>调整音量</val>
+  </str>  
+  <str name="bestExperience" translate="yes">
+    <val>为了获得最佳体验，请使用 Acrobat X、Reader X 或更高版本打开此 PDF 包。</val>
+  </str>  
+  <str name="getReaderNow" translate="yes">
+    <val>获取 Adobe Reader</val>
+  </str>  
+  <str name="getReaderURL" translate="yes">
+    <val>http://www.adobe.com/go/reader_download_cn</val>
+  </str>
+  <str name="ribbonOpen" translate="yes">
+    <val>打开</val>
+  </str>  
+
+  <str name="setImage" translate="yes">
+    <val>选择图像...</val>
+  </str>  
+  <str name="addImage" translate="yes">
+    <val>添加图像...</val>
+  </str>  
+  <str name="addText" translate="yes">
+    <val>添加文本</val>
+  </str>  
+  <str name="setSwf" translate="yes">
+    <val>选择 SWF...</val>
+  </str>  
+  <str name="addSwf" translate="yes">
+    <val>添加 SWF...</val>
+  </str>  
+  <str name="remove" translate="yes">
+    <val>删除</val>
+  </str>  
+
+  <str name="positionTopLeft" translate="yes">
+  	<val>左上</val>
+  </str>
+  <str name="positionTopCenter" translate="yes">
+  	<val>中上</val>
+  </str>
+  <str name="positionTopRight" translate="yes">
+  	<val>右上</val>
+  </str>
+  <str name="positionMiddleLeft" translate="yes">
+  	<val>居左</val>
+  </str>
+  <str name="positionMiddleCenter" translate="yes">
+  	<val>居中</val>
+  </str>
+  <str name="positionMiddleRight" translate="yes">
+  	<val>居右</val>
+  </str>
+  <str name="positionBottomLeft" translate="yes">
+  	<val>左下</val>
+  </str>
+  <str name="positionBottomCenter" translate="yes">
+  	<val>中下</val>
+  </str>
+  <str name="positionBottomRight" translate="yes">
+  	<val>右下</val>
+  </str>
+
+  <str name="errorPlayingMediaFile" translate="yes">
+  	<val>无法播放媒体文件。请尝试将此文件保存到您的计算机上，并在该计算机上将其打开。</val>
+  </str>
+ 
+  <!-- Theme properties -->
+  <str name="themeProperties" translate="yes">
+ 	<val>视觉主题</val>
+  </str>
+  <str name="styleProperties" translate="yes">
+ 	<val>视觉样式</val>
+  </str>
+  <str name="themeList" translate="yes">
+ 	<val>主题</val>
+  </str>
+  <str name="gelTheme" translate="yes">
+ 	<val>空白</val>
+  </str>
+  <str name="springTheme" translate="yes">
+ 	<val>春天</val>
+  </str>
+  <str name="techOfficeTheme" translate="yes">
+ 	<val>技术办公室</val>
+  </str>
+  <str name="greyRedTheme" translate="yes">
+ 	<val>现代</val>
+  </str>
+  <str name="acetateTheme" translate="yes">
+ 	<val>半透明</val>
+  </str>
+  <str name="customTheme" translate="yes">
+ 	<val>自定义</val>
+  </str>
+  <str name="importThemeButton" translate="yes">
+ 	<val>导入自定义主题...</val>
+  </str>
+  <str name="importStyleButton" translate="yes">
+ 	<val>导入样式</val>
+  </str>
+   
+  <!-- Background properties -->
+  <str name="backgroundProperties" translate="yes">
+  	<val>背景</val>
+  </str>
+  <str name="backgroundImageSource" translate="yes">
+  	<val>背景图像：</val>
+  </str>
+  <str name="backgroundGelDefault" translate="yes">
+  	<val>空白默认图像</val>
+  </str>
+  <str name="backgroundGreyRedDefault" translate="yes">
+  	<val>现代默认图像</val>
+  </str>
+  <str name="backgroundSpringDefault" translate="yes">
+  	<val>春天默认图像</val>
+  </str>
+  <str name="backgroundAcetateDefault" translate="yes">
+  	<val>半透明默认图像</val>
+  </str>
+  <str name="backgroundTechOfficeDefault" translate="yes">
+  	<val>技术办公室默认图像</val>
+  </str>
+  <str name="backgroundChooseImage" translate="yes">
+  	<val>选择新图像</val>
+  </str>
+  <str name="backgroundSelectImageTitle" translate="yes">
+  	<val>选择背景图像</val>
+  </str>
+  <str name="backgroundRemoveImage" translate="yes">
+  	<val>无</val>
+  </str>
+  <str name="backgroundImageScale" translate="yes">
+  	<val>图像比例</val>
+  </str>
+  <str name="backgroundImageActualSize" translate="yes">
+  	<val>实际大小</val>
+  </str>
+  <str name="backgroundImageActualSizeTiled" translate="yes">
+  	<val>平铺</val>
+  </str>
+  <str name="backgroundImageShowAll" translate="yes">
+  	<val>显示全部</val>
+  </str>
+  <str name="backgroundImageNoBorder" translate="yes">
+  	<val>无边框</val>
+  </str>
+  <str name="backgroundImagePosition" translate="yes">
+  	<val>图像位置</val>
+  </str>
+  <str name="backgroundImageOpacity" translate="yes">
+  	<val>图像不透明度</val>
+  </str>
+  <str name="backgroundImageBlur" translate="yes">
+  	<val>图像模糊</val>
+  </str>
+  <str name="backgroundGradientType" translate="yes">
+  	<val>背景颜色：</val>
+  </str>
+  <str name="backgroundGradientNone" translate="yes">
+  	<val>实色填充</val>
+  </str>
+  <str name="backgroundGradientLinear" translate="yes">
+  	<val>线性渐变</val>
+  </str>
+  <str name="backgroundGradientRadial" translate="yes">
+  	<val>径向渐变</val>
+  </str>
+  <str name="backgroundGradientIntensity" translate="yes">
+  	<val>渐变强度</val>
+  </str>
+  <str name="backgroundGradientOpacity" translate="yes">
+  	<val>渐变不透明度</val>
+  </str>
+
+  <!-- Text field properties -->
+  <str name="textfieldProperties" translate="yes">
+  	<val>文本域属性</val>
+  </str>
+  <str name="textfieldFontFamily" translate="yes">
+  	<val>字体：</val>
+  </str>
+  <str name="textfieldFontDefault" translate="yes">
+  	<val>默认值</val>
+  </str>
+  <str name="textfieldFontDefaultWithName" translate="yes">
+  	<val>默认 (%font%)</val>
+  </str>
+  <str name="textfieldFontSize" translate="yes">
+  	<val>大小</val>
+  </str>
+  <str name="textfieldFontStyle" translate="yes">
+  	<val>样式</val>
+  </str>
+  <str name="textfieldFontWeight" translate="yes">
+  	<val>粗细</val>
+  </str>
+  <str name="textfieldFontNormal" translate="yes">
+  	<val>常规</val>
+  </str>
+  <str name="textfieldFontItalic" translate="yes">
+  	<val>斜体</val>
+  </str>
+  <str name="textfieldFontBold" translate="yes">
+  	<val>粗体</val>
+  </str>
+  <str name="textfieldFontUnderlined" translate="yes">
+  	<val>下划线</val>
+  </str>
+  <str name="textfieldFontColor" translate="yes">
+  	<val>字体颜色</val>
+  </str>
+
+  <!-- Image properties -->
+  <str name="imageProperties" translate="yes">
+  	<val>图像属性</val>
+  </str>
+  <str name="imageOpacity" translate="yes">
+  	<val>图像不透明度</val>
+  </str>
+
+  <!-- SWF properties -->
+  <str name="swfProperties" translate="yes">
+  	<val>SWF 属性</val>
+  </str>
+  <str name="swfOpacity" translate="yes">
+  	<val>SWF 不透明度</val>
+  </str>
+
+  <!-- Portfolio properties -->
+  <str name="portfolioProperties" translate="yes">
+  	<val>包属性</val>
+  </str>
+  <str name="portfolioCardsAngled" translate="yes">
+  	<val>以某个角度显示卡</val>
+  </str>
+  <str name="portfolioCardsAutoSize" translate="yes">
+  	<val>自动调整大小</val>
+  </str>
+  <str name="portfolioCardSize" translate="yes">
+  	<val>卡大小</val>
+  </str>
+  <str name="sizeSmall" translate="yes">
+  	<val>小</val>
+  </str>
+  <str name="sizeMedium" translate="yes">
+  	<val>中</val>
+  </str>
+  <str name="sizeLarge" translate="yes">
+  	<val>大</val>
+  </str>
+  <str name="portfolioEmbedFonts" translate="yes">
+  	<val>嵌入字体</val>
+  </str>
+  <str name="shouldEmbedFonts" translate="yes">
+  	<val>嵌入：</val>
+  </str>
+  <str name="shouldEmbedFontsDesc" translate="yes">
+  	<val>嵌入所有字体能帮助您确保文本在所有系统中正确显示，但是会导致文件大小增加。</val>
+  </str>
+
+  <!-- Header properties -->
+  <str name="headerProperties" translate="yes">
+  	<val>页眉属性</val>
+  </str>
+  <str name="headerItems" translate="yes">
+  	<val>标题项目：</val>
+  </str>
+  <str name="canvasBackgroundColor" translate="yes">
+  	<val>背景颜色：</val>
+  </str>
+  <str name="canvasBackgroundOpacity" translate="yes">
+  	<val>背景不透明度</val>
+  </str>
+  <str name="canvasTemplate" translate="yes">
+  	<val>模板：</val>
+  </str>
+  <str name="templateNone" translate="yes">
+  	<val>无</val>
+  </str>
+  <str name="templateCustom" translate="yes">
+  	<val>自定义</val>
+  </str>
+  <str name="templateSimpleText" translate="yes">
+  	<val>简单文本</val>
+  </str>
+  <str name="templateImageOnly" translate="yes">
+  	<val>仅图像</val>
+  </str>
+  <str name="templateTextAndImage" translate="yes">
+  	<val>文本和图像</val>
+  </str>
+  <str name="horizontalAnchor" translate="yes">
+  	<val>定位标记：</val>
+  </str>
+  <str name="removeItem" translate="yes">
+  	<val>删除</val>
+  </str>
+  <str name="textProperties" translate="yes">
+  	<val>文本属性</val>
+  </str>
+
+  <!-- Footer properties -->
+  <str name="footerProperties" translate="yes">
+  	<val>页脚属性</val>
+  </str>
+
+  <!-- Canvas properties -->
+  <str name="canvasProperties" translate="yes">
+  	<val>画布属性</val>
+  </str>
+  <str name="canvasDefaultText" translate="yes">
+  	<val>在此处添加文本</val>
+  </str>
+  <str name="canvasSelectImageTitle" translate="yes">
+  	<val>选择图像</val>
+  </str>
+  
+  <!-- Welcome Page properties -->
+  <str name="welcomeProperties" translate="yes">
+  	<val>欢迎页面属性</val>
+  </str>
+  
+  <str name="welcomeHide" translate="yes">
+  	<val>不再显示欢迎页面</val>
+  </str>
+  <str name="welcomeShow" translate="yes">
+  	<val>显示欢迎页面</val>
+  </str>
+ 
+  <!-- File Filters -->
+  <str name="imagesFilterName" translate="yes">
+  	<val>图像文件</val>
+  </str>
+  <str name="swfFilterName" translate="yes">
+  	<val>SWF 文件</val>
+  </str>
+  
+  <str name="resourceError" translate="yes">
+  	<val>无法找到以下资源：%newline%%newline%%files%%newline%%newline%您可能正在编辑使用其它版本的 Acrobat 创建的包。请尝试更改为其它布局，或恢复待处理更改。</val>
+  </str>
+ </asf>

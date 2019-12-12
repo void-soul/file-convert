@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+
+<!-- ************************************************** -->
+
+<xsd:annotation>
+	<xsd:documentation xml:lang="en-us">
+		Acrobat TouchUp Find schema.
+	</xsd:documentation>
+</xsd:annotation>
+
+<!-- ************************************************** -->
+
+<xsd:simpleType name="compareType">
+	<xsd:restriction base="xsd:string">
+		<xsd:enumeration value="starts with"/>
+		<xsd:enumeration value="not starts with"/>
+		<xsd:enumeration value="equals"/>
+		<xsd:enumeration value="not equals"/>
+		<xsd:enumeration value="contains"/>
+		<xsd:enumeration value="not contains"/>
+		<xsd:enumeration value="ends with"/>
+		<xsd:enumeration value="not ends with"/>
+	</xsd:restriction>
+</xsd:simpleType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="dataCompareType">
+	<xsd:attribute name="compare" type="compareType" default="equals"/>
+	<xsd:simpleContent>
+		<xsd:extension base="xsd:string"/>
+	</xsd:simpleContent>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="tagType">
+	<xsd:complexContent>
+		<xsd:extension base="dataCompareType">
+			<xsd:attribute name="useRoleMap" type="xsd:boolean" default="true"/>
+		</xsd:extension>
+	</xsd:complexContent>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="attributeType">
+	<xsd:attribute name="isAnd" type="xsd:boolean" default="true"/>
+	<xsd:attribute name="isNot" type="xsd:boolean" default="false"/>
+	<xsd:attribute name="notDefined" type="xsd:boolean" default="false"/>
+	<xsd:attribute name="searchHierarchy" type="xsd:boolean" default="false"/>
+	<xsd:sequence>
+		<xsd:element name="Name" type="dataCompareType"/>
+		<xsd:element name="Value" type="dataCompareType"/>
+	</xsd:sequence>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="parenthesisType">
+	<xsd:attribute name="isAnd" type="xsd:boolean" default="true"/>
+	<xsd:attribute name="isNot" type="xsd:boolean" default="false"/>
+	<xsd:choice maxOccurs="unbounded">
+		<xsd:element name="Parenthesis" type="parenthesisType"/>
+		<xsd:element name="Attribute" type="attributeType"/>
+	</xsd:choice>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:simpleType name="tagsSearchType">
+	<xsd:restriction base="xsd:string">
+		<xsd:enumeration value="all"/>
+		<xsd:enumeration value="selection"/>
+	</xsd:restriction>
+</xsd:simpleType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="tagsType">
+	<xsd:attribute name="searchArea" type="tagsSearchType" default="selection"/>
+	<xsd:sequence>
+		<xsd:element name="Tag" type="tagType" maxOccurs="unbounded"/>
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="Attribute" type="attributeType"/>
+			<xsd:element name="Parenthesis" type="parenthesisType"/>
+		</xsd:choice>
+	</xsd:sequence>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:simpleType name="documentSearchType">
+	<xsd:restriction base="xsd:string">
+		<xsd:enumeration value="all"/>
+		<xsd:enumeration value="page"/>
+	</xsd:restriction>
+</xsd:simpleType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="artifactsType">
+	<xsd:complexContent>
+	</xsd:complexContent>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="captureSuspectsType">
+	<xsd:complexContent>
+	</xsd:complexContent>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="unmarkedContentsType">
+	<xsd:complexContent>
+	</xsd:complexContent>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="markedContentsType">
+	<xsd:sequence>
+		<xsd:element name="Tag" type="tagType" maxOccurs="unbounded"/>
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="Attribute" type="attributeType"/>
+			<xsd:element name="Parenthesis" type="parenthesisType"/>
+		</xsd:choice>
+	</xsd:sequence>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="contentsType">
+	<xsd:attribute name="searchArea" type="documentSearchType" default="page"/>
+	<xsd:choice>
+		<xsd:element name="Artifacts" type="artifactsType"/>
+		<xsd:element name="CaptureSuspects" type="captureSuspectsType"/>
+		<xsd:element name="UnmarkedContents" type="unmarkedContentsType"/>
+		<xsd:element name="MarkedContents" type="markedContentsType"/>
+	</xsd:choice>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="unmarkedCommentsType">
+	<xsd:complexContent>
+	</xsd:complexContent>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="unmarkedLinksType">
+	<xsd:complexContent>
+	</xsd:complexContent>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="unmarkedAnnotationsType">
+	<xsd:complexContent>
+	</xsd:complexContent>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="annotationsByAttributeType">
+	<xsd:choice maxOccurs="unbounded">
+		<xsd:element name="Parenthesis" type="parenthesisType"/>
+		<xsd:element name="Attribute" type="attributeType"/>
+	</xsd:choice>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:complexType name="annotationsType">
+	<xsd:attribute name="searchArea" type="documentSearchType" default="page"/>
+	<xsd:choice>
+		<xsd:element name="UnmarkedComments" type="unmarkedCommentsType"/>
+		<xsd:element name="UnmarkedLinks" type="unmarkedLinksType"/>
+		<xsd:element name="UnmarkedAnnotations" type="unmarkedAnnotationsType"/>
+		<xsd:element name="AnnotationsByAttribute" type="annotationsByAttributeType"/>
+	</xsd:choice>
+</xsd:complexType>
+
+<!-- ************************************************** -->
+
+<xsd:element name="Find">
+	<xsd:complexType>
+		<xsd:choice>
+			<xsd:element name="Tags" type="tagsType"/>
+			<xsd:element name="Contents" type="contentsType"/>
+			<xsd:element name="Annotations" type="annotationsType"/>
+		</xsd:choice>
+	</xsd:complexType>
+</xsd:element>
+
+<!-- ************************************************** -->
+
+</xsd:schema>

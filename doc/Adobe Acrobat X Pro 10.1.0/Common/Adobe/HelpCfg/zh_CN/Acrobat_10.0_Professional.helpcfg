@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<helpcfg date="2010-08-05">
+<product
+id="zh_CN_Acrobat_10.0_Professional" 
+label="Acrobat X Pro"
+ionId="acrobat_product_adobelr"
+baseUrl="http://help.adobe.com/" 
+path="HelpCfg/zh_CN/" 
+/> 
+<package 
+id="zh_CN_Acrobat_10.0_Professional" 
+
+path="zh_CN/acrobat/X/pro/using" 
+contextSensitivity="yes" 
+/>
+</helpcfg>
+

@@ -1,0 +1,135 @@
+; Adobe PDF Printer Drivers
+
+[Version]
+Signature="$Windows NT$"
+Provider="Adobe"
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile=AdobePDF.cat
+DriverVer=04/18/2011,9.6.0000.0
+
+
+[Manufacturer]
+%Adobe%=Adobe,NTx86,NTamd64,NTx86.6.0,NTamd64.6.0
+
+
+[Adobe.NTx86]
+"Adobe PDF Converter"                             = WTPRNT.PPD, ,Adobe PDF
+
+[Adobe.NTamd64]
+"Adobe PDF Converter"                             = WTPRNT.PPD, ,Adobe PDF
+
+[Adobe.NTx86.6.0]
+"Adobe PDF Converter"                             = WTPRNT_Vista, ,Adobe PDF
+
+[Adobe.NTamd64.6.0]
+"Adobe PDF Converter"                             = WTPRNT_Vista, ,Adobe PDF
+
+[WTPRNT.PPD]
+CopyFiles=@ADUIGP.DLL, @ADREGP.DLL, @PSCRPTFE.NTF, @ADPDF9CS.PPD, @ADGELP.INI, @AdobePdf.dll, @AdobePDFUI.dll
+DataFile=ADPDF9CS.PPD
+DataSection=PSCRIPT_DATA
+Include=NTPRINT.INF
+Needs=PSCRIPT.OEM,PSCRIPT_DATA
+
+[WTPRNT_Vista]
+CopyFiles=@ADUIGP.DLL, @ADREGP.DLL, @PSCRPTFE.NTF, @ADPDF9CS.PPD, @ADGELP.INI, , @AdobePdf.dll, @AdobePDFUI.dll
+DataFile=ADPDF9CS.PPD
+CoreDriverSections="{D20EA372-DD35-4950-9ED8-A6335AFE79F1},PSCRIPT.OEM,PSCRIPT_DATA"
+
+
+[Uninstall]
+;UnRegisterDlls=ContextMenu64
+;DelFiles=AdobePDF64_dll
+DelFiles=AdobePDF_dll
+DelReg = ContextMenu64Registry.Del
+
+[Install64]
+;RegisterDlls=ContextMenu64
+AddReg = ContextMenu64Registry.Add
+
+[ContextMenu64Registry.Add]
+HKCR,*\shellex\ContextMenuHandlers\Adobe.Acrobat.ContextMenu,,0x00001000,{D25B2CAB-8A9A-4517-A9B2-CB5F68A5A802}
+HKCR,Folder\shellex\ContextMenuHandlers\Adobe.Acrobat.ContextMenu,,0x00001000,{D25B2CAB-8A9A-4517-A9B2-CB5F68A5A802}
+HKCR,CLSID\{D25B2CAB-8A9A-4517-A9B2-CB5F68A5A802},,0x00001000,Acrobat Elements Context Menu
+HKCR,CLSID\{D25B2CAB-8A9A-4517-A9B2-CB5F68A5A802}\InprocServer32,,0x00001000,"ContextMenu64.dll"
+HKCR,CLSID\{D25B2CAB-8A9A-4517-A9B2-CB5F68A5A802}\InprocServer32,ThreadingModel,0x00000000,Apartment
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved,{D25B2CAB-8A9A-4517-A9B2-CB5F68A5A802},0x00001000,Adobe.Acrobat.ContextMenu
+
+[ContextMenu64Registry.Del]
+HKCR,*\shellex\ContextMenuHandlers\Adobe.Acrobat.ContextMenu
+HKCR,Folder\shellex\ContextMenuHandlers\Adobe.Acrobat.ContextMenu
+HKCR,CLSID\{D25B2CAB-8A9A-4517-A9B2-CB5F68A5A802}
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved,{D25B2CAB-8A9A-4517-A9B2-CB5F68A5A802},0x00001000,
+HKLM,SYSTEM\CurrentControlSet\Control\Print\Monitors\Adobe PDF Port Monitor
+
+[PortMonitors]
+"Adobe PDF Port Monitor" = AdobePDFPortMonitor
+;"Adobe PDF Port Monitor" = AdobePDFPortMonitor64Bit
+
+[AddPortMonitorRegistry]
+HKLM,SYSTEM\CurrentControlSet\Control\Print\Monitors\Adobe PDF Port Monitor,,0x00002000
+HKLM,SYSTEM\CurrentControlSet\Control\Print\Monitors\Adobe PDF Port Monitor,Driver,0x00000000,AdobePDF.dll
+
+[AdobePDFPortMonitor]
+AddReg = AddPortMonitorRegistry
+CopyFiles = AdobePDF_dll
+PortMonitorDll = AdobePDF.dll
+
+[AdobePDF_dll]
+AdobePDF.dll
+AdobePDFUI.dll
+
+[AddPortMonitorRegistry64]
+HKLM,SYSTEM\CurrentControlSet\Control\Print\Monitors\Adobe PDF Port Monitor,,0x00002000
+HKLM,SYSTEM\CurrentControlSet\Control\Print\Monitors\Adobe PDF Port Monitor,Driver,0x00000000,AdobePDF.dll
+
+[AdobePDFPortMonitor64Bit]
+AddReg = AddPortMonitorRegistry64
+CopyFiles = AdobePDF_dll
+PortMonitorDll = AdobePDF.dll
+;CopyFiles = AdobePDF64_dll
+;PortMonitorDll = AdobePDF64.dll
+
+;[AdobePDF64_dll]
+;AdobePDF64.dll
+
+[DestinationDirs]
+DefaultDestDir=66000
+AdobePDF_dll=11 ; dirid = \system32 on WinNT platforms
+;AdobePDF64_dll=11 ; dirid = \system32 on WinNT platforms
+
+
+[SourceDisksFiles]
+ADUIGP.DLL = 1
+ADREGP.DLL = 1
+ADPDF9CS.PPD = 4
+ADGELP.INI = 1
+ADOBEPDF.DLL = 3
+AdobePDFUI.dll = 3
+PSCRPTFE.NTF = 2
+
+[PrinterPackageInstallation.x86]
+PackageAware=TRUE
+CoreDriverDependencies={D20EA372-DD35-4950-9ED8-A6335AFE79F1}
+
+[PrinterPackageInstallation.amd64]
+PackageAware=TRUE
+CoreDriverDependencies={D20EA372-DD35-4950-9ED8-A6335AFE79F1}
+
+[Strings]
+Adobe="Adobe"
+
+Acro8="Adobe Acrobat CD-ROM"
+
+[SourceDisksNames.x86]
+1   = %Acro8%,,,"I386"
+2   = %Acro8%,,,"Amd64"
+3   = %Acro8%,,,"I386Vista"
+4   = %Acro8%,,,"StdPPD"
+
+[SourceDisksNames.amd64]
+1   = %Acro8%,,,"Amd64"
+2   = %Acro8%,,,"Amd64"
+3   = %Acro8%,,,"Amd64Vista"
+4   = %Acro8%,,,"StdPPD"

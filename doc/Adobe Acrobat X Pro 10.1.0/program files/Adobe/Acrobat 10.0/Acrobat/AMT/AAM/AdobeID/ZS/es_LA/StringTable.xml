@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd">
+<asf xmlns="http://ns.adobe.com/asf" locale="en_US" version="1.0">
+	<set name="Applet">
+		<str name="Locale">
+			<val>en_US</val>
+		</str>			
+	</set>
+	<set name="install">
+		<str name="next">
+			<val>NEXT</val>
+		</str>
+		<str name="back">
+			<val>BACK</val>
+		</str>
+		<str name="exit">
+			<val>EXIT</val>
+		</str>
+		<str name="quit">
+			<val>QUIT</val>
+		</str>
+		<str name="stop">
+			<val>STOP</val>
+		</str>
+		<str name="continue">
+			<val>CONTINUE</val>
+		</str>
+		<str name="decline">
+			<val>DECLINE</val>
+		</str>
+		<str name="accept">
+			<val>ACCEPT</val>
+		</str>			
+		<str name="install">
+			<val>INSTALL</val>
+		</str>			
+		<str name="uninstall">
+			<val>UNINSTALL</val>
+		</str>			
+		
+		<str name="create">
+			<val>CREATE</val>
+		</str>			
+		
+		<str name="btnContinue">
+			<val>Continue</val>
+		</str>
+		<str name="btnOK">
+			<val>OK</val>
+		</str>
+		<str name="btnYes">
+			<val>YES</val>
+		</str>
+		<str name="btnNo">
+			<val>NO</val>
+		</str>
+		<str name="btnCancel">
+			<val>Cancel</val>
+		</str>
+		<str name="btnClose">
+			<val>CLOSE</val>
+		</str>	
+		<str name="btnSubmit">
+			<val>SUBMIT</val>
+		</str>	
+		<str name="btnSkip">
+			<val>SKIP</val>
+		</str>	
+	</set>
+
+	<set name="adobeid">
+		<str name="title">
+			<val>Enter an Adobe ID</val>
+		</str>
+		<str name="titleReg">
+			<val>Registration for Products &amp; Services</val>
+		</str>
+		<str name="instruct1">
+			<val>To register your software and set up access to {0}Acrobat.com{1} online services, enter or create an Adobe ID.</val>
+		</str>
+		<str name="instruct1NoServ">
+			<val>To register your software, enter or create an Adobe ID.</val>
+		</str>
+		<str name="instructTrialLaunchServices">
+			<val>An Adobe ID is required to use this software as a trial and set up access to {0}Acrobat.com{1} online services during your trial period. You will have 7 days from the first launch of your trial to enter an Adobe ID.</val>
+		</str>
+		<str name="instructTrialLaunchNo">
+			<val>An Adobe ID is required to use this software as a trial. You will have 7 days from the first launch of your trial to enter an Adobe ID.</val>
+		</str>
+		<str name="csliveLink">
+			<val>http://www.adobe.com/go/cslive</val>
+		</str>
+		<str name="createSub">
+			<val>Simply provide an email and password to create one.</val>
+		</str>		
+		<str name="create">
+			<val>Need an Adobe ID?</val>
+		</str>
+		<str name="createBtn">
+			<val>CREATE AN ADOBE ID</val>
+		</str>	
+		<str name="have">
+			<val>Already have an Adobe ID?</val>
+		</str>
+		<str name="id">
+			<val>Email (Adobe ID)</val>
+		</str>
+		<str name="password">
+			<val>Password</val>
+		</str>
+		<str name="forgotPW">
+			<val>Forgot Password?</val>
+		</str>
+		<str name="pwLink">
+			<val>http://www.adobe.com/go/forgetpassword</val>
+		</str>
+		<str name="accept">
+			<val>In order to take advantage of Acrobat.com services, you must provide an Adobe ID and agree to the applicable Terms of Use. If you do not provide an Adobe ID at this time, any applicable complimentary subscription period may be reduced.</val>
+		</str>
+		<str name="skip">
+			<val>SKIP THIS STEP</val>
+		</str>
+		<str name="errorEmail">
+			<val>Please enter the email address associated with your Adobe ID account.</val>
+		</str>
+		<str name="errorPassword">
+			<val>Password required</val>
+		</str>
+		<str name="errorConnect">
+			<val>Failed to connect. Try again.</val>
+		</str>
+		<str name="errorMatch">
+			<val>Adobe ID and password do not match</val>
+		</str>		
+	</set>
+
+	<set name="createid">
+		<str name="title">
+			<val>Create an Adobe ID</val>
+		</str>
+		<str name="instruct1">
+			<val>Creating an Adobe ID registers your software and sets up access to Acrobat.com online services. All fields are required.</val>
+		</str>
+		<str name="instruct1NoServ">
+			<val>Creating an Adobe ID registers your software. All fields are required.</val>
+		</str>
+		<str name="instructTrialLaunchServices">
+			<val>Creating an Adobe ID sets up access to Acrobat.com services during your trial period and lets us know of your interest in this product. All fields are required.</val>
+		</str>
+		<str name="instructTrialLaunchNo">
+			<val>Creating an Adobe ID lets us know of your interest in this product. All fields are required.</val>
+		</str>
+		<str name="email">
+			<val>Email Address (Adobe ID)</val>
+		</str>
+		<str name="password">
+			<val>Password</val>
+		</str>
+		<str name="confirm">
+			<val>Retype Password</val>
+		</str>
+		<str name="first">
+			<val>First Name</val>
+		</str>
+		<str name="last">
+			<val>Last Name</val>
+		</str>
+		<str name="country">
+			<val>Country/Region</val>
+		</str>
+		<str name="opt">
+			<val>Please keep me informed about Adobe and its products and services, including product releases and upgrades, events, surveys, and offers.  My data will be used by Adobe and its agents in accordance with {0}Adobe's online privacy policy{1}.</val>
+		</str>
+		<str name="germanprivacyLink">
+			<val>http://www.adobe.com/go/privacy</val>
+		</str>
+		<str name="privacyLink">
+			<val>http://www.adobe.com/go/privacy</val>
+		</str>
+		<str name="accountLink">
+			<val>http://www.adobe.com/go/adobemembership</val>
+		</str>
+		<str name="yes">
+			<val>Yes</val>
+		</str>
+		<str name="no">
+			<val>No</val>
+		</str>
+		<str name="sel">
+			<val>Select</val>
+		</str>	
+		<str name="errorPW">
+			<val>Password required (6-12 characters)</val>
+		</str>
+		<str name="emailFormat">
+			<val>This is not a valid Email address.</val>
+		</str>
+		<str name="pwMatch">
+			<val>Passwords do not match.</val>
+		</str>
+		<str name="errorFirst">
+			<val>First Name required.</val>
+		</str>
+		<str name="errorLast">
+			<val>Last Name required.</val>
+		</str>
+		<str name="errorSelection">
+			<val>Country/Region selection required.</val>
+		</str>
+		<str name="errorDupe">
+			<val>This Adobe ID is already associated with another subscription. Please create a new Adobe ID or Sign in with a different Adobe ID.</val>
+		</str>
+		<str name="germanOnly">
+		<val>I understand that, in accordance with its {0}Online Privacy Policy{1}, Adobe, its affiliates, and agents ("Adobe") will use the details I provide to update and manage its databases regarding customer and user preferences. I consent to Adobe's transferring my data to countries outside the EU where Adobe has operations, including the United States, for these purposes and for the additional purposes checked below. 
+I understand that I may at any time change my preferences regarding the processing of my personal data by Adobe by visiting {2}my account page{3} or by contacting Adobe's Privacy Officer as set forth in {4}Adobe's Online Privacy Policy{5}. I understand that I may need to contact separately third parties who have received my personal data from Adobe prior to the communication of my preference changes. 
+		</val>
+		</str> 
+	</set>
+	
+	<set name="StringValidator">
+		<str name="tooLongError">
+			<val>This string is longer than maximum allowed. This must be 6 to 12 characters long.</val>
+		</str>
+		<str name="tooShortError">
+			<val>This string is shorter than minimum allowed. This must be 6 to 12 characters long.</val>
+		</str>
+	</set>
+	
+	<set name="PasswordValidator">
+		<str name="tooLongError">
+			<val>This string is longer than maximum allowed. This must be 6 to 12 characters long.</val>
+		</str>
+		<str name="tooShortError">
+			<val>This string is shorter than minimum allowed. This must be 6 to 12 characters long.</val>
+		</str>
+	</set>
+	
+	<set name="NameValidator">
+		<str name="tooLongError">
+			<val>This string is longer than maximum allowed. This must be 1 to 300 characters long.</val>
+		</str>
+		<str name="tooShortError">
+			<val>This string is shorter than minimum allowed. This must be 1 to 300 characters long.</val>
+		</str>
+	</set>
+	
+	<set name="EmailValidator">
+		<str name="invalidCharError">
+			<val>Your e-mail address contains invalid characters.</val>
+		</str>
+		<str name="invalidDomainError">
+			<val>The domain in your e-mail address is incorrectly formatted.</val>
+		</str>
+		<str name="invalidIPDomainError">
+			<val>The IP domain in your e-mail address is incorrectly formatted.</val>
+		</str>
+		<str name="invalidPeriodsInDomainError">
+			<val>The domain in your e-mail address has consecutive periods.</val>
+		</str>
+		<str name="missingAtSignError">
+			<val>An at sign (&#64;) is missing in your e-mail address.</val>
+		</str>
+		<str name="missingPeriodInDomainError">
+			<val>The domain in your e-mail address is missing a period.</val>
+		</str>
+		<str name="missingUsernameError">
+			<val>The username in your e-mail address is missing.</val>
+		</str>
+		<str name="requiredFieldError">
+			<val>The email is required.</val>
+		</str>		
+		<str name="tooManyAtSignsError">
+			<val>Your e-mail address contains too many &#64; characters.</val>
+		</str>					
+	</set>
+	
+	<set name="CreateAdobeIdForm">
+		<str name="passwordMismatchError">
+			<val>Passwords do not match.</val>
+		</str>
+		<str name="acceptTermsCBError">
+			<val>Please accept the terms and conditions.</val>
+		</str>
+		<str name="invalidPassword">
+			<val>Your password must be between 6 and 12 characters and cannot contain consecutive spaces or colons.</val>
+		</str>
+		<str name="emailTooLong">
+			<val>Invalid email address.</val>
+		</str>
+		<str name="emailBlank">
+			<val>Invalid email address.</val>
+		</str>
+		<str name="invalidCharsInEmail">
+			<val>Your email address contains invalid characters.</val>
+		</str>
+		<str name="invalidEmailFormat">
+			<val>This is not a valid email address.</val>
+		</str>
+		<str name="firstNameRequired">
+			<val>First name required.</val>
+		</str>
+		<str name="lastNameRequired">
+			<val>Last name required.</val>
+		</str>
+	</set>
+	
+	<set name="SignInAdobeIdForm">
+		<str name="acceptTermsCBError">
+			<val>Please accept the terms and conditions.</val>
+		</str>
+		<str name="adobeIdMandatory">
+			<val>Please provide your Adobe ID.</val>
+		</str>
+		<str name="invalidEmailID">
+			<val>This is not a valid email address.</val>
+		</str>
+		<str name="invalidPassword">
+			<val>Your password must be between 6 and 12 characters and cannot contain consecutive spaces or colons.</val>
+		</str>
+	</set>
+	
+	<set name="Registration">
+		<str name="title">
+			<val>Registration for Products &amp; Services</val>
+		</str>
+	</set>
+	
+	<set name="RengaResponse">
+		<str name="CUS05051">
+			<val>Adobe ID and password do not match.</val>
+		</str>
+		<str name="UNKNOWN_ERROR">
+			<val>An error has occurred. Please try again after sometime.</val>
+		</str>
+		<str name="ID_IN_USE">
+			<val>This email address has already been used.</val>
+		</str>	
+		<str name="TIMEOUT">
+			<val>Network error. Please try again later.</val>
+		</str>	
+		<str name="INVALID_ID">
+			<val>This is not a valid email address.</val>
+		</str>		
+	</set>
+	
+</asf>

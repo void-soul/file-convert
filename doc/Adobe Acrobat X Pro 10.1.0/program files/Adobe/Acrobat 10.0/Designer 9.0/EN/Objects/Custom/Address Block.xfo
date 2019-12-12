@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Address Block</text>
+               <text name="description">Address Block - Creates a group of labeled text field objects that accept and display addresses in USPS format.</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <field h="8.9916mm" name="Name" w="106.68mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered">
+                        </edge>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="16.51mm">
+                  <font typeface="Myriad Pro"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Name</text>
+                  </value>
+               </caption>
+            </field>
+            <field h="8.9916mm" name="Address" w="106.68mm" y="8.9848mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered">
+                        </edge>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="16.51mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>Address</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+            </field>
+            <field h="8.9916mm" name="City" y="17.9764mm" w="44.45mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered">
+                        </edge>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="16.51mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>City</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+            </field>
+            <field h="8.9916mm" name="State" w="19.05mm" x="46.99mm" y="17.9764mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered">
+                        </edge>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="10.16mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>State</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+            </field>
+            <field h="8.9916mm" name="ZipCode" w="38.1mm" x="68.58mm" y="17.9764mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered">
+                        </edge>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="15.24mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>Zip Code</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+            </field>
+            <field h="8.9916mm" name="Country" w="106.68mm" y="26.968mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered">
+                        </edge>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin bottomInset="0.9906mm" leftInset="0.9906mm" rightInset="0.9906mm" topInset="0.9906mm"/>
+               <para marginLeft="0pt" vAlign="middle"/>
+               <caption reserve="16.51mm">
+                  <font typeface="Myriad Pro"/>
+                  <value>
+                     <text>Country</text>
+                  </value>
+                  <para vAlign="middle"/>
+               </caption>
+            </field>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

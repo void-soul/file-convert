@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V8.2" APIVersion="2.8.7309.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">Radio Button</text>
+               <text name="description">Radio Button - Enables end users to choose one option from a group of options.</text>
+               <text name="standard">1</text>
+               <text name="version">9.0.0.2.20101008.1.734229.723806</text>
+            </desc>
+            <exclGroup name="RadioButtonList">
+               <?templateDesigner itemValuesSpecified 1?>
+               <field y="0mm" x="0mm" w="28mm" h="6mm">
+                  <ui>
+                     <checkButton size="10pt" shape="round" allowNeutral="0">
+                        <border>
+												   <?templateDesigner StyleID apcb4?>
+                           <edge stroke="lowered"/>
+                           <fill>
+                              <solid/>
+                              <color value="255,255,255"/>
+                           </fill>
+                        </border>
+                     </checkButton>
+                  </ui>
+                  <font size="10pt" typeface="Myriad Pro"/>
+                  <margin leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption placement="right" reserve="22mm">
+                     <para vAlign="middle"/>
+                     <font size="10pt" typeface="Myriad Pro"/>
+                     <value>
+                        <text>Radio Button</text>
+                     </value>
+                  </caption>
+                  <items>
+                     <integer>1</integer>
+                  </items>
+               </field>
+            </exclGroup>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

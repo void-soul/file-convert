@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediumStockList>
+	<stock name="default" desc="Default"/>
+	<stock name="6And3QuartersEnvelope" desc="6 3/4 Envelope"/>
+	<stock name="9By11Inch" desc="9 x 11"/>
+	<stock name="10By11Inch" desc="10 x 11"/>
+	<stock name="10By14Inch" desc="10 x 14"/>
+	<stock name="11By17Inch" desc="11 x 17"/>
+	<stock name="15By11Inch" desc="15 x 11"/>
+	<stock name="a2" desc="A2"/>
+	<stock name="a3" desc="A3"/>
+	<stock name="a3Extra" desc="A3 Extra"/>
+	<stock name="a3ExtraTransverse" desc="A3 Extra Transverse"/>
+	<stock name="a3Transverse" desc="A3 Transverse"/>
+	<stock name="a4" desc="A4"/>
+	<stock name="a4Color" desc="A4 Color"/>
+	<stock name="a4Extra" desc="A4 Extra"/>
+	<stock name="a4Letterhead" desc="A4 Letterhead"/>
+	<stock name="a4Plain" desc="A4 Plain"/>
+	<stock name="a4Plus" desc="A4 Plus"/>
+	<stock name="a4Small" desc="A4 Small"/>
+	<stock name="a4Special" desc="A4 Special"/>
+	<stock name="a4Transverse" desc="A4 Transverse"/>
+	<stock name="a5" desc="A5"/>
+	<stock name="a5Extra" desc="A5 Extra"/>
+	<stock name="a5Transverse" desc="A5 Transverse"/>
+	<stock name="b4ISO" desc="B4 ISO"/>
+	<stock name="b4JIS" desc="B4 JIS"/>
+	<stock name="b4JISColor" desc="B4 JIS Color"/>
+	<stock name="b4JISLetterhead" desc="B4 JIS Letterhead"/>
+	<stock name="b4JISPlain" desc="B4 JIS Plain"/>
+	<stock name="b4JISSpecial" desc="B4 JIS Special"/>
+	<stock name="b5ISOExtra" desc="B5 ISO Extra"/>
+	<stock name="b5JIS" desc="B5 JIS"/>
+	<stock name="b5JISTransverse" desc="B5 JIS Transverse"/>
+	<stock name="cSizeSheet" desc="C Size Sheet"/>
+	<stock name="dSizeSheet" desc="D Size Sheet"/>
+	<stock name="envelope" desc="Envelope"/>
+	<stock name="envelope9" desc="Envelope #9"/>
+	<stock name="envelope10" desc="Envelope #10"/>
+	<stock name="envelope11" desc="Envelope #11"/>
+	<stock name="envelope12" desc="Envelope #12"/>
+	<stock name="envelope14" desc="Envelope #14"/>
+	<stock name="envelopeB4" desc="Envelope B4"/>
+	<stock name="envelopeB5" desc="Envelope B5"/>
+	<stock name="envelopeB6" desc="Envelope B6"/>
+	<stock name="envelopeC3" desc="Envelope C3"/>
+	<stock name="envelopeC4" desc="Envelope C4"/>
+	<stock name="envelopeC5" desc="Envelope C5"/>
+	<stock name="envelopeC6" desc="Envelope C6"/>
+	<stock name="envelopeC65" desc="Envelope C65"/>
+	<stock name="envelopeDL" desc="Envelope DL"/>
+	<stock name="envelopeInvite" desc="Envelope Invite"/>
+	<stock name="envelopeMonarch" desc="Envelope Monarch"/>
+	<stock name="eSizeSheet" desc="E Size Sheet"/>
+	<stock name="executive" desc="Executive"/>
+	<stock name="folio" desc="Folio"/>
+	<stock name="germanLegalFanfold" desc="German Legal Fanfold"/>
+	<stock name="germanStdFanfold" desc="German Std Fanfold"/>
+	<stock name="japanesePostcard" desc="Japanese Postcard"/>
+	<stock name="Label2By4Inch" desc="Label 2 x 4"/>
+	<stock name="Label3By2Inch" desc="Label 3 x 2"/>
+	<stock name="Label3By3Inch" desc="Label 3 x 3"/>
+	<stock name="Label3By5Inch" desc="Label 3 x 5"/>
+	<stock name="Label4By1Inch" desc="Label 4 x 1"/>
+	<stock name="Label4By2Inch" desc="Label 4 x 2"/>
+	<stock name="Label4By4Inch" desc="Label 4 x 4"/>
+	<stock name="Label4By6Inch" desc="Label 4 x 6"/>
+	<stock name="Label5By4Inch" desc="Label 5 x 4"/>
+	<stock name="Label5By6Inch" desc="Label 5 x 6"/>
+	<stock name="Label6By4Inch" desc="Label 6 x 4"/>
+	<stock name="ledger" desc="Ledger"/>
+	<stock name="legal" desc="Legal"/>
+	<stock name="legalExtra" desc="Legal Extra"/>
+	<stock name="letter" desc="Letter"/>
+	<stock name="letterColor" desc="Letter Color"/>
+	<stock name="letterExtra" desc="Letter Extra"/>
+	<stock name="letterExtraTransverse" desc="Letter Extra Transverse"/>
+	<stock name="letterLetterhead" desc="Letter Letterhead"/>
+	<stock name="letterPlain" desc="Letter Plain"/>
+	<stock name="letterPlus" desc="Letter Plus"/>
+	<stock name="letterSmall" desc="Letter Small"/>
+	<stock name="letterSpecial" desc="Letter Special"/>
+	<stock name="letterTransverse" desc="Letter Transverse"/>
+	<stock name="note" desc="Note"/>
+	<stock name="quarto" desc="Quarto"/>
+	<stock name="statement" desc="Statement"/>
+	<stock name="superASuperAA4" desc="Super A Super AA4"/>
+	<stock name="superBSuperBA3" desc="Super B Super BA3"/>
+	<stock name="tabloid" desc="Tabloid"/>
+	<stock name="tabloidExtra" desc="Tabloid Extra"/>
+	<stock name="usStdFanfold" desc="US Std Fanfold"/>
+</mediumStockList>

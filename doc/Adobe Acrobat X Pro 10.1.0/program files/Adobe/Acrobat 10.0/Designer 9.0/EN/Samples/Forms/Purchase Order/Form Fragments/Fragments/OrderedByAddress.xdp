@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V8.2.0.3024.1.444333" APIVersion="2.8.8024.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2008-01-26T15:43:53Z" uuid="5fe32422-072f-4920-92b4-75b303b3222e">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
+   <?formServer defaultPDFRenderFormat acrobat9.0static?>
+   <subform>
+      <pageSet>
+         <pageArea>
+            <contentArea h="10.5in" w="8in" x="0.25in" y="0.25in"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <?templateDesigner expand 0?></pageArea>
+         <?templateDesigner expand 0?></pageSet>
+      <subform name="OrderedByAddress">
+         <bind match="none"/>
+         <field h="6.35mm" name="txtOrderedByCity" w="82.55mm" y="22.86mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font size="9pt" typeface="Myriad Pro"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para marginLeft="0pt" vAlign="middle"/>
+            <caption reserve="15.24mm">
+               <font size="9pt" typeface="Myriad Pro"/>
+               <value>
+                  <text>City</text>
+               </value>
+               <para vAlign="middle"/>
+            </caption>
+            <traversal>
+               <traverse ref="Header[0].drpOrderedByCountry[0]"/>
+            </traversal>
+         </field>
+         <draw minH="0mm" minW="0mm" name="StaticText3">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>Ordered By</text>
+            </value>
+            <font size="12pt" typeface="Myriad Pro" weight="bold"/>
+            <traversal>
+               <traverse ref="Header[0].txtOrderedByCompanyName[0]"/>
+            </traversal>
+         </draw>
+         <field h="6.35mm" name="txtOrderedByCompanyName" w="82.55mm" y="7.62mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font size="9pt" typeface="Myriad Pro"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para marginLeft="0pt" vAlign="middle"/>
+            <caption reserve="15.24mm">
+               <font size="9pt" typeface="Myriad Pro"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text>Company</text>
+               </value>
+            </caption>
+            <traversal>
+               <traverse ref="Header[0].txtOrderedByAddress[0]"/>
+            </traversal>
+         </field>
+         <field h="6.35mm" name="txtOrderedByAddress" w="82.55mm" y="15.24mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font size="9pt" typeface="Myriad Pro"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para marginLeft="0pt" vAlign="middle"/>
+            <caption reserve="15.24mm">
+               <font size="9pt" typeface="Myriad Pro"/>
+               <value>
+                  <text>Address</text>
+               </value>
+               <para vAlign="middle"/>
+            </caption>
+            <traversal>
+               <traverse ref="Header[0].txtOrderedByCity[0]"/>
+            </traversal>
+         </field>
+         <field h="6.35mm" name="drpOrderedByCountry" w="82.55mm" y="30.48mm">
+            <ui>
+               <choiceList>
+                  <border>
+                     <edge presence="hidden" thickness="0.0762mm"/>
+                     <edge presence="hidden" thickness="0.0762mm"/>
+                     <edge thickness="0.1524mm"/>
+                     <edge presence="hidden" thickness="0.0762mm"/>
+                     <corner thickness="0.0762mm"/>
+                     <corner thickness="0.0762mm"/>
+                     <corner thickness="0.1524mm"/>
+                     <corner thickness="0.0762mm"/>
+                  </border>
+                  <margin/>
+               </choiceList>
+            </ui>
+            <font size="9pt" typeface="Myriad Pro"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para marginLeft="0pt" vAlign="middle"/>
+            <caption reserve="25.4mm">
+               <font size="9pt" typeface="Myriad Pro"/>
+               <para marginLeft="0pt" marginRight="0pt" textIndent="0pt" vAlign="middle"/>
+               <value>
+                  <exData contentType="text/html" maxLength="0">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.8.7309.0"><p>Country</p></body>
+                  </exData>
+               </value>
+            </caption>
+            <border>
+               <edge presence="hidden"/>
+               <edge presence="hidden"/>
+               <edge presence="hidden" thickness="0.0762mm"/>
+               <edge presence="hidden"/>
+               <corner presence="hidden" thickness="0.0762mm"/>
+            </border>
+            <event activity="change">
+               <script contentType="application/x-javascript">// Update the state/province field when a different country is selected.
+
+countryScript.getStatesOther(xfa, drpOrderedByStateProv);</script>
+            </event>
+            <event activity="initialize">
+               <script contentType="application/x-javascript">// Populate this field with the country names currently listed.
+
+countryScript.getCountries(this);</script>
+            </event>
+            <traversal>
+               <traverse ref="Header[0].drpOrderedByStateProv[0]"/>
+            </traversal>
+         </field>
+         <field h="6.35mm" name="drpOrderedByStateProv" w="82.55mm" y="38.1mm">
+            <ui>
+               <choiceList>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </choiceList>
+            </ui>
+            <font size="9pt" typeface="Myriad Pro"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para marginLeft="0pt" vAlign="middle"/>
+            <caption reserve="25.4mm">
+               <font size="9pt" typeface="Myriad Pro"/>
+               <value>
+                  <text>State/Province</text>
+               </value>
+               <para vAlign="middle"/>
+            </caption>
+            <event activity="initialize">
+               <script contentType="application/x-javascript">// Get the list of states/provinces based on the country selected.
+// If nothing is selected, nothing will appear.
+
+countryScript.getStates(drpOrderedByCountry, this);</script>
+            </event>
+            <traversal>
+               <traverse ref="Header[0].txtOrderedByZipCode[0]"/>
+            </traversal>
+         </field>
+         <field h="6.35mm" name="txtOrderedByZipCode" w="82.55mm" y="45.72mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+               <picture>null{'00000'}|99999|A9A9A9</picture>
+            </ui>
+            <font size="9pt" typeface="Myriad Pro"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para marginLeft="0pt" vAlign="middle"/>
+            <caption reserve="25.4mm">
+               <font size="9pt" typeface="Myriad Pro"/>
+               <value>
+                  <text>Zip/Postal Code</text>
+               </value>
+               <para vAlign="middle"/>
+            </caption>
+            <format>
+               <picture>99999|A9A 9A9</picture>
+            </format>
+            <validate>
+               <message>
+                  <text name="formatTest">Please enter a zip code or other postal code. Enter the postal code without any spaces, e.g. for A8A 8A8, enter A8A8A8</text>
+               </message>
+               <picture>99999|A9A9A9</picture>
+            </validate>
+            <traversal>
+               <traverse ref="Header[0].txtOrderedByPhone[0]"/>
+            </traversal>
+         </field>
+         <field h="6.35mm" name="txtOrderedByPhone" w="82.55mm" y="53.34mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+               <picture>null{'0000000000'}|9999999999</picture>
+            </ui>
+            <font size="9pt" typeface="Myriad Pro"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para marginLeft="0pt" vAlign="middle"/>
+            <caption reserve="25.4mm">
+               <font size="9pt" typeface="Myriad Pro"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text>Phone Number</text>
+               </value>
+            </caption>
+            <format>
+               <picture>'+1 ('999') '999-9999</picture>
+            </format>
+            <validate>
+               <message>
+                  <text name="formatTest">Please enter area code + phone number using numerical characters only, e.g., enter (222) 333-4444 as 2223334444</text>
+               </message>
+               <picture>9999999999</picture>
+            </validate>
+            <traversal>
+               <traverse ref="Header[0].txtOrderedByFax[0]"/>
+            </traversal>
+         </field>
+         <field h="6.35mm" name="txtOrderedByFax" w="82.55mm" y="60.96mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+               <picture>null{'0000000000'}|9999999999</picture>
+            </ui>
+            <font size="9pt" typeface="Myriad Pro"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para marginLeft="0pt" vAlign="middle"/>
+            <caption reserve="25.4mm">
+               <font size="9pt" typeface="Myriad Pro"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text>Fax Number</text>
+               </value>
+            </caption>
+            <format>
+               <picture>'+1 ('999') '999-9999</picture>
+            </format>
+            <validate>
+               <message>
+                  <text name="formatTest">Please enter area code + phone number using numerical characters only, e.g., enter (222) 333-4444 as 2223334444</text>
+               </message>
+               <picture>9999999999</picture>
+            </validate>
+            <traversal>
+               <traverse ref="Header[0].txtOrderedByContactName[0]"/>
+            </traversal>
+         </field>
+         <field h="6.35mm" name="txtOrderedByContactName" w="82.55mm" y="68.58mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font size="9pt" typeface="Myriad Pro"/>
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <para marginLeft="0pt" vAlign="middle"/>
+            <caption reserve="25.4mm">
+               <font size="9pt" typeface="Myriad Pro"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text>Contact Name</text>
+               </value>
+            </caption>
+            <traversal>
+               <traverse ref="Header[0].StaticText4[0]"/>
+            </traversal>
+         </field>
+         <?templateDesigner isFragment yes?>
+         <?templateDesigner fragmentTitle OrderedByAddress?>
+         <?templateDesigner expand 0?></subform>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 112 28 00010010002200240027002F00310034003B004200430044004500460049004A004D004E004F00500051005300540055005600570059005A /ACFNPSZabcdehilmnoprstuvxy?>
+      <?renderCache.subset "Myriad Pro" 1 0 ISO-8859-1 4 28 7 000100230030004500460053005A BOdery?>
+   </subform>
+   <?templateDesigner FormTargetVersion 28?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 81?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.8/">
+   <agent name="designer">
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <version>1.7</version>
+         <adobeExtensionLevel>3</adobeExtensionLevel>
+      </pdf>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2-c026 1.124630, 2007/11/29-19:13:19        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xap="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xap:MetadataDate>2008-01-26T15:43:53Z</xap:MetadataDate>
+         <xap:CreatorTool>Adobe LiveCycle Designer ES 8.2</xap:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 8.2</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xapMM:DocumentID>uuid:5fe32422-072f-4920-92b4-75b303b3222e</xapMM:DocumentID>
+      </rdf:Description>
+      <rdf:Description xmlns:lcd="http://ns.adobe.com/livecycle/designer/" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+         <lcd:fragmentCatalog>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <dc:title>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">OrderedByAddress</rdf:li>
+                     </rdf:Alt>
+                  </dc:title>
+                  <dc:description>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default"/>
+                     </rdf:Alt>
+                  </dc:description>
+                  <dc:identifier>$template.#subform.OrderedByAddress</dc:identifier>
+                  <lcd:fragmentRole>Subform</lcd:fragmentRole>
+               </rdf:li>
+            </rdf:Seq>
+         </lcd:fragmentCatalog>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/"/></xdp:xdp>

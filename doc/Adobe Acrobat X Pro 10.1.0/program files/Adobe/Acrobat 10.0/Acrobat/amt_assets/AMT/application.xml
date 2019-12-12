@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+  <Payload>
+    <!-- defaultAdobeCode for development use. -->
+    <Data key="defaultAdobeCode">Acrobat-Installer-AdobeCode</Data>
+    <Data key="LicensingCode">AcrobatPro-AS1-Win-GM</Data>
+  </Payload>
+  <Other adobeCode="AcrobatPro-AS1-Win-GM">
+    <Data key="EPIC_APP">Acrobat X Pro</Data>
+    <Data key="EPIC_APP_16">Acrobat X Standard</Data>
+    <Data key="EPIC_APP_118">Acrobat X Pro</Data>
+    <!-- This is a windows-only serial. -->
+    <Data key="TrialSerialNumber">970787076197273632833643</Data>
+    <Data key="STORE_URL">http://www.adobe.com/go/buyacrobatpro</Data>
+    <Data key="DENY_BUY_STORE_URL">http://www.adobe.com/go/baacrobatpro</Data>
+    <Data key="ExpirationDate"></Data>
+  </Other>
+</Configuration>
+
